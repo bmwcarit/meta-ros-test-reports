@@ -1,0 +1,180 @@
+---
+-Meta information
+#Report generation date: 13.03.2013 09:35
+#Recipes succeeded: 33 of 45, equaling 73%
+#Git hash: 9f93c2ba40998532827fbb0b7f6381e78692f22a
+#Git commit date: 13.03.2013 08:22
+#General Info: This report was generated using the meta-ROS integration test and report assistant v1.00
+---
+Checking 1/45: rosboost-cfg
+ok
+Checking 2/45: mk
+WARNING: QA Issue: mk: Files/directories were installed but not shipped
+ok
+Summary: There was 1 WARNING message shown.
+Checking 3/45: rosmake
+ok
+Checking 4/45: roslang
+ok
+Checking 5/45: rosbuild
+WARNING: QA Issue: rosbuild: Files/directories were installed but not shipped
+ok
+Summary: There was 1 WARNING message shown.
+Checking 6/45: rosbash
+WARNING: QA Issue: rosbash: Files/directories were installed but not shipped
+ok
+Summary: There was 1 WARNING message shown.
+Checking 7/45: roscreate
+WARNING: QA Issue: roscreate: Files/directories were installed but not shipped
+ok
+Summary: There was 1 WARNING message shown.
+Checking 8/45: rosunit
+ok
+Checking 9/45: roslib
+ok
+Checking 10/45: rosclean
+ok
+Checking 11/45: packagegroup-ros-comm
+ERROR: Function failed: do_configure (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/rostest-1.9.41-r0/temp/log.do_configure.4539 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/rostest-1.9.41-r0/temp/log.do_configure.4539
+ERROR: Task 243 (/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/ros-comm/rostest_1.9.41.bb, do_configure) failed with exit code '1'
+NOTE: Tasks Summary: Attempted 967 tasks of which 783 didn't need to be rerun and 1 failed.
+Summary: 1 task failed:
+Summary: There was 1 ERROR message shown, returning a non-zero exit code.
+Checking 12/45: xmlrpcpp
+ok
+Checking 13/45: rosconsole
+ok
+Checking 14/45: rostest
+ERROR: Function failed: do_configure (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/rostest-1.9.41-r0/temp/log.do_configure.18893 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/rostest-1.9.41-r0/temp/log.do_configure.18893
+ERROR: Task 6 (/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/ros-comm/rostest_1.9.41.bb, do_configure) failed with exit code '1'
+NOTE: Tasks Summary: Attempted 1077 tasks of which 1075 didn't need to be rerun and 1 failed.
+Summary: 1 task failed:
+Summary: There was 1 ERROR message shown, returning a non-zero exit code.
+Checking 15/45: rospy
+WARNING: QA Issue: rospy: Files/directories were installed but not shipped
+ok
+Summary: There was 1 WARNING message shown.
+Checking 16/45: rosnode
+ERROR: Function failed: do_configure (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/rostest-1.9.41-r0/temp/log.do_configure.19497 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/rostest-1.9.41-r0/temp/log.do_configure.19497
+ERROR: Task 186 (/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/ros-comm/rostest_1.9.41.bb, do_configure) failed with exit code '1'
+NOTE: Tasks Summary: Attempted 1082 tasks of which 1076 didn't need to be rerun and 1 failed.
+Summary: 1 task failed:
+Summary: There was 1 ERROR message shown, returning a non-zero exit code.
+Checking 17/45: topic-tools
+WARNING: /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/topic-tools-1.9.41-r0/ros_comm-1.9.41/tools/topic-tools/package.xml could not be copied for some reason. It may not exist. WARN for now.
+ERROR: Function failed: do_configure (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/rostest-1.9.41-r0/temp/log.do_configure.19639 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/rostest-1.9.41-r0/temp/log.do_configure.19639
+ERROR: Task 186 (/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/ros-comm/rostest_1.9.41.bb, do_configure) failed with exit code '1'
+NOTE: Tasks Summary: Attempted 1082 tasks of which 1076 didn't need to be rerun and 1 failed.
+Summary: 1 task failed:
+Summary: There was 1 WARNING message shown.
+Summary: There was 1 ERROR message shown, returning a non-zero exit code.
+Checking 18/45: rosout
+ERROR: Function failed: do_configure (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/rosgraph-msgs-1.9.41-r0/temp/log.do_configure.20861 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/rosgraph-msgs-1.9.41-r0/temp/log.do_configure.20861
+ERROR: Task 209 (/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/ros-comm/rosgraph-msgs_1.9.41.bb, do_configure) failed with exit code '1'
+NOTE: Tasks Summary: Attempted 1296 tasks of which 1246 didn't need to be rerun and 1 failed.
+Summary: 1 task failed:
+Summary: There was 1 ERROR message shown, returning a non-zero exit code.
+Checking 19/45: roscpp
+ERROR: Function failed: do_configure (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/rosgraph-msgs-1.9.41-r0/temp/log.do_configure.21197 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/rosgraph-msgs-1.9.41-r0/temp/log.do_configure.21197
+ERROR: Task 246 (/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/ros-comm/rosgraph-msgs_1.9.41.bb, do_configure) failed with exit code '1'
+NOTE: Tasks Summary: Attempted 1293 tasks of which 1290 didn't need to be rerun and 1 failed.
+Summary: 1 task failed:
+Summary: There was 1 ERROR message shown, returning a non-zero exit code.
+Checking 20/45: rosservice
+ok
+Checking 21/45: rosmsg
+ok
+Checking 22/45: rosmaster
+ok
+Checking 23/45: rosbag
+ERROR: Function failed: do_configure (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/rosgraph-msgs-1.9.41-r0/temp/log.do_configure.22630 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/rosgraph-msgs-1.9.41-r0/temp/log.do_configure.22630
+ERROR: Task 803 (/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/ros-comm/rosgraph-msgs_1.9.41.bb, do_configure) failed with exit code '1'
+ERROR: Function failed: do_configure (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/rostest-1.9.41-r0/temp/log.do_configure.22629 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/rostest-1.9.41-r0/temp/log.do_configure.22629
+ERROR: Task 839 (/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/ros-comm/rostest_1.9.41.bb, do_configure) failed with exit code '1'
+NOTE: Tasks Summary: Attempted 945 tasks of which 928 didn't need to be rerun and 2 failed.
+Summary: 2 tasks failed:
+Summary: There were 2 ERROR messages shown, returning a non-zero exit code.
+Checking 24/45: std-srvs
+WARNING: QA Issue: std-srvs: Files/directories were installed but not shipped
+ok
+Summary: There was 1 WARNING message shown.
+Checking 25/45: rosparam
+ok
+Checking 26/45: roswtf
+ERROR: Function failed: do_configure (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/rostest-1.9.41-r0/temp/log.do_configure.23645 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/rostest-1.9.41-r0/temp/log.do_configure.23645
+ERROR: Task 186 (/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/ros-comm/rostest_1.9.41.bb, do_configure) failed with exit code '1'
+NOTE: Tasks Summary: Attempted 1082 tasks of which 1079 didn't need to be rerun and 1 failed.
+Summary: 1 task failed:
+Summary: There was 1 ERROR message shown, returning a non-zero exit code.
+Checking 27/45: message-filters
+ERROR: Function failed: do_configure (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/rosgraph-msgs-1.9.41-r0/temp/log.do_configure.23782 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/rosgraph-msgs-1.9.41-r0/temp/log.do_configure.23782
+ERROR: Task 760 (/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/ros-comm/rosgraph-msgs_1.9.41.bb, do_configure) failed with exit code '1'
+ERROR: Function failed: do_configure (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/rostest-1.9.41-r0/temp/log.do_configure.23784 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/rostest-1.9.41-r0/temp/log.do_configure.23784
+ERROR: Task 222 (/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/ros-comm/rostest_1.9.41.bb, do_configure) failed with exit code '1'
+NOTE: Tasks Summary: Attempted 1315 tasks of which 1309 didn't need to be rerun and 2 failed.
+Summary: 2 tasks failed:
+Summary: There were 2 ERROR messages shown, returning a non-zero exit code.
+Checking 28/45: rostopic
+ERROR: Function failed: do_configure (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/rostest-1.9.41-r0/temp/log.do_configure.23969 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/rostest-1.9.41-r0/temp/log.do_configure.23969
+ERROR: Task 186 (/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/ros-comm/rostest_1.9.41.bb, do_configure) failed with exit code '1'
+NOTE: Tasks Summary: Attempted 1082 tasks of which 1076 didn't need to be rerun and 1 failed.
+Summary: 1 task failed:
+Summary: There was 1 ERROR message shown, returning a non-zero exit code.
+Checking 29/45: rosgraph-msgs
+ERROR: Function failed: do_configure (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/rosgraph-msgs-1.9.41-r0/temp/log.do_configure.24111 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/rosgraph-msgs-1.9.41-r0/temp/log.do_configure.24111
+ERROR: Task 6 (/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/ros-comm/rosgraph-msgs_1.9.41.bb, do_configure) failed with exit code '1'
+NOTE: Tasks Summary: Attempted 1125 tasks of which 1124 didn't need to be rerun and 1 failed.
+Summary: 1 task failed:
+Summary: There was 1 ERROR message shown, returning a non-zero exit code.
+Checking 30/45: rosgraph
+ok
+Checking 31/45: roslaunch
+WARNING: QA Issue: roslaunch: Files/directories were installed but not shipped
+ok
+Summary: There was 1 WARNING message shown.
+Checking 32/45: genlisp
+ok
+Checking 33/45: rospack
+ok
+Checking 34/45: genmsg
+ok
+Checking 35/45: cpp-common
+ok
+Checking 36/45: rostime
+ok
+Checking 37/45: roscpp-traits
+ok
+Checking 38/45: roscpp-serialization
+ok
+Checking 39/45: roscpp-core
+ERROR: Function failed: do_configure (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/roscpp-core-0.3.12-r0/temp/log.do_configure.25600 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/roscpp-core-0.3.12-r0/temp/log.do_configure.25600
+ERROR: Task 6 (/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/roscpp-core/roscpp-core_0.3.12.bb, do_configure) failed with exit code '1'
+NOTE: Tasks Summary: Attempted 1113 tasks of which 1107 didn't need to be rerun and 1 failed.
+Summary: 1 task failed:
+Summary: There was 1 ERROR message shown, returning a non-zero exit code.
+Checking 40/45: std-msgs
+ok
+Checking 41/45: gencpp
+ok
+Checking 42/45: genpy
+ok
+Checking 43/45: message-runtime
+ok
+Checking 44/45: message-generation
+ok
+Checking 45/45: catkin
+ok
