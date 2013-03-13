@@ -1,0 +1,1914 @@
+Checking 1/45: rosboost-cfg
+Loading cache...done.
+Loaded 1199 entries from dependency cache.
+
+Build Configuration:
+BB_VERSION        = "1.16.0"
+TARGET_ARCH       = "i586"
+TARGET_OS         = "linux"
+MACHINE           = "qemux86"
+DISTRO            = "poky"
+DISTRO_VERSION    = "1.3"
+TUNE_FEATURES     = "m32 i586"
+TARGET_FPU        = ""
+meta              
+meta-yocto        
+meta-yocto-bsp    = "<unknown>:<unknown>"
+meta-ros          = "master:582338267c8dc5595cdef38430e751a3550840fe"
+
+NOTE: Resolving any missing task queue dependencies
+NOTE: Preparing runqueue
+NOTE: Executing SetScene Tasks
+NOTE: Executing RunQueue Tasks
+NOTE: Tasks Summary: Attempted 1048 tasks of which 1048 didn't need to be rerun and all succeeded.
+Checking 2/45: mk
+Loading cache...done.
+Loaded 1199 entries from dependency cache.
+
+Build Configuration:
+BB_VERSION        = "1.16.0"
+TARGET_ARCH       = "i586"
+TARGET_OS         = "linux"
+MACHINE           = "qemux86"
+DISTRO            = "poky"
+DISTRO_VERSION    = "1.3"
+TUNE_FEATURES     = "m32 i586"
+TARGET_FPU        = ""
+meta              
+meta-yocto        
+meta-yocto-bsp    = "<unknown>:<unknown>"
+meta-ros          = "master:582338267c8dc5595cdef38430e751a3550840fe"
+
+NOTE: Resolving any missing task queue dependencies
+NOTE: Preparing runqueue
+NOTE: Executing SetScene Tasks
+NOTE: Executing RunQueue Tasks
+NOTE: Tasks Summary: Attempted 1048 tasks of which 1048 didn't need to be rerun and all succeeded.
+Checking 3/45: rosmake
+Loading cache...done.
+Loaded 1199 entries from dependency cache.
+
+Build Configuration:
+BB_VERSION        = "1.16.0"
+TARGET_ARCH       = "i586"
+TARGET_OS         = "linux"
+MACHINE           = "qemux86"
+DISTRO            = "poky"
+DISTRO_VERSION    = "1.3"
+TUNE_FEATURES     = "m32 i586"
+TARGET_FPU        = ""
+meta              
+meta-yocto        
+meta-yocto-bsp    = "<unknown>:<unknown>"
+meta-ros          = "master:582338267c8dc5595cdef38430e751a3550840fe"
+
+NOTE: Resolving any missing task queue dependencies
+NOTE: Preparing runqueue
+NOTE: Executing SetScene Tasks
+NOTE: Executing RunQueue Tasks
+NOTE: Tasks Summary: Attempted 1048 tasks of which 1048 didn't need to be rerun and all succeeded.
+Checking 4/45: roslang
+Loading cache...done.
+Loaded 1199 entries from dependency cache.
+
+Build Configuration:
+BB_VERSION        = "1.16.0"
+TARGET_ARCH       = "i586"
+TARGET_OS         = "linux"
+MACHINE           = "qemux86"
+DISTRO            = "poky"
+DISTRO_VERSION    = "1.3"
+TUNE_FEATURES     = "m32 i586"
+TARGET_FPU        = ""
+meta              
+meta-yocto        
+meta-yocto-bsp    = "<unknown>:<unknown>"
+meta-ros          = "master:582338267c8dc5595cdef38430e751a3550840fe"
+
+NOTE: Resolving any missing task queue dependencies
+NOTE: Preparing runqueue
+NOTE: Executing SetScene Tasks
+NOTE: Executing RunQueue Tasks
+NOTE: Running task 749 of 1048 (ID: 2, /home/lukas/poky-danny-8.0/meta-ros/recipes-ros/ros/roslang_1.9.42.bb, do_install)
+NOTE: recipe roslang-1.9.42-r0: task do_install: Started
+ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/roslang-1.9.42-r0/temp/log.do_install.8052 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/roslang-1.9.42-r0/temp/log.do_install.8052
+Log data follows:
+| DEBUG: SITE files ['endian-little', 'bit-32', 'ix86-common', 'common-linux', 'common-glibc', 'i586-linux', 'common']
+| DEBUG: Executing shell function do_install
+| NOTE: make -j 8 DESTDIR=/home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/roslang-1.9.42-r0/image install
+| make: *** No rule to make target `install'.  Stop.
+| ERROR: oe_runmake failed
+| ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/roslang-1.9.42-r0/temp/log.do_install.8052 for further information)
+NOTE: recipe roslang-1.9.42-r0: task do_install: Failed
+ERROR: Task 2 (/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/ros/roslang_1.9.42.bb, do_install) failed with exit code '1'
+NOTE: Tasks Summary: Attempted 1043 tasks of which 1042 didn't need to be rerun and 1 failed.
+
+Summary: 1 task failed:
+  /home/lukas/poky-danny-8.0/meta-ros/recipes-ros/ros/roslang_1.9.42.bb, do_install
+Summary: There was 1 ERROR message shown, returning a non-zero exit code.
+Checking 5/45: rosbuild
+Loading cache...done.
+Loaded 1199 entries from dependency cache.
+
+Build Configuration:
+BB_VERSION        = "1.16.0"
+TARGET_ARCH       = "i586"
+TARGET_OS         = "linux"
+MACHINE           = "qemux86"
+DISTRO            = "poky"
+DISTRO_VERSION    = "1.3"
+TUNE_FEATURES     = "m32 i586"
+TARGET_FPU        = ""
+meta              
+meta-yocto        
+meta-yocto-bsp    = "<unknown>:<unknown>"
+meta-ros          = "master:582338267c8dc5595cdef38430e751a3550840fe"
+
+NOTE: Resolving any missing task queue dependencies
+NOTE: Preparing runqueue
+NOTE: Executing SetScene Tasks
+NOTE: Executing RunQueue Tasks
+NOTE: Tasks Summary: Attempted 1048 tasks of which 1048 didn't need to be rerun and all succeeded.
+Checking 6/45: rosbash
+Loading cache...done.
+Loaded 1199 entries from dependency cache.
+
+Build Configuration:
+BB_VERSION        = "1.16.0"
+TARGET_ARCH       = "i586"
+TARGET_OS         = "linux"
+MACHINE           = "qemux86"
+DISTRO            = "poky"
+DISTRO_VERSION    = "1.3"
+TUNE_FEATURES     = "m32 i586"
+TARGET_FPU        = ""
+meta              
+meta-yocto        
+meta-yocto-bsp    = "<unknown>:<unknown>"
+meta-ros          = "master:582338267c8dc5595cdef38430e751a3550840fe"
+
+NOTE: Resolving any missing task queue dependencies
+NOTE: Preparing runqueue
+NOTE: Executing SetScene Tasks
+NOTE: Executing RunQueue Tasks
+NOTE: Tasks Summary: Attempted 1048 tasks of which 1048 didn't need to be rerun and all succeeded.
+Checking 7/45: roscreate
+Loading cache...done.
+Loaded 1199 entries from dependency cache.
+
+Build Configuration:
+BB_VERSION        = "1.16.0"
+TARGET_ARCH       = "i586"
+TARGET_OS         = "linux"
+MACHINE           = "qemux86"
+DISTRO            = "poky"
+DISTRO_VERSION    = "1.3"
+TUNE_FEATURES     = "m32 i586"
+TARGET_FPU        = ""
+meta              
+meta-yocto        
+meta-yocto-bsp    = "<unknown>:<unknown>"
+meta-ros          = "master:582338267c8dc5595cdef38430e751a3550840fe"
+
+NOTE: Resolving any missing task queue dependencies
+NOTE: Preparing runqueue
+NOTE: Executing SetScene Tasks
+NOTE: Executing RunQueue Tasks
+NOTE: Tasks Summary: Attempted 1048 tasks of which 1048 didn't need to be rerun and all succeeded.
+Checking 8/45: rosunit
+Loading cache...done.
+Loaded 1199 entries from dependency cache.
+
+Build Configuration:
+BB_VERSION        = "1.16.0"
+TARGET_ARCH       = "i586"
+TARGET_OS         = "linux"
+MACHINE           = "qemux86"
+DISTRO            = "poky"
+DISTRO_VERSION    = "1.3"
+TUNE_FEATURES     = "m32 i586"
+TARGET_FPU        = ""
+meta              
+meta-yocto        
+meta-yocto-bsp    = "<unknown>:<unknown>"
+meta-ros          = "master:582338267c8dc5595cdef38430e751a3550840fe"
+
+NOTE: Resolving any missing task queue dependencies
+NOTE: Preparing runqueue
+NOTE: Executing SetScene Tasks
+NOTE: Executing RunQueue Tasks
+NOTE: Tasks Summary: Attempted 1048 tasks of which 1048 didn't need to be rerun and all succeeded.
+Checking 9/45: roslib
+Loading cache...done.
+Loaded 1199 entries from dependency cache.
+
+Build Configuration:
+BB_VERSION        = "1.16.0"
+TARGET_ARCH       = "i586"
+TARGET_OS         = "linux"
+MACHINE           = "qemux86"
+DISTRO            = "poky"
+DISTRO_VERSION    = "1.3"
+TUNE_FEATURES     = "m32 i586"
+TARGET_FPU        = ""
+meta              
+meta-yocto        
+meta-yocto-bsp    = "<unknown>:<unknown>"
+meta-ros          = "master:582338267c8dc5595cdef38430e751a3550840fe"
+
+NOTE: Resolving any missing task queue dependencies
+NOTE: Preparing runqueue
+NOTE: Executing SetScene Tasks
+NOTE: Executing RunQueue Tasks
+NOTE: Tasks Summary: Attempted 1095 tasks of which 1095 didn't need to be rerun and all succeeded.
+Checking 10/45: rosclean
+Loading cache...done.
+Loaded 1199 entries from dependency cache.
+
+Build Configuration:
+BB_VERSION        = "1.16.0"
+TARGET_ARCH       = "i586"
+TARGET_OS         = "linux"
+MACHINE           = "qemux86"
+DISTRO            = "poky"
+DISTRO_VERSION    = "1.3"
+TUNE_FEATURES     = "m32 i586"
+TARGET_FPU        = ""
+meta              
+meta-yocto        
+meta-yocto-bsp    = "<unknown>:<unknown>"
+meta-ros          = "master:582338267c8dc5595cdef38430e751a3550840fe"
+
+NOTE: Resolving any missing task queue dependencies
+NOTE: Preparing runqueue
+NOTE: Executing SetScene Tasks
+NOTE: Executing RunQueue Tasks
+NOTE: Tasks Summary: Attempted 1048 tasks of which 1048 didn't need to be rerun and all succeeded.
+Checking 11/45: packagegroup-ros-comm
+Loading cache...done.
+Loaded 1199 entries from dependency cache.
+
+Build Configuration:
+BB_VERSION        = "1.16.0"
+TARGET_ARCH       = "i586"
+TARGET_OS         = "linux"
+MACHINE           = "qemux86"
+DISTRO            = "poky"
+DISTRO_VERSION    = "1.3"
+TUNE_FEATURES     = "m32 i586"
+TARGET_FPU        = ""
+meta              
+meta-yocto        
+meta-yocto-bsp    = "<unknown>:<unknown>"
+meta-ros          = "master:582338267c8dc5595cdef38430e751a3550840fe"
+
+NOTE: Resolving any missing task queue dependencies
+NOTE: Preparing runqueue
+NOTE: Executing SetScene Tasks
+NOTE: Executing RunQueue Tasks
+NOTE: Running task 660 of 1537 (ID: 147, /home/lukas/poky-danny-8.0/meta-ros/recipes-ros/genmsg/genmsg_0.4.17.bb, do_install)
+NOTE: Running task 752 of 1537 (ID: 263, /home/lukas/poky-danny-8.0/meta-ros/recipes-ros/roscpp-core/cpp-common_0.3.12.bb, do_install)
+NOTE: Running task 847 of 1537 (ID: 776, virtual:native:/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/ros/rosunit_1.9.42.bb, do_install)
+NOTE: Running task 943 of 1537 (ID: 308, /home/lukas/poky-danny-8.0/meta-ros/recipes-ros/ros-comm/roswtf_1.9.41.bb, do_patch)
+NOTE: Running task 955 of 1537 (ID: 227, /home/lukas/poky-danny-8.0/meta-ros/recipes-ros/roscpp-core/roscpp-traits_0.3.12.bb, do_install)
+NOTE: Running noexec task 1010 of 1537 (ID: 4, /home/lukas/poky-danny-8.0/meta-ros/recipes-ros/packagegroups/packagegroup-ros-comm.bb, do_fetch)
+NOTE: Running noexec task 1011 of 1537 (ID: 0, /home/lukas/poky-danny-8.0/meta-ros/recipes-ros/packagegroups/packagegroup-ros-comm.bb, do_unpack)
+NOTE: Running noexec task 1012 of 1537 (ID: 1, /home/lukas/poky-danny-8.0/meta-ros/recipes-ros/packagegroups/packagegroup-ros-comm.bb, do_patch)
+NOTE: Running noexec task 1037 of 1537 (ID: 5, /home/lukas/poky-danny-8.0/meta-ros/recipes-ros/packagegroups/packagegroup-ros-comm.bb, do_configure)
+NOTE: Running noexec task 1038 of 1537 (ID: 6, /home/lukas/poky-danny-8.0/meta-ros/recipes-ros/packagegroups/packagegroup-ros-comm.bb, do_compile)
+NOTE: Running noexec task 1039 of 1537 (ID: 2, /home/lukas/poky-danny-8.0/meta-ros/recipes-ros/packagegroups/packagegroup-ros-comm.bb, do_install)
+NOTE: Running task 1094 of 1537 (ID: 10, /home/lukas/poky-danny-8.0/meta-ros/recipes-ros/packagegroups/packagegroup-ros-comm.bb, do_populate_lic)
+NOTE: recipe genmsg-0.4.17-r0: task do_install: Started
+ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/genmsg-0.4.17-r0/temp/log.do_install.8516 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/genmsg-0.4.17-r0/temp/log.do_install.8516
+Log data follows:
+| DEBUG: SITE files ['endian-little', 'bit-32', 'ix86-common', 'common-linux', 'common-glibc', 'i586-linux', 'common']
+| DEBUG: Executing shell function do_install
+| NOTE: make -j 8 DESTDIR=/home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/genmsg-0.4.17-r0/image install
+| make: *** No rule to make target `install'.  Stop.
+| ERROR: oe_runmake failed
+| ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/genmsg-0.4.17-r0/temp/log.do_install.8516 for further information)
+NOTE: recipe genmsg-0.4.17-r0: task do_install: Failed
+NOTE: recipe cpp-common-0.3.12-r0: task do_install: Started
+ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/cpp-common-0.3.12-r0/temp/log.do_install.8519 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/cpp-common-0.3.12-r0/temp/log.do_install.8519
+Log data follows:
+| DEBUG: SITE files ['endian-little', 'bit-32', 'ix86-common', 'common-linux', 'common-glibc', 'i586-linux', 'common']
+| DEBUG: Executing shell function do_install
+| NOTE: make -j 8 DESTDIR=/home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/cpp-common-0.3.12-r0/image install
+| make: *** No rule to make target `install'.  Stop.
+| ERROR: oe_runmake failed
+| ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/cpp-common-0.3.12-r0/temp/log.do_install.8519 for further information)
+NOTE: recipe cpp-common-0.3.12-r0: task do_install: Failed
+NOTE: recipe rosunit-native-1.9.42-r0: task do_install: Started
+ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/x86_64-linux/rosunit-native-1.9.42-r0/temp/log.do_install.8522 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/poky-danny-8.0/build/tmp/work/x86_64-linux/rosunit-native-1.9.42-r0/temp/log.do_install.8522
+Log data follows:
+| DEBUG: Executing shell function do_install
+| NOTE: make -j 8 DESTDIR=/home/lukas/poky-danny-8.0/build/tmp/work/x86_64-linux/rosunit-native-1.9.42-r0/image install
+| make: *** No rule to make target `install'.  Stop.
+| ERROR: oe_runmake failed
+| ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/x86_64-linux/rosunit-native-1.9.42-r0/temp/log.do_install.8522 for further information)
+NOTE: recipe rosunit-native-1.9.42-r0: task do_install: Failed
+NOTE: recipe roswtf-1.9.41-r0: task do_patch: Started
+NOTE: recipe roswtf-1.9.41-r0: task do_patch: Succeeded
+NOTE: recipe roscpp-traits-0.3.12-r0: task do_install: Started
+NOTE: recipe packagegroup-ros-comm-1.0-r0: task do_populate_lic: Started
+ERROR: Task 147 (/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/genmsg/genmsg_0.4.17.bb, do_install) failed with exit code '1'
+ERROR: Task 263 (/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/roscpp-core/cpp-common_0.3.12.bb, do_install) failed with exit code '1'
+ERROR: Task 776 (virtual:native:/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/ros/rosunit_1.9.42.bb, do_install) failed with exit code '1'
+ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/roscpp-traits-0.3.12-r0/temp/log.do_install.8524 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/roscpp-traits-0.3.12-r0/temp/log.do_install.8524
+Log data follows:
+| DEBUG: SITE files ['endian-little', 'bit-32', 'ix86-common', 'common-linux', 'common-glibc', 'i586-linux', 'common']
+| DEBUG: Executing shell function do_install
+| NOTE: make -j 8 DESTDIR=/home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/roscpp-traits-0.3.12-r0/image install
+| make: *** No rule to make target `install'.  Stop.
+| ERROR: oe_runmake failed
+| ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/roscpp-traits-0.3.12-r0/temp/log.do_install.8524 for further information)
+NOTE: recipe roscpp-traits-0.3.12-r0: task do_install: Failed
+ERROR: Task 227 (/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/roscpp-core/roscpp-traits_0.3.12.bb, do_install) failed with exit code '1'
+NOTE: recipe packagegroup-ros-comm-1.0-r0: task do_populate_lic: Succeeded
+NOTE: Tasks Summary: Attempted 1429 tasks of which 1417 didn't need to be rerun and 4 failed.
+
+Summary: 4 tasks failed:
+  /home/lukas/poky-danny-8.0/meta-ros/recipes-ros/genmsg/genmsg_0.4.17.bb, do_install
+  /home/lukas/poky-danny-8.0/meta-ros/recipes-ros/roscpp-core/cpp-common_0.3.12.bb, do_install
+  virtual:native:/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/ros/rosunit_1.9.42.bb, do_install
+  /home/lukas/poky-danny-8.0/meta-ros/recipes-ros/roscpp-core/roscpp-traits_0.3.12.bb, do_install
+Summary: There were 4 ERROR messages shown, returning a non-zero exit code.
+Checking 12/45: xmlrpcpp
+Loading cache...done.
+Loaded 1199 entries from dependency cache.
+
+Build Configuration:
+BB_VERSION        = "1.16.0"
+TARGET_ARCH       = "i586"
+TARGET_OS         = "linux"
+MACHINE           = "qemux86"
+DISTRO            = "poky"
+DISTRO_VERSION    = "1.3"
+TUNE_FEATURES     = "m32 i586"
+TARGET_FPU        = ""
+meta              
+meta-yocto        
+meta-yocto-bsp    = "<unknown>:<unknown>"
+meta-ros          = "master:582338267c8dc5595cdef38430e751a3550840fe"
+
+NOTE: Resolving any missing task queue dependencies
+NOTE: Preparing runqueue
+NOTE: Executing SetScene Tasks
+NOTE: Executing RunQueue Tasks
+NOTE: Running task 715 of 1060 (ID: 182, /home/lukas/poky-danny-8.0/meta-ros/recipes-ros/roscpp-core/cpp-common_0.3.12.bb, do_install)
+NOTE: recipe cpp-common-0.3.12-r0: task do_install: Started
+ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/cpp-common-0.3.12-r0/temp/log.do_install.8618 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/cpp-common-0.3.12-r0/temp/log.do_install.8618
+Log data follows:
+| DEBUG: SITE files ['endian-little', 'bit-32', 'ix86-common', 'common-linux', 'common-glibc', 'i586-linux', 'common']
+| DEBUG: Executing shell function do_install
+| NOTE: make -j 8 DESTDIR=/home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/cpp-common-0.3.12-r0/image install
+| make: *** No rule to make target `install'.  Stop.
+| ERROR: oe_runmake failed
+| ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/cpp-common-0.3.12-r0/temp/log.do_install.8618 for further information)
+NOTE: recipe cpp-common-0.3.12-r0: task do_install: Failed
+ERROR: Task 182 (/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/roscpp-core/cpp-common_0.3.12.bb, do_install) failed with exit code '1'
+NOTE: Tasks Summary: Attempted 1048 tasks of which 1047 didn't need to be rerun and 1 failed.
+
+Summary: 1 task failed:
+  /home/lukas/poky-danny-8.0/meta-ros/recipes-ros/roscpp-core/cpp-common_0.3.12.bb, do_install
+Summary: There was 1 ERROR message shown, returning a non-zero exit code.
+Checking 13/45: rosconsole
+Loading cache...done.
+Loaded 1199 entries from dependency cache.
+
+Build Configuration:
+BB_VERSION        = "1.16.0"
+TARGET_ARCH       = "i586"
+TARGET_OS         = "linux"
+MACHINE           = "qemux86"
+DISTRO            = "poky"
+DISTRO_VERSION    = "1.3"
+TUNE_FEATURES     = "m32 i586"
+TARGET_FPU        = ""
+meta              
+meta-yocto        
+meta-yocto-bsp    = "<unknown>:<unknown>"
+meta-ros          = "master:582338267c8dc5595cdef38430e751a3550840fe"
+
+NOTE: Resolving any missing task queue dependencies
+NOTE: Preparing runqueue
+NOTE: Executing SetScene Tasks
+NOTE: Executing RunQueue Tasks
+NOTE: Running task 725 of 1153 (ID: 205, /home/lukas/poky-danny-8.0/meta-ros/recipes-ros/roscpp-core/cpp-common_0.3.12.bb, do_install)
+NOTE: Running task 788 of 1153 (ID: 240, virtual:native:/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/ros/rosunit_1.9.42.bb, do_install)
+NOTE: recipe cpp-common-0.3.12-r0: task do_install: Started
+ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/cpp-common-0.3.12-r0/temp/log.do_install.8684 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/cpp-common-0.3.12-r0/temp/log.do_install.8684
+Log data follows:
+| DEBUG: SITE files ['endian-little', 'bit-32', 'ix86-common', 'common-linux', 'common-glibc', 'i586-linux', 'common']
+| DEBUG: Executing shell function do_install
+| NOTE: make -j 8 DESTDIR=/home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/cpp-common-0.3.12-r0/image install
+| make: *** No rule to make target `install'.  Stop.
+| ERROR: oe_runmake failed
+| ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/cpp-common-0.3.12-r0/temp/log.do_install.8684 for further information)
+NOTE: recipe cpp-common-0.3.12-r0: task do_install: Failed
+NOTE: recipe rosunit-native-1.9.42-r0: task do_install: Started
+ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/x86_64-linux/rosunit-native-1.9.42-r0/temp/log.do_install.8685 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/poky-danny-8.0/build/tmp/work/x86_64-linux/rosunit-native-1.9.42-r0/temp/log.do_install.8685
+Log data follows:
+| DEBUG: Executing shell function do_install
+| NOTE: make -j 8 DESTDIR=/home/lukas/poky-danny-8.0/build/tmp/work/x86_64-linux/rosunit-native-1.9.42-r0/image install
+| make: *** No rule to make target `install'.  Stop.
+| ERROR: oe_runmake failed
+| ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/x86_64-linux/rosunit-native-1.9.42-r0/temp/log.do_install.8685 for further information)
+NOTE: recipe rosunit-native-1.9.42-r0: task do_install: Failed
+ERROR: Task 205 (/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/roscpp-core/cpp-common_0.3.12.bb, do_install) failed with exit code '1'
+ERROR: Task 240 (virtual:native:/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/ros/rosunit_1.9.42.bb, do_install) failed with exit code '1'
+NOTE: Tasks Summary: Attempted 1130 tasks of which 1128 didn't need to be rerun and 2 failed.
+
+Summary: 2 tasks failed:
+  /home/lukas/poky-danny-8.0/meta-ros/recipes-ros/roscpp-core/cpp-common_0.3.12.bb, do_install
+  virtual:native:/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/ros/rosunit_1.9.42.bb, do_install
+Summary: There were 2 ERROR messages shown, returning a non-zero exit code.
+Checking 14/45: rostest
+Loading cache...done.
+Loaded 1199 entries from dependency cache.
+
+Build Configuration:
+BB_VERSION        = "1.16.0"
+TARGET_ARCH       = "i586"
+TARGET_OS         = "linux"
+MACHINE           = "qemux86"
+DISTRO            = "poky"
+DISTRO_VERSION    = "1.3"
+TUNE_FEATURES     = "m32 i586"
+TARGET_FPU        = ""
+meta              
+meta-yocto        
+meta-yocto-bsp    = "<unknown>:<unknown>"
+meta-ros          = "master:582338267c8dc5595cdef38430e751a3550840fe"
+
+NOTE: Resolving any missing task queue dependencies
+NOTE: Preparing runqueue
+NOTE: Executing SetScene Tasks
+NOTE: Executing RunQueue Tasks
+NOTE: Running task 715 of 1084 (ID: 194, virtual:native:/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/ros/rosunit_1.9.42.bb, do_install)
+NOTE: recipe rosunit-native-1.9.42-r0: task do_install: Started
+ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/x86_64-linux/rosunit-native-1.9.42-r0/temp/log.do_install.8752 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/poky-danny-8.0/build/tmp/work/x86_64-linux/rosunit-native-1.9.42-r0/temp/log.do_install.8752
+Log data follows:
+| DEBUG: Executing shell function do_install
+| NOTE: make -j 8 DESTDIR=/home/lukas/poky-danny-8.0/build/tmp/work/x86_64-linux/rosunit-native-1.9.42-r0/image install
+| make: *** No rule to make target `install'.  Stop.
+| ERROR: oe_runmake failed
+| ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/x86_64-linux/rosunit-native-1.9.42-r0/temp/log.do_install.8752 for further information)
+NOTE: recipe rosunit-native-1.9.42-r0: task do_install: Failed
+ERROR: Task 194 (virtual:native:/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/ros/rosunit_1.9.42.bb, do_install) failed with exit code '1'
+NOTE: Tasks Summary: Attempted 1072 tasks of which 1071 didn't need to be rerun and 1 failed.
+
+Summary: 1 task failed:
+  virtual:native:/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/ros/rosunit_1.9.42.bb, do_install
+Summary: There was 1 ERROR message shown, returning a non-zero exit code.
+Checking 15/45: rospy
+Loading cache...done.
+Loaded 1199 entries from dependency cache.
+
+Build Configuration:
+BB_VERSION        = "1.16.0"
+TARGET_ARCH       = "i586"
+TARGET_OS         = "linux"
+MACHINE           = "qemux86"
+DISTRO            = "poky"
+DISTRO_VERSION    = "1.3"
+TUNE_FEATURES     = "m32 i586"
+TARGET_FPU        = ""
+meta              
+meta-yocto        
+meta-yocto-bsp    = "<unknown>:<unknown>"
+meta-ros          = "master:582338267c8dc5595cdef38430e751a3550840fe"
+
+NOTE: Resolving any missing task queue dependencies
+NOTE: Preparing runqueue
+NOTE: Executing SetScene Tasks
+NOTE: Executing RunQueue Tasks
+NOTE: Running task 749 of 1048 (ID: 2, /home/lukas/poky-danny-8.0/meta-ros/recipes-ros/ros-comm/rospy_1.9.41.bb, do_install)
+NOTE: recipe rospy-1.9.41-r0: task do_install: Started
+ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/rospy-1.9.41-r0/temp/log.do_install.8817 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/rospy-1.9.41-r0/temp/log.do_install.8817
+Log data follows:
+| DEBUG: SITE files ['endian-little', 'bit-32', 'ix86-common', 'common-linux', 'common-glibc', 'i586-linux', 'common']
+| DEBUG: Executing shell function do_install
+| NOTE: make -j 8 DESTDIR=/home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/rospy-1.9.41-r0/image install
+| make: *** No rule to make target `install'.  Stop.
+| ERROR: oe_runmake failed
+| ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/rospy-1.9.41-r0/temp/log.do_install.8817 for further information)
+NOTE: recipe rospy-1.9.41-r0: task do_install: Failed
+ERROR: Task 2 (/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/ros-comm/rospy_1.9.41.bb, do_install) failed with exit code '1'
+NOTE: Tasks Summary: Attempted 1043 tasks of which 1042 didn't need to be rerun and 1 failed.
+
+Summary: 1 task failed:
+  /home/lukas/poky-danny-8.0/meta-ros/recipes-ros/ros-comm/rospy_1.9.41.bb, do_install
+Summary: There was 1 ERROR message shown, returning a non-zero exit code.
+Checking 16/45: rosnode
+Loading cache...done.
+Loaded 1199 entries from dependency cache.
+
+Build Configuration:
+BB_VERSION        = "1.16.0"
+TARGET_ARCH       = "i586"
+TARGET_OS         = "linux"
+MACHINE           = "qemux86"
+DISTRO            = "poky"
+DISTRO_VERSION    = "1.3"
+TUNE_FEATURES     = "m32 i586"
+TARGET_FPU        = ""
+meta              
+meta-yocto        
+meta-yocto-bsp    = "<unknown>:<unknown>"
+meta-ros          = "master:582338267c8dc5595cdef38430e751a3550840fe"
+
+NOTE: Resolving any missing task queue dependencies
+NOTE: Preparing runqueue
+NOTE: Executing SetScene Tasks
+NOTE: Executing RunQueue Tasks
+NOTE: Running task 701 of 1096 (ID: 591, virtual:native:/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/ros/rosunit_1.9.42.bb, do_install)
+NOTE: recipe rosunit-native-1.9.42-r0: task do_install: Started
+ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/x86_64-linux/rosunit-native-1.9.42-r0/temp/log.do_install.8884 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/poky-danny-8.0/build/tmp/work/x86_64-linux/rosunit-native-1.9.42-r0/temp/log.do_install.8884
+Log data follows:
+| DEBUG: Executing shell function do_install
+| NOTE: make -j 8 DESTDIR=/home/lukas/poky-danny-8.0/build/tmp/work/x86_64-linux/rosunit-native-1.9.42-r0/image install
+| make: *** No rule to make target `install'.  Stop.
+| ERROR: oe_runmake failed
+| ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/x86_64-linux/rosunit-native-1.9.42-r0/temp/log.do_install.8884 for further information)
+NOTE: recipe rosunit-native-1.9.42-r0: task do_install: Failed
+ERROR: Task 591 (virtual:native:/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/ros/rosunit_1.9.42.bb, do_install) failed with exit code '1'
+NOTE: Tasks Summary: Attempted 1077 tasks of which 1076 didn't need to be rerun and 1 failed.
+
+Summary: 1 task failed:
+  virtual:native:/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/ros/rosunit_1.9.42.bb, do_install
+Summary: There was 1 ERROR message shown, returning a non-zero exit code.
+Checking 17/45: topic-tools
+Loading cache...done.
+Loaded 1199 entries from dependency cache.
+
+Build Configuration:
+BB_VERSION        = "1.16.0"
+TARGET_ARCH       = "i586"
+TARGET_OS         = "linux"
+MACHINE           = "qemux86"
+DISTRO            = "poky"
+DISTRO_VERSION    = "1.3"
+TUNE_FEATURES     = "m32 i586"
+TARGET_FPU        = ""
+meta              
+meta-yocto        
+meta-yocto-bsp    = "<unknown>:<unknown>"
+meta-ros          = "master:582338267c8dc5595cdef38430e751a3550840fe"
+
+NOTE: Resolving any missing task queue dependencies
+NOTE: Preparing runqueue
+NOTE: Executing SetScene Tasks
+NOTE: Executing RunQueue Tasks
+NOTE: Running task 701 of 1096 (ID: 591, virtual:native:/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/ros/rosunit_1.9.42.bb, do_install)
+NOTE: recipe rosunit-native-1.9.42-r0: task do_install: Started
+ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/x86_64-linux/rosunit-native-1.9.42-r0/temp/log.do_install.8949 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/poky-danny-8.0/build/tmp/work/x86_64-linux/rosunit-native-1.9.42-r0/temp/log.do_install.8949
+Log data follows:
+| DEBUG: Executing shell function do_install
+| NOTE: make -j 8 DESTDIR=/home/lukas/poky-danny-8.0/build/tmp/work/x86_64-linux/rosunit-native-1.9.42-r0/image install
+| make: *** No rule to make target `install'.  Stop.
+| ERROR: oe_runmake failed
+| ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/x86_64-linux/rosunit-native-1.9.42-r0/temp/log.do_install.8949 for further information)
+NOTE: recipe rosunit-native-1.9.42-r0: task do_install: Failed
+ERROR: Task 591 (virtual:native:/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/ros/rosunit_1.9.42.bb, do_install) failed with exit code '1'
+NOTE: Tasks Summary: Attempted 1077 tasks of which 1076 didn't need to be rerun and 1 failed.
+
+Summary: 1 task failed:
+  virtual:native:/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/ros/rosunit_1.9.42.bb, do_install
+Summary: There was 1 ERROR message shown, returning a non-zero exit code.
+Checking 18/45: rosout
+Loading cache...done.
+Loaded 1199 entries from dependency cache.
+
+Build Configuration:
+BB_VERSION        = "1.16.0"
+TARGET_ARCH       = "i586"
+TARGET_OS         = "linux"
+MACHINE           = "qemux86"
+DISTRO            = "poky"
+DISTRO_VERSION    = "1.3"
+TUNE_FEATURES     = "m32 i586"
+TARGET_FPU        = ""
+meta              
+meta-yocto        
+meta-yocto-bsp    = "<unknown>:<unknown>"
+meta-ros          = "master:582338267c8dc5595cdef38430e751a3550840fe"
+
+NOTE: Resolving any missing task queue dependencies
+NOTE: Preparing runqueue
+NOTE: Executing SetScene Tasks
+NOTE: Executing RunQueue Tasks
+NOTE: Running task 633 of 1321 (ID: 1233, /home/lukas/poky-danny-8.0/meta-ros/recipes-ros/genmsg/genmsg_0.4.17.bb, do_install)
+NOTE: Running task 671 of 1321 (ID: 667, /home/lukas/poky-danny-8.0/meta-ros/recipes-ros/roscpp-core/cpp-common_0.3.12.bb, do_install)
+NOTE: Running task 763 of 1321 (ID: 715, /home/lukas/poky-danny-8.0/meta-ros/recipes-ros/roscpp-core/roscpp-traits_0.3.12.bb, do_install)
+NOTE: Running task 804 of 1321 (ID: 1087, virtual:native:/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/ros/rosunit_1.9.42.bb, do_install)
+NOTE: Running task 834 of 1321 (ID: 727, /home/lukas/poky-danny-8.0/meta-ros/recipes-ros/ros/roslang_1.9.42.bb, do_install)
+NOTE: Running task 858 of 1321 (ID: 4, /home/lukas/poky-danny-8.0/meta-ros/recipes-ros/ros-comm/rosout_1.9.41.bb, do_fetch)
+NOTE: recipe roslang-1.9.42-r0: task do_install: Started
+ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/roslang-1.9.42-r0/temp/log.do_install.9024 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/roslang-1.9.42-r0/temp/log.do_install.9024
+Log data follows:
+| DEBUG: SITE files ['endian-little', 'bit-32', 'ix86-common', 'common-linux', 'common-glibc', 'i586-linux', 'common']
+| DEBUG: Executing shell function do_install
+| NOTE: make -j 8 DESTDIR=/home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/roslang-1.9.42-r0/image install
+| make: *** No rule to make target `install'.  Stop.
+| ERROR: oe_runmake failed
+| ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/roslang-1.9.42-r0/temp/log.do_install.9024 for further information)
+NOTE: recipe roslang-1.9.42-r0: task do_install: Failed
+NOTE: recipe rosout-1.9.41-r0: task do_fetch: Started
+NOTE: recipe rosout-1.9.41-r0: task do_fetch: Succeeded
+NOTE: recipe genmsg-0.4.17-r0: task do_install: Started
+ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/genmsg-0.4.17-r0/temp/log.do_install.9014 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/genmsg-0.4.17-r0/temp/log.do_install.9014
+Log data follows:
+| DEBUG: SITE files ['endian-little', 'bit-32', 'ix86-common', 'common-linux', 'common-glibc', 'i586-linux', 'common']
+| DEBUG: Executing shell function do_install
+| NOTE: make -j 8 DESTDIR=/home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/genmsg-0.4.17-r0/image install
+| make: *** No rule to make target `install'.  Stop.
+| ERROR: oe_runmake failed
+| ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/genmsg-0.4.17-r0/temp/log.do_install.9014 for further information)
+NOTE: recipe genmsg-0.4.17-r0: task do_install: Failed
+NOTE: recipe cpp-common-0.3.12-r0: task do_install: Started
+ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/cpp-common-0.3.12-r0/temp/log.do_install.9017 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/cpp-common-0.3.12-r0/temp/log.do_install.9017
+Log data follows:
+| DEBUG: SITE files ['endian-little', 'bit-32', 'ix86-common', 'common-linux', 'common-glibc', 'i586-linux', 'common']
+| DEBUG: Executing shell function do_install
+| NOTE: make -j 8 DESTDIR=/home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/cpp-common-0.3.12-r0/image install
+| make: *** No rule to make target `install'.  Stop.
+| ERROR: oe_runmake failed
+| ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/cpp-common-0.3.12-r0/temp/log.do_install.9017 for further information)
+NOTE: recipe cpp-common-0.3.12-r0: task do_install: Failed
+NOTE: recipe roscpp-traits-0.3.12-r0: task do_install: Started
+ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/roscpp-traits-0.3.12-r0/temp/log.do_install.9020 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/roscpp-traits-0.3.12-r0/temp/log.do_install.9020
+Log data follows:
+| DEBUG: SITE files ['endian-little', 'bit-32', 'ix86-common', 'common-linux', 'common-glibc', 'i586-linux', 'common']
+| DEBUG: Executing shell function do_install
+| NOTE: make -j 8 DESTDIR=/home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/roscpp-traits-0.3.12-r0/image install
+| make: *** No rule to make target `install'.  Stop.
+| ERROR: oe_runmake failed
+| ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/roscpp-traits-0.3.12-r0/temp/log.do_install.9020 for further information)
+NOTE: recipe roscpp-traits-0.3.12-r0: task do_install: Failed
+ERROR: Task 1233 (/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/genmsg/genmsg_0.4.17.bb, do_install) failed with exit code '1'
+ERROR: Task 667 (/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/roscpp-core/cpp-common_0.3.12.bb, do_install) failed with exit code '1'
+ERROR: Task 715 (/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/roscpp-core/roscpp-traits_0.3.12.bb, do_install) failed with exit code '1'
+NOTE: recipe rosunit-native-1.9.42-r0: task do_install: Started
+ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/x86_64-linux/rosunit-native-1.9.42-r0/temp/log.do_install.9023 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/poky-danny-8.0/build/tmp/work/x86_64-linux/rosunit-native-1.9.42-r0/temp/log.do_install.9023
+Log data follows:
+| DEBUG: Executing shell function do_install
+| NOTE: make -j 8 DESTDIR=/home/lukas/poky-danny-8.0/build/tmp/work/x86_64-linux/rosunit-native-1.9.42-r0/image install
+| make: *** No rule to make target `install'.  Stop.
+| ERROR: oe_runmake failed
+| ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/x86_64-linux/rosunit-native-1.9.42-r0/temp/log.do_install.9023 for further information)
+NOTE: recipe rosunit-native-1.9.42-r0: task do_install: Failed
+ERROR: Task 1087 (virtual:native:/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/ros/rosunit_1.9.42.bb, do_install) failed with exit code '1'
+ERROR: Task 727 (/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/ros/roslang_1.9.42.bb, do_install) failed with exit code '1'
+NOTE: Tasks Summary: Attempted 1205 tasks of which 1199 didn't need to be rerun and 5 failed.
+
+Summary: 5 tasks failed:
+  /home/lukas/poky-danny-8.0/meta-ros/recipes-ros/genmsg/genmsg_0.4.17.bb, do_install
+  /home/lukas/poky-danny-8.0/meta-ros/recipes-ros/roscpp-core/cpp-common_0.3.12.bb, do_install
+  /home/lukas/poky-danny-8.0/meta-ros/recipes-ros/roscpp-core/roscpp-traits_0.3.12.bb, do_install
+  virtual:native:/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/ros/rosunit_1.9.42.bb, do_install
+  /home/lukas/poky-danny-8.0/meta-ros/recipes-ros/ros/roslang_1.9.42.bb, do_install
+Summary: There were 5 ERROR messages shown, returning a non-zero exit code.
+Checking 19/45: roscpp
+Loading cache...done.
+Loaded 1199 entries from dependency cache.
+
+Build Configuration:
+BB_VERSION        = "1.16.0"
+TARGET_ARCH       = "i586"
+TARGET_OS         = "linux"
+MACHINE           = "qemux86"
+DISTRO            = "poky"
+DISTRO_VERSION    = "1.3"
+TUNE_FEATURES     = "m32 i586"
+TARGET_FPU        = ""
+meta              
+meta-yocto        
+meta-yocto-bsp    = "<unknown>:<unknown>"
+meta-ros          = "master:582338267c8dc5595cdef38430e751a3550840fe"
+
+NOTE: Resolving any missing task queue dependencies
+NOTE: Preparing runqueue
+NOTE: Executing SetScene Tasks
+NOTE: Executing RunQueue Tasks
+NOTE: Running task 654 of 1309 (ID: 1044, /home/lukas/poky-danny-8.0/meta-ros/recipes-ros/genmsg/genmsg_0.4.17.bb, do_install)
+NOTE: Running task 670 of 1309 (ID: 182, /home/lukas/poky-danny-8.0/meta-ros/recipes-ros/roscpp-core/cpp-common_0.3.12.bb, do_install)
+NOTE: Running task 796 of 1309 (ID: 230, /home/lukas/poky-danny-8.0/meta-ros/recipes-ros/roscpp-core/roscpp-traits_0.3.12.bb, do_install)
+NOTE: Running task 817 of 1309 (ID: 733, virtual:native:/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/ros/rosunit_1.9.42.bb, do_install)
+NOTE: Running task 861 of 1309 (ID: 254, /home/lukas/poky-danny-8.0/meta-ros/recipes-ros/ros/roslang_1.9.42.bb, do_install)
+NOTE: recipe roslang-1.9.42-r0: task do_install: Started
+NOTE: recipe genmsg-0.4.17-r0: task do_install: Started
+ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/genmsg-0.4.17-r0/temp/log.do_install.9100 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/genmsg-0.4.17-r0/temp/log.do_install.9100
+Log data follows:
+| DEBUG: SITE files ['endian-little', 'bit-32', 'ix86-common', 'common-linux', 'common-glibc', 'i586-linux', 'common']
+| DEBUG: Executing shell function do_install
+| NOTE: make -j 8 DESTDIR=/home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/genmsg-0.4.17-r0/image install
+| make: *** No rule to make target `install'.  Stop.
+| ERROR: oe_runmake failed
+| ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/genmsg-0.4.17-r0/temp/log.do_install.9100 for further information)
+NOTE: recipe genmsg-0.4.17-r0: task do_install: Failed
+NOTE: recipe cpp-common-0.3.12-r0: task do_install: Started
+ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/cpp-common-0.3.12-r0/temp/log.do_install.9101 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/cpp-common-0.3.12-r0/temp/log.do_install.9101
+Log data follows:
+| DEBUG: SITE files ['endian-little', 'bit-32', 'ix86-common', 'common-linux', 'common-glibc', 'i586-linux', 'common']
+| DEBUG: Executing shell function do_install
+| NOTE: make -j 8 DESTDIR=/home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/cpp-common-0.3.12-r0/image install
+| make: *** No rule to make target `install'.  Stop.
+| ERROR: oe_runmake failed
+| ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/cpp-common-0.3.12-r0/temp/log.do_install.9101 for further information)
+NOTE: recipe cpp-common-0.3.12-r0: task do_install: Failed
+NOTE: recipe roscpp-traits-0.3.12-r0: task do_install: Started
+ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/roscpp-traits-0.3.12-r0/temp/log.do_install.9102 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/roscpp-traits-0.3.12-r0/temp/log.do_install.9102
+Log data follows:
+| DEBUG: SITE files ['endian-little', 'bit-32', 'ix86-common', 'common-linux', 'common-glibc', 'i586-linux', 'common']
+| DEBUG: Executing shell function do_install
+| NOTE: make -j 8 DESTDIR=/home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/roscpp-traits-0.3.12-r0/image install
+| make: *** No rule to make target `install'.  Stop.
+| ERROR: oe_runmake failed
+| ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/roscpp-traits-0.3.12-r0/temp/log.do_install.9102 for further information)
+NOTE: recipe roscpp-traits-0.3.12-r0: task do_install: Failed
+NOTE: recipe rosunit-native-1.9.42-r0: task do_install: Started
+ERROR: Task 1044 (/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/genmsg/genmsg_0.4.17.bb, do_install) failed with exit code '1'
+ERROR: Task 182 (/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/roscpp-core/cpp-common_0.3.12.bb, do_install) failed with exit code '1'
+ERROR: Task 230 (/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/roscpp-core/roscpp-traits_0.3.12.bb, do_install) failed with exit code '1'
+ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/roslang-1.9.42-r0/temp/log.do_install.9104 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/roslang-1.9.42-r0/temp/log.do_install.9104
+Log data follows:
+| DEBUG: SITE files ['endian-little', 'bit-32', 'ix86-common', 'common-linux', 'common-glibc', 'i586-linux', 'common']
+| DEBUG: Executing shell function do_install
+| NOTE: make -j 8 DESTDIR=/home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/roslang-1.9.42-r0/image install
+| make: *** No rule to make target `install'.  Stop.
+| ERROR: oe_runmake failed
+| ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/roslang-1.9.42-r0/temp/log.do_install.9104 for further information)
+NOTE: recipe roslang-1.9.42-r0: task do_install: Failed
+ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/x86_64-linux/rosunit-native-1.9.42-r0/temp/log.do_install.9103 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/poky-danny-8.0/build/tmp/work/x86_64-linux/rosunit-native-1.9.42-r0/temp/log.do_install.9103
+Log data follows:
+| DEBUG: Executing shell function do_install
+| NOTE: make -j 8 DESTDIR=/home/lukas/poky-danny-8.0/build/tmp/work/x86_64-linux/rosunit-native-1.9.42-r0/image install
+| make: *** No rule to make target `install'.  Stop.
+| ERROR: oe_runmake failed
+| ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/x86_64-linux/rosunit-native-1.9.42-r0/temp/log.do_install.9103 for further information)
+NOTE: recipe rosunit-native-1.9.42-r0: task do_install: Failed
+ERROR: Task 733 (virtual:native:/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/ros/rosunit_1.9.42.bb, do_install) failed with exit code '1'
+ERROR: Task 254 (/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/ros/roslang_1.9.42.bb, do_install) failed with exit code '1'
+NOTE: Tasks Summary: Attempted 1204 tasks of which 1199 didn't need to be rerun and 5 failed.
+
+Summary: 5 tasks failed:
+  /home/lukas/poky-danny-8.0/meta-ros/recipes-ros/genmsg/genmsg_0.4.17.bb, do_install
+  /home/lukas/poky-danny-8.0/meta-ros/recipes-ros/roscpp-core/cpp-common_0.3.12.bb, do_install
+  /home/lukas/poky-danny-8.0/meta-ros/recipes-ros/roscpp-core/roscpp-traits_0.3.12.bb, do_install
+  virtual:native:/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/ros/rosunit_1.9.42.bb, do_install
+  /home/lukas/poky-danny-8.0/meta-ros/recipes-ros/ros/roslang_1.9.42.bb, do_install
+Summary: There were 5 ERROR messages shown, returning a non-zero exit code.
+Checking 20/45: rosservice
+Loading cache...done.
+Loaded 1199 entries from dependency cache.
+
+Build Configuration:
+BB_VERSION        = "1.16.0"
+TARGET_ARCH       = "i586"
+TARGET_OS         = "linux"
+MACHINE           = "qemux86"
+DISTRO            = "poky"
+DISTRO_VERSION    = "1.3"
+TUNE_FEATURES     = "m32 i586"
+TARGET_FPU        = ""
+meta              
+meta-yocto        
+meta-yocto-bsp    = "<unknown>:<unknown>"
+meta-ros          = "master:582338267c8dc5595cdef38430e751a3550840fe"
+
+NOTE: Resolving any missing task queue dependencies
+NOTE: Preparing runqueue
+NOTE: Executing SetScene Tasks
+NOTE: Executing RunQueue Tasks
+NOTE: Running task 749 of 1048 (ID: 2, /home/lukas/poky-danny-8.0/meta-ros/recipes-ros/ros-comm/rosservice_1.9.41.bb, do_install)
+NOTE: recipe rosservice-1.9.41-r0: task do_install: Started
+ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/rosservice-1.9.41-r0/temp/log.do_install.9177 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/rosservice-1.9.41-r0/temp/log.do_install.9177
+Log data follows:
+| DEBUG: SITE files ['endian-little', 'bit-32', 'ix86-common', 'common-linux', 'common-glibc', 'i586-linux', 'common']
+| DEBUG: Executing shell function do_install
+| NOTE: make -j 8 DESTDIR=/home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/rosservice-1.9.41-r0/image install
+| make: *** No rule to make target `install'.  Stop.
+| ERROR: oe_runmake failed
+| ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/rosservice-1.9.41-r0/temp/log.do_install.9177 for further information)
+NOTE: recipe rosservice-1.9.41-r0: task do_install: Failed
+ERROR: Task 2 (/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/ros-comm/rosservice_1.9.41.bb, do_install) failed with exit code '1'
+NOTE: Tasks Summary: Attempted 1043 tasks of which 1042 didn't need to be rerun and 1 failed.
+
+Summary: 1 task failed:
+  /home/lukas/poky-danny-8.0/meta-ros/recipes-ros/ros-comm/rosservice_1.9.41.bb, do_install
+Summary: There was 1 ERROR message shown, returning a non-zero exit code.
+Checking 21/45: rosmsg
+Loading cache...done.
+Loaded 1199 entries from dependency cache.
+
+Build Configuration:
+BB_VERSION        = "1.16.0"
+TARGET_ARCH       = "i586"
+TARGET_OS         = "linux"
+MACHINE           = "qemux86"
+DISTRO            = "poky"
+DISTRO_VERSION    = "1.3"
+TUNE_FEATURES     = "m32 i586"
+TARGET_FPU        = ""
+meta              
+meta-yocto        
+meta-yocto-bsp    = "<unknown>:<unknown>"
+meta-ros          = "master:582338267c8dc5595cdef38430e751a3550840fe"
+
+NOTE: Resolving any missing task queue dependencies
+NOTE: Preparing runqueue
+NOTE: Executing SetScene Tasks
+NOTE: Executing RunQueue Tasks
+NOTE: Running task 749 of 1048 (ID: 2, /home/lukas/poky-danny-8.0/meta-ros/recipes-ros/ros-comm/rosmsg_1.9.41.bb, do_install)
+NOTE: recipe rosmsg-1.9.41-r0: task do_install: Started
+ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/rosmsg-1.9.41-r0/temp/log.do_install.9244 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/rosmsg-1.9.41-r0/temp/log.do_install.9244
+Log data follows:
+| DEBUG: SITE files ['endian-little', 'bit-32', 'ix86-common', 'common-linux', 'common-glibc', 'i586-linux', 'common']
+| DEBUG: Executing shell function do_install
+| NOTE: make -j 8 DESTDIR=/home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/rosmsg-1.9.41-r0/image install
+| make: *** No rule to make target `install'.  Stop.
+| ERROR: oe_runmake failed
+| ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/rosmsg-1.9.41-r0/temp/log.do_install.9244 for further information)
+NOTE: recipe rosmsg-1.9.41-r0: task do_install: Failed
+ERROR: Task 2 (/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/ros-comm/rosmsg_1.9.41.bb, do_install) failed with exit code '1'
+NOTE: Tasks Summary: Attempted 1043 tasks of which 1042 didn't need to be rerun and 1 failed.
+
+Summary: 1 task failed:
+  /home/lukas/poky-danny-8.0/meta-ros/recipes-ros/ros-comm/rosmsg_1.9.41.bb, do_install
+Summary: There was 1 ERROR message shown, returning a non-zero exit code.
+Checking 22/45: rosmaster
+Loading cache...done.
+Loaded 1199 entries from dependency cache.
+
+Build Configuration:
+BB_VERSION        = "1.16.0"
+TARGET_ARCH       = "i586"
+TARGET_OS         = "linux"
+MACHINE           = "qemux86"
+DISTRO            = "poky"
+DISTRO_VERSION    = "1.3"
+TUNE_FEATURES     = "m32 i586"
+TARGET_FPU        = ""
+meta              
+meta-yocto        
+meta-yocto-bsp    = "<unknown>:<unknown>"
+meta-ros          = "master:582338267c8dc5595cdef38430e751a3550840fe"
+
+NOTE: Resolving any missing task queue dependencies
+NOTE: Preparing runqueue
+NOTE: Executing SetScene Tasks
+NOTE: Executing RunQueue Tasks
+NOTE: Running task 749 of 1048 (ID: 2, /home/lukas/poky-danny-8.0/meta-ros/recipes-ros/ros-comm/rosmaster_1.9.41.bb, do_install)
+NOTE: recipe rosmaster-1.9.41-r0: task do_install: Started
+ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/rosmaster-1.9.41-r0/temp/log.do_install.9311 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/rosmaster-1.9.41-r0/temp/log.do_install.9311
+Log data follows:
+| DEBUG: SITE files ['endian-little', 'bit-32', 'ix86-common', 'common-linux', 'common-glibc', 'i586-linux', 'common']
+| DEBUG: Executing shell function do_install
+| NOTE: make -j 8 DESTDIR=/home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/rosmaster-1.9.41-r0/image install
+| make: *** No rule to make target `install'.  Stop.
+| ERROR: oe_runmake failed
+| ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/rosmaster-1.9.41-r0/temp/log.do_install.9311 for further information)
+NOTE: recipe rosmaster-1.9.41-r0: task do_install: Failed
+ERROR: Task 2 (/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/ros-comm/rosmaster_1.9.41.bb, do_install) failed with exit code '1'
+NOTE: Tasks Summary: Attempted 1043 tasks of which 1042 didn't need to be rerun and 1 failed.
+
+Summary: 1 task failed:
+  /home/lukas/poky-danny-8.0/meta-ros/recipes-ros/ros-comm/rosmaster_1.9.41.bb, do_install
+Summary: There was 1 ERROR message shown, returning a non-zero exit code.
+Checking 23/45: rosbag
+Loading cache...done.
+Loaded 1199 entries from dependency cache.
+
+Build Configuration:
+BB_VERSION        = "1.16.0"
+TARGET_ARCH       = "i586"
+TARGET_OS         = "linux"
+MACHINE           = "qemux86"
+DISTRO            = "poky"
+DISTRO_VERSION    = "1.3"
+TUNE_FEATURES     = "m32 i586"
+TARGET_FPU        = ""
+meta              
+meta-yocto        
+meta-yocto-bsp    = "<unknown>:<unknown>"
+meta-ros          = "master:582338267c8dc5595cdef38430e751a3550840fe"
+
+NOTE: Resolving any missing task queue dependencies
+NOTE: Preparing runqueue
+NOTE: Executing SetScene Tasks
+NOTE: Executing RunQueue Tasks
+NOTE: Running task 663 of 1400 (ID: 1269, /home/lukas/poky-danny-8.0/meta-ros/recipes-ros/genmsg/genmsg_0.4.17.bb, do_install)
+NOTE: Running task 667 of 1400 (ID: 205, /home/lukas/poky-danny-8.0/meta-ros/recipes-ros/roscpp-core/cpp-common_0.3.12.bb, do_install)
+NOTE: Running task 734 of 1400 (ID: 763, virtual:native:/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/ros/rosunit_1.9.42.bb, do_install)
+NOTE: Running task 767 of 1400 (ID: 787, /home/lukas/poky-danny-8.0/meta-ros/recipes-ros/roscpp-core/roscpp-traits_0.3.12.bb, do_install)
+NOTE: Running task 807 of 1400 (ID: 1086, /home/lukas/poky-danny-8.0/meta/recipes-extended/xz/xz_5.1.2alpha.bb, do_unpack)
+NOTE: Running task 836 of 1400 (ID: 716, /home/lukas/poky-danny-8.0/meta/recipes-multimedia/libtiff/tiff_4.0.2.bb, do_unpack)
+NOTE: Running task 866 of 1400 (ID: 811, /home/lukas/poky-danny-8.0/meta-ros/recipes-ros/ros/roslang_1.9.42.bb, do_install)
+NOTE: Running task 879 of 1400 (ID: 219, /home/lukas/poky-danny-8.0/meta/recipes-devtools/python/python-imaging_1.1.7.bb, do_fetch)
+NOTE: recipe cpp-common-0.3.12-r0: task do_install: Started
+NOTE: recipe genmsg-0.4.17-r0: task do_install: Started
+ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/genmsg-0.4.17-r0/temp/log.do_install.9378 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/genmsg-0.4.17-r0/temp/log.do_install.9378
+Log data follows:
+| DEBUG: SITE files ['endian-little', 'bit-32', 'ix86-common', 'common-linux', 'common-glibc', 'i586-linux', 'common']
+| DEBUG: Executing shell function do_install
+| NOTE: make -j 8 DESTDIR=/home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/genmsg-0.4.17-r0/image install
+| make: *** No rule to make target `install'.  Stop.
+| ERROR: oe_runmake failed
+| ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/genmsg-0.4.17-r0/temp/log.do_install.9378 for further information)
+NOTE: recipe genmsg-0.4.17-r0: task do_install: Failed
+ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/cpp-common-0.3.12-r0/temp/log.do_install.9381 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/cpp-common-0.3.12-r0/temp/log.do_install.9381
+Log data follows:
+| DEBUG: SITE files ['endian-little', 'bit-32', 'ix86-common', 'common-linux', 'common-glibc', 'i586-linux', 'common']
+| DEBUG: Executing shell function do_install
+| NOTE: make -j 8 DESTDIR=/home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/cpp-common-0.3.12-r0/image install
+| make: *** No rule to make target `install'.  Stop.
+| ERROR: oe_runmake failed
+| ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/cpp-common-0.3.12-r0/temp/log.do_install.9381 for further information)
+NOTE: recipe cpp-common-0.3.12-r0: task do_install: Failed
+NOTE: recipe rosunit-native-1.9.42-r0: task do_install: Started
+NOTE: recipe roscpp-traits-0.3.12-r0: task do_install: Started
+ERROR: Task 1269 (/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/genmsg/genmsg_0.4.17.bb, do_install) failed with exit code '1'
+ERROR: Task 205 (/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/roscpp-core/cpp-common_0.3.12.bb, do_install) failed with exit code '1'
+ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/x86_64-linux/rosunit-native-1.9.42-r0/temp/log.do_install.9384 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/poky-danny-8.0/build/tmp/work/x86_64-linux/rosunit-native-1.9.42-r0/temp/log.do_install.9384
+Log data follows:
+| DEBUG: Executing shell function do_install
+| NOTE: make -j 8 DESTDIR=/home/lukas/poky-danny-8.0/build/tmp/work/x86_64-linux/rosunit-native-1.9.42-r0/image install
+| make: *** No rule to make target `install'.  Stop.
+| ERROR: oe_runmake failed
+| ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/x86_64-linux/rosunit-native-1.9.42-r0/temp/log.do_install.9384 for further information)
+NOTE: recipe rosunit-native-1.9.42-r0: task do_install: Failed
+ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/roscpp-traits-0.3.12-r0/temp/log.do_install.9385 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/roscpp-traits-0.3.12-r0/temp/log.do_install.9385
+Log data follows:
+| DEBUG: SITE files ['endian-little', 'bit-32', 'ix86-common', 'common-linux', 'common-glibc', 'i586-linux', 'common']
+| DEBUG: Executing shell function do_install
+| NOTE: make -j 8 DESTDIR=/home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/roscpp-traits-0.3.12-r0/image install
+| make: *** No rule to make target `install'.  Stop.
+| ERROR: oe_runmake failed
+| ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/roscpp-traits-0.3.12-r0/temp/log.do_install.9385 for further information)
+NOTE: recipe roscpp-traits-0.3.12-r0: task do_install: Failed
+NOTE: recipe xz-5.1.2alpha-r0: task do_unpack: Started
+NOTE: recipe tiff-4.0.2-r0: task do_unpack: Started
+NOTE: recipe roslang-1.9.42-r0: task do_install: Started
+ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/roslang-1.9.42-r0/temp/log.do_install.9390 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/roslang-1.9.42-r0/temp/log.do_install.9390
+Log data follows:
+| DEBUG: SITE files ['endian-little', 'bit-32', 'ix86-common', 'common-linux', 'common-glibc', 'i586-linux', 'common']
+| DEBUG: Executing shell function do_install
+| NOTE: make -j 8 DESTDIR=/home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/roslang-1.9.42-r0/image install
+| make: *** No rule to make target `install'.  Stop.
+| ERROR: oe_runmake failed
+| ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/roslang-1.9.42-r0/temp/log.do_install.9390 for further information)
+NOTE: recipe roslang-1.9.42-r0: task do_install: Failed
+NOTE: recipe python-imaging-1.1.7-r4: task do_fetch: Started
+ERROR: Task 763 (virtual:native:/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/ros/rosunit_1.9.42.bb, do_install) failed with exit code '1'
+ERROR: Task 787 (/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/roscpp-core/roscpp-traits_0.3.12.bb, do_install) failed with exit code '1'
+NOTE: recipe tiff-4.0.2-r0: task do_unpack: Succeeded
+ERROR: Task 811 (/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/ros/roslang_1.9.42.bb, do_install) failed with exit code '1'
+NOTE: recipe xz-5.1.2alpha-r0: task do_unpack: Succeeded
+NOTE: recipe python-imaging-1.1.7-r4: task do_fetch: Succeeded
+NOTE: Tasks Summary: Attempted 879 tasks of which 871 didn't need to be rerun and 5 failed.
+
+Summary: 5 tasks failed:
+  /home/lukas/poky-danny-8.0/meta-ros/recipes-ros/genmsg/genmsg_0.4.17.bb, do_install
+  /home/lukas/poky-danny-8.0/meta-ros/recipes-ros/roscpp-core/cpp-common_0.3.12.bb, do_install
+  virtual:native:/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/ros/rosunit_1.9.42.bb, do_install
+  /home/lukas/poky-danny-8.0/meta-ros/recipes-ros/roscpp-core/roscpp-traits_0.3.12.bb, do_install
+  /home/lukas/poky-danny-8.0/meta-ros/recipes-ros/ros/roslang_1.9.42.bb, do_install
+Summary: There were 5 ERROR messages shown, returning a non-zero exit code.
+Checking 24/45: std-srvs
+Loading cache...done.
+Loaded 1199 entries from dependency cache.
+
+Build Configuration:
+BB_VERSION        = "1.16.0"
+TARGET_ARCH       = "i586"
+TARGET_OS         = "linux"
+MACHINE           = "qemux86"
+DISTRO            = "poky"
+DISTRO_VERSION    = "1.3"
+TUNE_FEATURES     = "m32 i586"
+TARGET_FPU        = ""
+meta              
+meta-yocto        
+meta-yocto-bsp    = "<unknown>:<unknown>"
+meta-ros          = "master:582338267c8dc5595cdef38430e751a3550840fe"
+
+NOTE: Resolving any missing task queue dependencies
+NOTE: Preparing runqueue
+NOTE: Executing SetScene Tasks
+NOTE: Executing RunQueue Tasks
+NOTE: Running task 642 of 1108 (ID: 615, /home/lukas/poky-danny-8.0/meta-ros/recipes-ros/genmsg/genmsg_0.4.17.bb, do_install)
+NOTE: recipe genmsg-0.4.17-r0: task do_install: Started
+ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/genmsg-0.4.17-r0/temp/log.do_install.9476 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/genmsg-0.4.17-r0/temp/log.do_install.9476
+Log data follows:
+| DEBUG: SITE files ['endian-little', 'bit-32', 'ix86-common', 'common-linux', 'common-glibc', 'i586-linux', 'common']
+| DEBUG: Executing shell function do_install
+| NOTE: make -j 8 DESTDIR=/home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/genmsg-0.4.17-r0/image install
+| make: *** No rule to make target `install'.  Stop.
+| ERROR: oe_runmake failed
+| ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/genmsg-0.4.17-r0/temp/log.do_install.9476 for further information)
+NOTE: recipe genmsg-0.4.17-r0: task do_install: Failed
+ERROR: Task 615 (/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/genmsg/genmsg_0.4.17.bb, do_install) failed with exit code '1'
+NOTE: Tasks Summary: Attempted 1068 tasks of which 1067 didn't need to be rerun and 1 failed.
+
+Summary: 1 task failed:
+  /home/lukas/poky-danny-8.0/meta-ros/recipes-ros/genmsg/genmsg_0.4.17.bb, do_install
+Summary: There was 1 ERROR message shown, returning a non-zero exit code.
+Checking 25/45: rosparam
+Loading cache...done.
+Loaded 1199 entries from dependency cache.
+
+Build Configuration:
+BB_VERSION        = "1.16.0"
+TARGET_ARCH       = "i586"
+TARGET_OS         = "linux"
+MACHINE           = "qemux86"
+DISTRO            = "poky"
+DISTRO_VERSION    = "1.3"
+TUNE_FEATURES     = "m32 i586"
+TARGET_FPU        = ""
+meta              
+meta-yocto        
+meta-yocto-bsp    = "<unknown>:<unknown>"
+meta-ros          = "master:582338267c8dc5595cdef38430e751a3550840fe"
+
+NOTE: Resolving any missing task queue dependencies
+NOTE: Preparing runqueue
+NOTE: Executing SetScene Tasks
+NOTE: Executing RunQueue Tasks
+NOTE: Tasks Summary: Attempted 1048 tasks of which 1048 didn't need to be rerun and all succeeded.
+Checking 26/45: roswtf
+Loading cache...done.
+Loaded 1199 entries from dependency cache.
+
+Build Configuration:
+BB_VERSION        = "1.16.0"
+TARGET_ARCH       = "i586"
+TARGET_OS         = "linux"
+MACHINE           = "qemux86"
+DISTRO            = "poky"
+DISTRO_VERSION    = "1.3"
+TUNE_FEATURES     = "m32 i586"
+TARGET_FPU        = ""
+meta              
+meta-yocto        
+meta-yocto-bsp    = "<unknown>:<unknown>"
+meta-ros          = "master:582338267c8dc5595cdef38430e751a3550840fe"
+
+NOTE: Resolving any missing task queue dependencies
+NOTE: Preparing runqueue
+NOTE: Executing SetScene Tasks
+NOTE: Executing RunQueue Tasks
+NOTE: Running task 701 of 1096 (ID: 591, virtual:native:/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/ros/rosunit_1.9.42.bb, do_install)
+NOTE: Running task 779 of 1096 (ID: 5, /home/lukas/poky-danny-8.0/meta-ros/recipes-ros/ros-comm/roswtf_1.9.41.bb, do_generate_toolchain_file)
+NOTE: Running task 791 of 1096 (ID: 11, /home/lukas/poky-danny-8.0/meta-ros/recipes-ros/ros-comm/roswtf_1.9.41.bb, do_populate_lic)
+NOTE: recipe roswtf-1.9.41-r0: task do_populate_lic: Started
+NOTE: recipe rosunit-native-1.9.42-r0: task do_install: Started
+ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/x86_64-linux/rosunit-native-1.9.42-r0/temp/log.do_install.9606 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/poky-danny-8.0/build/tmp/work/x86_64-linux/rosunit-native-1.9.42-r0/temp/log.do_install.9606
+Log data follows:
+| DEBUG: Executing shell function do_install
+| NOTE: make -j 8 DESTDIR=/home/lukas/poky-danny-8.0/build/tmp/work/x86_64-linux/rosunit-native-1.9.42-r0/image install
+| make: *** No rule to make target `install'.  Stop.
+| ERROR: oe_runmake failed
+| ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/x86_64-linux/rosunit-native-1.9.42-r0/temp/log.do_install.9606 for further information)
+NOTE: recipe rosunit-native-1.9.42-r0: task do_install: Failed
+NOTE: recipe roswtf-1.9.41-r0: task do_generate_toolchain_file: Started
+ERROR: Task 591 (virtual:native:/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/ros/rosunit_1.9.42.bb, do_install) failed with exit code '1'
+NOTE: recipe roswtf-1.9.41-r0: task do_generate_toolchain_file: Succeeded
+NOTE: recipe roswtf-1.9.41-r0: task do_populate_lic: Succeeded
+NOTE: Tasks Summary: Attempted 1077 tasks of which 1074 didn't need to be rerun and 1 failed.
+
+Summary: 1 task failed:
+  virtual:native:/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/ros/rosunit_1.9.42.bb, do_install
+Summary: There was 1 ERROR message shown, returning a non-zero exit code.
+Checking 27/45: message-filters
+Loading cache...done.
+Loaded 1199 entries from dependency cache.
+
+Build Configuration:
+BB_VERSION        = "1.16.0"
+TARGET_ARCH       = "i586"
+TARGET_OS         = "linux"
+MACHINE           = "qemux86"
+DISTRO            = "poky"
+DISTRO_VERSION    = "1.3"
+TUNE_FEATURES     = "m32 i586"
+TARGET_FPU        = ""
+meta              
+meta-yocto        
+meta-yocto-bsp    = "<unknown>:<unknown>"
+meta-ros          = "master:582338267c8dc5595cdef38430e751a3550840fe"
+
+NOTE: Resolving any missing task queue dependencies
+NOTE: Preparing runqueue
+NOTE: Executing SetScene Tasks
+NOTE: Executing RunQueue Tasks
+NOTE: Running task 663 of 1345 (ID: 1214, /home/lukas/poky-danny-8.0/meta-ros/recipes-ros/genmsg/genmsg_0.4.17.bb, do_install)
+NOTE: Running task 670 of 1345 (ID: 673, /home/lukas/poky-danny-8.0/meta-ros/recipes-ros/roscpp-core/cpp-common_0.3.12.bb, do_install)
+NOTE: Running task 748 of 1345 (ID: 708, virtual:native:/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/ros/rosunit_1.9.42.bb, do_install)
+NOTE: Running task 776 of 1345 (ID: 744, /home/lukas/poky-danny-8.0/meta-ros/recipes-ros/roscpp-core/roscpp-traits_0.3.12.bb, do_install)
+NOTE: Running task 840 of 1345 (ID: 768, /home/lukas/poky-danny-8.0/meta-ros/recipes-ros/ros/roslang_1.9.42.bb, do_install)
+NOTE: Running task 930 of 1345 (ID: 11, /home/lukas/poky-danny-8.0/meta-ros/recipes-ros/ros-comm/message-filters_1.9.41.bb, do_populate_lic)
+NOTE: recipe genmsg-0.4.17-r0: task do_install: Started
+ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/genmsg-0.4.17-r0/temp/log.do_install.9704 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/genmsg-0.4.17-r0/temp/log.do_install.9704
+Log data follows:
+| DEBUG: SITE files ['endian-little', 'bit-32', 'ix86-common', 'common-linux', 'common-glibc', 'i586-linux', 'common']
+| DEBUG: Executing shell function do_install
+| NOTE: make -j 8 DESTDIR=/home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/genmsg-0.4.17-r0/image install
+| make: *** No rule to make target `install'.  Stop.
+| ERROR: oe_runmake failed
+| ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/genmsg-0.4.17-r0/temp/log.do_install.9704 for further information)
+NOTE: recipe genmsg-0.4.17-r0: task do_install: Failed
+NOTE: recipe cpp-common-0.3.12-r0: task do_install: Started
+ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/cpp-common-0.3.12-r0/temp/log.do_install.9705 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/cpp-common-0.3.12-r0/temp/log.do_install.9705
+Log data follows:
+| DEBUG: SITE files ['endian-little', 'bit-32', 'ix86-common', 'common-linux', 'common-glibc', 'i586-linux', 'common']
+| DEBUG: Executing shell function do_install
+| NOTE: make -j 8 DESTDIR=/home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/cpp-common-0.3.12-r0/image install
+| make: *** No rule to make target `install'.  Stop.
+| ERROR: oe_runmake failed
+| ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/cpp-common-0.3.12-r0/temp/log.do_install.9705 for further information)
+NOTE: recipe cpp-common-0.3.12-r0: task do_install: Failed
+NOTE: recipe rosunit-native-1.9.42-r0: task do_install: Started
+ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/x86_64-linux/rosunit-native-1.9.42-r0/temp/log.do_install.9708 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/poky-danny-8.0/build/tmp/work/x86_64-linux/rosunit-native-1.9.42-r0/temp/log.do_install.9708
+Log data follows:
+| DEBUG: Executing shell function do_install
+| NOTE: make -j 8 DESTDIR=/home/lukas/poky-danny-8.0/build/tmp/work/x86_64-linux/rosunit-native-1.9.42-r0/image install
+| make: *** No rule to make target `install'.  Stop.
+| ERROR: oe_runmake failed
+| ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/x86_64-linux/rosunit-native-1.9.42-r0/temp/log.do_install.9708 for further information)
+NOTE: recipe rosunit-native-1.9.42-r0: task do_install: Failed
+NOTE: recipe roscpp-traits-0.3.12-r0: task do_install: Started
+ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/roscpp-traits-0.3.12-r0/temp/log.do_install.9709 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/roscpp-traits-0.3.12-r0/temp/log.do_install.9709
+Log data follows:
+| DEBUG: SITE files ['endian-little', 'bit-32', 'ix86-common', 'common-linux', 'common-glibc', 'i586-linux', 'common']
+| DEBUG: Executing shell function do_install
+| NOTE: make -j 8 DESTDIR=/home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/roscpp-traits-0.3.12-r0/image install
+| make: *** No rule to make target `install'.  Stop.
+| ERROR: oe_runmake failed
+| ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/roscpp-traits-0.3.12-r0/temp/log.do_install.9709 for further information)
+NOTE: recipe roscpp-traits-0.3.12-r0: task do_install: Failed
+NOTE: recipe roslang-1.9.42-r0: task do_install: Started
+ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/roslang-1.9.42-r0/temp/log.do_install.9712 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/roslang-1.9.42-r0/temp/log.do_install.9712
+Log data follows:
+| DEBUG: SITE files ['endian-little', 'bit-32', 'ix86-common', 'common-linux', 'common-glibc', 'i586-linux', 'common']
+| DEBUG: Executing shell function do_install
+| NOTE: make -j 8 DESTDIR=/home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/roslang-1.9.42-r0/image install
+| make: *** No rule to make target `install'.  Stop.
+| ERROR: oe_runmake failed
+| ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/roslang-1.9.42-r0/temp/log.do_install.9712 for further information)
+NOTE: recipe roslang-1.9.42-r0: task do_install: Failed
+NOTE: recipe message-filters-1.9.41-r0: task do_populate_lic: Started
+ERROR: Task 1214 (/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/genmsg/genmsg_0.4.17.bb, do_install) failed with exit code '1'
+ERROR: Task 673 (/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/roscpp-core/cpp-common_0.3.12.bb, do_install) failed with exit code '1'
+ERROR: Task 708 (virtual:native:/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/ros/rosunit_1.9.42.bb, do_install) failed with exit code '1'
+WARNING: /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/message-filters-1.9.41-r0/ros_comm-1.9.41/utilities/message-filters/package.xml could not be copied for some reason. It may not exist. WARN for now.
+ERROR: Task 744 (/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/roscpp-core/roscpp-traits_0.3.12.bb, do_install) failed with exit code '1'
+ERROR: Task 768 (/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/ros/roslang_1.9.42.bb, do_install) failed with exit code '1'
+NOTE: recipe message-filters-1.9.41-r0: task do_populate_lic: Succeeded
+NOTE: Tasks Summary: Attempted 1226 tasks of which 1220 didn't need to be rerun and 5 failed.
+
+Summary: 5 tasks failed:
+  /home/lukas/poky-danny-8.0/meta-ros/recipes-ros/genmsg/genmsg_0.4.17.bb, do_install
+  /home/lukas/poky-danny-8.0/meta-ros/recipes-ros/roscpp-core/cpp-common_0.3.12.bb, do_install
+  virtual:native:/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/ros/rosunit_1.9.42.bb, do_install
+  /home/lukas/poky-danny-8.0/meta-ros/recipes-ros/roscpp-core/roscpp-traits_0.3.12.bb, do_install
+  /home/lukas/poky-danny-8.0/meta-ros/recipes-ros/ros/roslang_1.9.42.bb, do_install
+Summary: There was 1 WARNING message shown.
+Summary: There were 5 ERROR messages shown, returning a non-zero exit code.
+Checking 28/45: rostopic
+Loading cache...done.
+Loaded 1199 entries from dependency cache.
+
+Build Configuration:
+BB_VERSION        = "1.16.0"
+TARGET_ARCH       = "i586"
+TARGET_OS         = "linux"
+MACHINE           = "qemux86"
+DISTRO            = "poky"
+DISTRO_VERSION    = "1.3"
+TUNE_FEATURES     = "m32 i586"
+TARGET_FPU        = ""
+meta              
+meta-yocto        
+meta-yocto-bsp    = "<unknown>:<unknown>"
+meta-ros          = "master:582338267c8dc5595cdef38430e751a3550840fe"
+
+NOTE: Resolving any missing task queue dependencies
+NOTE: Preparing runqueue
+NOTE: Executing SetScene Tasks
+NOTE: Executing RunQueue Tasks
+NOTE: Running task 701 of 1096 (ID: 591, virtual:native:/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/ros/rosunit_1.9.42.bb, do_install)
+NOTE: recipe rosunit-native-1.9.42-r0: task do_install: Started
+ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/x86_64-linux/rosunit-native-1.9.42-r0/temp/log.do_install.9808 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/poky-danny-8.0/build/tmp/work/x86_64-linux/rosunit-native-1.9.42-r0/temp/log.do_install.9808
+Log data follows:
+| DEBUG: Executing shell function do_install
+| NOTE: make -j 8 DESTDIR=/home/lukas/poky-danny-8.0/build/tmp/work/x86_64-linux/rosunit-native-1.9.42-r0/image install
+| make: *** No rule to make target `install'.  Stop.
+| ERROR: oe_runmake failed
+| ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/x86_64-linux/rosunit-native-1.9.42-r0/temp/log.do_install.9808 for further information)
+NOTE: recipe rosunit-native-1.9.42-r0: task do_install: Failed
+ERROR: Task 591 (virtual:native:/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/ros/rosunit_1.9.42.bb, do_install) failed with exit code '1'
+NOTE: Tasks Summary: Attempted 1077 tasks of which 1076 didn't need to be rerun and 1 failed.
+
+Summary: 1 task failed:
+  virtual:native:/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/ros/rosunit_1.9.42.bb, do_install
+Summary: There was 1 ERROR message shown, returning a non-zero exit code.
+Checking 29/45: rosgraph-msgs
+Loading cache...done.
+Loaded 1199 entries from dependency cache.
+
+Build Configuration:
+BB_VERSION        = "1.16.0"
+TARGET_ARCH       = "i586"
+TARGET_OS         = "linux"
+MACHINE           = "qemux86"
+DISTRO            = "poky"
+DISTRO_VERSION    = "1.3"
+TUNE_FEATURES     = "m32 i586"
+TARGET_FPU        = ""
+meta              
+meta-yocto        
+meta-yocto-bsp    = "<unknown>:<unknown>"
+meta-ros          = "master:582338267c8dc5595cdef38430e751a3550840fe"
+
+NOTE: Resolving any missing task queue dependencies
+NOTE: Preparing runqueue
+NOTE: Executing SetScene Tasks
+NOTE: Executing RunQueue Tasks
+NOTE: Running task 631 of 1132 (ID: 902, /home/lukas/poky-danny-8.0/meta-ros/recipes-ros/genmsg/genmsg_0.4.17.bb, do_install)
+NOTE: recipe genmsg-0.4.17-r0: task do_install: Started
+ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/genmsg-0.4.17-r0/temp/log.do_install.9873 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/genmsg-0.4.17-r0/temp/log.do_install.9873
+Log data follows:
+| DEBUG: SITE files ['endian-little', 'bit-32', 'ix86-common', 'common-linux', 'common-glibc', 'i586-linux', 'common']
+| DEBUG: Executing shell function do_install
+| NOTE: make -j 8 DESTDIR=/home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/genmsg-0.4.17-r0/image install
+| make: *** No rule to make target `install'.  Stop.
+| ERROR: oe_runmake failed
+| ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/genmsg-0.4.17-r0/temp/log.do_install.9873 for further information)
+NOTE: recipe genmsg-0.4.17-r0: task do_install: Failed
+ERROR: Task 902 (/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/genmsg/genmsg_0.4.17.bb, do_install) failed with exit code '1'
+NOTE: Tasks Summary: Attempted 1078 tasks of which 1077 didn't need to be rerun and 1 failed.
+
+Summary: 1 task failed:
+  /home/lukas/poky-danny-8.0/meta-ros/recipes-ros/genmsg/genmsg_0.4.17.bb, do_install
+Summary: There was 1 ERROR message shown, returning a non-zero exit code.
+Checking 30/45: rosgraph
+Loading cache...done.
+Loaded 1199 entries from dependency cache.
+
+Build Configuration:
+BB_VERSION        = "1.16.0"
+TARGET_ARCH       = "i586"
+TARGET_OS         = "linux"
+MACHINE           = "qemux86"
+DISTRO            = "poky"
+DISTRO_VERSION    = "1.3"
+TUNE_FEATURES     = "m32 i586"
+TARGET_FPU        = ""
+meta              
+meta-yocto        
+meta-yocto-bsp    = "<unknown>:<unknown>"
+meta-ros          = "master:582338267c8dc5595cdef38430e751a3550840fe"
+
+NOTE: Resolving any missing task queue dependencies
+NOTE: Preparing runqueue
+NOTE: Executing SetScene Tasks
+NOTE: Executing RunQueue Tasks
+NOTE: Tasks Summary: Attempted 1048 tasks of which 1048 didn't need to be rerun and all succeeded.
+Checking 31/45: roslaunch
+Loading cache...done.
+Loaded 1199 entries from dependency cache.
+
+Build Configuration:
+BB_VERSION        = "1.16.0"
+TARGET_ARCH       = "i586"
+TARGET_OS         = "linux"
+MACHINE           = "qemux86"
+DISTRO            = "poky"
+DISTRO_VERSION    = "1.3"
+TUNE_FEATURES     = "m32 i586"
+TARGET_FPU        = ""
+meta              
+meta-yocto        
+meta-yocto-bsp    = "<unknown>:<unknown>"
+meta-ros          = "master:582338267c8dc5595cdef38430e751a3550840fe"
+
+NOTE: Resolving any missing task queue dependencies
+NOTE: Preparing runqueue
+NOTE: Executing SetScene Tasks
+NOTE: Executing RunQueue Tasks
+NOTE: Running task 749 of 1048 (ID: 2, /home/lukas/poky-danny-8.0/meta-ros/recipes-ros/ros-comm/roslaunch_1.9.41.bb, do_install)
+NOTE: recipe roslaunch-1.9.41-r0: task do_install: Started
+ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/roslaunch-1.9.41-r0/temp/log.do_install.10000 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/roslaunch-1.9.41-r0/temp/log.do_install.10000
+Log data follows:
+| DEBUG: SITE files ['endian-little', 'bit-32', 'ix86-common', 'common-linux', 'common-glibc', 'i586-linux', 'common']
+| DEBUG: Executing shell function do_install
+| NOTE: make -j 8 DESTDIR=/home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/roslaunch-1.9.41-r0/image install
+| make: *** No rule to make target `install'.  Stop.
+| ERROR: oe_runmake failed
+| ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/roslaunch-1.9.41-r0/temp/log.do_install.10000 for further information)
+NOTE: recipe roslaunch-1.9.41-r0: task do_install: Failed
+ERROR: Task 2 (/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/ros-comm/roslaunch_1.9.41.bb, do_install) failed with exit code '1'
+NOTE: Tasks Summary: Attempted 1043 tasks of which 1042 didn't need to be rerun and 1 failed.
+
+Summary: 1 task failed:
+  /home/lukas/poky-danny-8.0/meta-ros/recipes-ros/ros-comm/roslaunch_1.9.41.bb, do_install
+Summary: There was 1 ERROR message shown, returning a non-zero exit code.
+Checking 32/45: genlisp
+Loading cache...done.
+Loaded 1199 entries from dependency cache.
+
+Build Configuration:
+BB_VERSION        = "1.16.0"
+TARGET_ARCH       = "i586"
+TARGET_OS         = "linux"
+MACHINE           = "qemux86"
+DISTRO            = "poky"
+DISTRO_VERSION    = "1.3"
+TUNE_FEATURES     = "m32 i586"
+TARGET_FPU        = ""
+meta              
+meta-yocto        
+meta-yocto-bsp    = "<unknown>:<unknown>"
+meta-ros          = "master:582338267c8dc5595cdef38430e751a3550840fe"
+
+NOTE: Resolving any missing task queue dependencies
+NOTE: Preparing runqueue
+NOTE: Executing SetScene Tasks
+NOTE: Executing RunQueue Tasks
+NOTE: Running task 715 of 1060 (ID: 182, /home/lukas/poky-danny-8.0/meta-ros/recipes-ros/genmsg/genmsg_0.4.17.bb, do_install)
+NOTE: recipe genmsg-0.4.17-r0: task do_install: Started
+ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/genmsg-0.4.17-r0/temp/log.do_install.10067 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/genmsg-0.4.17-r0/temp/log.do_install.10067
+Log data follows:
+| DEBUG: SITE files ['endian-little', 'bit-32', 'ix86-common', 'common-linux', 'common-glibc', 'i586-linux', 'common']
+| DEBUG: Executing shell function do_install
+| NOTE: make -j 8 DESTDIR=/home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/genmsg-0.4.17-r0/image install
+| make: *** No rule to make target `install'.  Stop.
+| ERROR: oe_runmake failed
+| ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/genmsg-0.4.17-r0/temp/log.do_install.10067 for further information)
+NOTE: recipe genmsg-0.4.17-r0: task do_install: Failed
+ERROR: Task 182 (/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/genmsg/genmsg_0.4.17.bb, do_install) failed with exit code '1'
+NOTE: Tasks Summary: Attempted 1048 tasks of which 1047 didn't need to be rerun and 1 failed.
+
+Summary: 1 task failed:
+  /home/lukas/poky-danny-8.0/meta-ros/recipes-ros/genmsg/genmsg_0.4.17.bb, do_install
+Summary: There was 1 ERROR message shown, returning a non-zero exit code.
+Checking 33/45: rospack
+Loading cache...done.
+Loaded 1199 entries from dependency cache.
+
+Build Configuration:
+BB_VERSION        = "1.16.0"
+TARGET_ARCH       = "i586"
+TARGET_OS         = "linux"
+MACHINE           = "qemux86"
+DISTRO            = "poky"
+DISTRO_VERSION    = "1.3"
+TUNE_FEATURES     = "m32 i586"
+TARGET_FPU        = ""
+meta              
+meta-yocto        
+meta-yocto-bsp    = "<unknown>:<unknown>"
+meta-ros          = "master:582338267c8dc5595cdef38430e751a3550840fe"
+
+NOTE: Resolving any missing task queue dependencies
+NOTE: Preparing runqueue
+NOTE: Executing SetScene Tasks
+NOTE: Executing RunQueue Tasks
+NOTE: Tasks Summary: Attempted 1083 tasks of which 1083 didn't need to be rerun and all succeeded.
+Checking 34/45: genmsg
+Loading cache...done.
+Loaded 1199 entries from dependency cache.
+
+Build Configuration:
+BB_VERSION        = "1.16.0"
+TARGET_ARCH       = "i586"
+TARGET_OS         = "linux"
+MACHINE           = "qemux86"
+DISTRO            = "poky"
+DISTRO_VERSION    = "1.3"
+TUNE_FEATURES     = "m32 i586"
+TARGET_FPU        = ""
+meta              
+meta-yocto        
+meta-yocto-bsp    = "<unknown>:<unknown>"
+meta-ros          = "master:582338267c8dc5595cdef38430e751a3550840fe"
+
+NOTE: Resolving any missing task queue dependencies
+NOTE: Preparing runqueue
+NOTE: Executing SetScene Tasks
+NOTE: Executing RunQueue Tasks
+NOTE: Running task 749 of 1048 (ID: 2, /home/lukas/poky-danny-8.0/meta-ros/recipes-ros/genmsg/genmsg_0.4.17.bb, do_install)
+NOTE: recipe genmsg-0.4.17-r0: task do_install: Started
+ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/genmsg-0.4.17-r0/temp/log.do_install.10194 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/genmsg-0.4.17-r0/temp/log.do_install.10194
+Log data follows:
+| DEBUG: SITE files ['endian-little', 'bit-32', 'ix86-common', 'common-linux', 'common-glibc', 'i586-linux', 'common']
+| DEBUG: Executing shell function do_install
+| NOTE: make -j 8 DESTDIR=/home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/genmsg-0.4.17-r0/image install
+| make: *** No rule to make target `install'.  Stop.
+| ERROR: oe_runmake failed
+| ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/genmsg-0.4.17-r0/temp/log.do_install.10194 for further information)
+NOTE: recipe genmsg-0.4.17-r0: task do_install: Failed
+ERROR: Task 2 (/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/genmsg/genmsg_0.4.17.bb, do_install) failed with exit code '1'
+NOTE: Tasks Summary: Attempted 1043 tasks of which 1042 didn't need to be rerun and 1 failed.
+
+Summary: 1 task failed:
+  /home/lukas/poky-danny-8.0/meta-ros/recipes-ros/genmsg/genmsg_0.4.17.bb, do_install
+Summary: There was 1 ERROR message shown, returning a non-zero exit code.
+Checking 35/45: cpp-common
+Loading cache...done.
+Loaded 1199 entries from dependency cache.
+
+Build Configuration:
+BB_VERSION        = "1.16.0"
+TARGET_ARCH       = "i586"
+TARGET_OS         = "linux"
+MACHINE           = "qemux86"
+DISTRO            = "poky"
+DISTRO_VERSION    = "1.3"
+TUNE_FEATURES     = "m32 i586"
+TARGET_FPU        = ""
+meta              
+meta-yocto        
+meta-yocto-bsp    = "<unknown>:<unknown>"
+meta-ros          = "master:582338267c8dc5595cdef38430e751a3550840fe"
+
+NOTE: Resolving any missing task queue dependencies
+NOTE: Preparing runqueue
+NOTE: Executing SetScene Tasks
+NOTE: Executing RunQueue Tasks
+NOTE: Running task 749 of 1048 (ID: 2, /home/lukas/poky-danny-8.0/meta-ros/recipes-ros/roscpp-core/cpp-common_0.3.12.bb, do_install)
+NOTE: recipe cpp-common-0.3.12-r0: task do_install: Started
+ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/cpp-common-0.3.12-r0/temp/log.do_install.10259 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/cpp-common-0.3.12-r0/temp/log.do_install.10259
+Log data follows:
+| DEBUG: SITE files ['endian-little', 'bit-32', 'ix86-common', 'common-linux', 'common-glibc', 'i586-linux', 'common']
+| DEBUG: Executing shell function do_install
+| NOTE: make -j 8 DESTDIR=/home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/cpp-common-0.3.12-r0/image install
+| make: *** No rule to make target `install'.  Stop.
+| ERROR: oe_runmake failed
+| ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/cpp-common-0.3.12-r0/temp/log.do_install.10259 for further information)
+NOTE: recipe cpp-common-0.3.12-r0: task do_install: Failed
+ERROR: Task 2 (/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/roscpp-core/cpp-common_0.3.12.bb, do_install) failed with exit code '1'
+NOTE: Tasks Summary: Attempted 1043 tasks of which 1042 didn't need to be rerun and 1 failed.
+
+Summary: 1 task failed:
+  /home/lukas/poky-danny-8.0/meta-ros/recipes-ros/roscpp-core/cpp-common_0.3.12.bb, do_install
+Summary: There was 1 ERROR message shown, returning a non-zero exit code.
+Checking 36/45: rostime
+Loading cache...done.
+Loaded 1199 entries from dependency cache.
+
+Build Configuration:
+BB_VERSION        = "1.16.0"
+TARGET_ARCH       = "i586"
+TARGET_OS         = "linux"
+MACHINE           = "qemux86"
+DISTRO            = "poky"
+DISTRO_VERSION    = "1.3"
+TUNE_FEATURES     = "m32 i586"
+TARGET_FPU        = ""
+meta              
+meta-yocto        
+meta-yocto-bsp    = "<unknown>:<unknown>"
+meta-ros          = "master:582338267c8dc5595cdef38430e751a3550840fe"
+
+NOTE: Resolving any missing task queue dependencies
+NOTE: Preparing runqueue
+NOTE: Executing SetScene Tasks
+NOTE: Executing RunQueue Tasks
+NOTE: Running task 726 of 1084 (ID: 194, /home/lukas/poky-danny-8.0/meta-ros/recipes-ros/roscpp-core/cpp-common_0.3.12.bb, do_install)
+NOTE: recipe cpp-common-0.3.12-r0: task do_install: Started
+ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/cpp-common-0.3.12-r0/temp/log.do_install.10326 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/cpp-common-0.3.12-r0/temp/log.do_install.10326
+Log data follows:
+| DEBUG: SITE files ['endian-little', 'bit-32', 'ix86-common', 'common-linux', 'common-glibc', 'i586-linux', 'common']
+| DEBUG: Executing shell function do_install
+| NOTE: make -j 8 DESTDIR=/home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/cpp-common-0.3.12-r0/image install
+| make: *** No rule to make target `install'.  Stop.
+| ERROR: oe_runmake failed
+| ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/cpp-common-0.3.12-r0/temp/log.do_install.10326 for further information)
+NOTE: recipe cpp-common-0.3.12-r0: task do_install: Failed
+ERROR: Task 194 (/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/roscpp-core/cpp-common_0.3.12.bb, do_install) failed with exit code '1'
+NOTE: Tasks Summary: Attempted 1072 tasks of which 1071 didn't need to be rerun and 1 failed.
+
+Summary: 1 task failed:
+  /home/lukas/poky-danny-8.0/meta-ros/recipes-ros/roscpp-core/cpp-common_0.3.12.bb, do_install
+Summary: There was 1 ERROR message shown, returning a non-zero exit code.
+Checking 37/45: roscpp-traits
+Loading cache...done.
+Loaded 1199 entries from dependency cache.
+
+Build Configuration:
+BB_VERSION        = "1.16.0"
+TARGET_ARCH       = "i586"
+TARGET_OS         = "linux"
+MACHINE           = "qemux86"
+DISTRO            = "poky"
+DISTRO_VERSION    = "1.3"
+TUNE_FEATURES     = "m32 i586"
+TARGET_FPU        = ""
+meta              
+meta-yocto        
+meta-yocto-bsp    = "<unknown>:<unknown>"
+meta-ros          = "master:582338267c8dc5595cdef38430e751a3550840fe"
+
+NOTE: Resolving any missing task queue dependencies
+NOTE: Preparing runqueue
+NOTE: Executing SetScene Tasks
+NOTE: Executing RunQueue Tasks
+NOTE: Running task 749 of 1048 (ID: 2, /home/lukas/poky-danny-8.0/meta-ros/recipes-ros/roscpp-core/roscpp-traits_0.3.12.bb, do_install)
+NOTE: recipe roscpp-traits-0.3.12-r0: task do_install: Started
+ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/roscpp-traits-0.3.12-r0/temp/log.do_install.10391 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/roscpp-traits-0.3.12-r0/temp/log.do_install.10391
+Log data follows:
+| DEBUG: SITE files ['endian-little', 'bit-32', 'ix86-common', 'common-linux', 'common-glibc', 'i586-linux', 'common']
+| DEBUG: Executing shell function do_install
+| NOTE: make -j 8 DESTDIR=/home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/roscpp-traits-0.3.12-r0/image install
+| make: *** No rule to make target `install'.  Stop.
+| ERROR: oe_runmake failed
+| ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/roscpp-traits-0.3.12-r0/temp/log.do_install.10391 for further information)
+NOTE: recipe roscpp-traits-0.3.12-r0: task do_install: Failed
+ERROR: Task 2 (/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/roscpp-core/roscpp-traits_0.3.12.bb, do_install) failed with exit code '1'
+NOTE: Tasks Summary: Attempted 1043 tasks of which 1042 didn't need to be rerun and 1 failed.
+
+Summary: 1 task failed:
+  /home/lukas/poky-danny-8.0/meta-ros/recipes-ros/roscpp-core/roscpp-traits_0.3.12.bb, do_install
+Summary: There was 1 ERROR message shown, returning a non-zero exit code.
+Checking 38/45: roscpp-serialization
+Loading cache...done.
+Loaded 1199 entries from dependency cache.
+
+Build Configuration:
+BB_VERSION        = "1.16.0"
+TARGET_ARCH       = "i586"
+TARGET_OS         = "linux"
+MACHINE           = "qemux86"
+DISTRO            = "poky"
+DISTRO_VERSION    = "1.3"
+TUNE_FEATURES     = "m32 i586"
+TARGET_FPU        = ""
+meta              
+meta-yocto        
+meta-yocto-bsp    = "<unknown>:<unknown>"
+meta-ros          = "master:582338267c8dc5595cdef38430e751a3550840fe"
+
+NOTE: Resolving any missing task queue dependencies
+NOTE: Preparing runqueue
+NOTE: Executing SetScene Tasks
+NOTE: Executing RunQueue Tasks
+NOTE: Running task 694 of 1108 (ID: 182, /home/lukas/poky-danny-8.0/meta-ros/recipes-ros/roscpp-core/cpp-common_0.3.12.bb, do_install)
+NOTE: Running task 745 of 1108 (ID: 194, /home/lukas/poky-danny-8.0/meta-ros/recipes-ros/roscpp-core/roscpp-traits_0.3.12.bb, do_install)
+NOTE: recipe cpp-common-0.3.12-r0: task do_install: Started
+ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/cpp-common-0.3.12-r0/temp/log.do_install.10458 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/cpp-common-0.3.12-r0/temp/log.do_install.10458
+Log data follows:
+| DEBUG: SITE files ['endian-little', 'bit-32', 'ix86-common', 'common-linux', 'common-glibc', 'i586-linux', 'common']
+| DEBUG: Executing shell function do_install
+| NOTE: make -j 8 DESTDIR=/home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/cpp-common-0.3.12-r0/image install
+| make: *** No rule to make target `install'.  Stop.
+| ERROR: oe_runmake failed
+| ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/cpp-common-0.3.12-r0/temp/log.do_install.10458 for further information)
+NOTE: recipe cpp-common-0.3.12-r0: task do_install: Failed
+NOTE: recipe roscpp-traits-0.3.12-r0: task do_install: Started
+ERROR: Task 182 (/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/roscpp-core/cpp-common_0.3.12.bb, do_install) failed with exit code '1'
+ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/roscpp-traits-0.3.12-r0/temp/log.do_install.10459 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/roscpp-traits-0.3.12-r0/temp/log.do_install.10459
+Log data follows:
+| DEBUG: SITE files ['endian-little', 'bit-32', 'ix86-common', 'common-linux', 'common-glibc', 'i586-linux', 'common']
+| DEBUG: Executing shell function do_install
+| NOTE: make -j 8 DESTDIR=/home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/roscpp-traits-0.3.12-r0/image install
+| make: *** No rule to make target `install'.  Stop.
+| ERROR: oe_runmake failed
+| ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/roscpp-traits-0.3.12-r0/temp/log.do_install.10459 for further information)
+NOTE: recipe roscpp-traits-0.3.12-r0: task do_install: Failed
+ERROR: Task 194 (/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/roscpp-core/roscpp-traits_0.3.12.bb, do_install) failed with exit code '1'
+NOTE: Tasks Summary: Attempted 1085 tasks of which 1083 didn't need to be rerun and 2 failed.
+
+Summary: 2 tasks failed:
+  /home/lukas/poky-danny-8.0/meta-ros/recipes-ros/roscpp-core/cpp-common_0.3.12.bb, do_install
+  /home/lukas/poky-danny-8.0/meta-ros/recipes-ros/roscpp-core/roscpp-traits_0.3.12.bb, do_install
+Summary: There were 2 ERROR messages shown, returning a non-zero exit code.
+Checking 39/45: roscpp-core
+Loading cache...done.
+Loaded 1199 entries from dependency cache.
+
+Build Configuration:
+BB_VERSION        = "1.16.0"
+TARGET_ARCH       = "i586"
+TARGET_OS         = "linux"
+MACHINE           = "qemux86"
+DISTRO            = "poky"
+DISTRO_VERSION    = "1.3"
+TUNE_FEATURES     = "m32 i586"
+TARGET_FPU        = ""
+meta              
+meta-yocto        
+meta-yocto-bsp    = "<unknown>:<unknown>"
+meta-ros          = "master:582338267c8dc5595cdef38430e751a3550840fe"
+
+NOTE: Resolving any missing task queue dependencies
+NOTE: Preparing runqueue
+NOTE: Executing SetScene Tasks
+NOTE: Executing RunQueue Tasks
+NOTE: Running task 654 of 1120 (ID: 182, /home/lukas/poky-danny-8.0/meta-ros/recipes-ros/roscpp-core/cpp-common_0.3.12.bb, do_install)
+NOTE: Running task 705 of 1120 (ID: 206, /home/lukas/poky-danny-8.0/meta-ros/recipes-ros/roscpp-core/roscpp-traits_0.3.12.bb, do_install)
+NOTE: Running task 740 of 1120 (ID: 0, /home/lukas/poky-danny-8.0/meta-ros/recipes-ros/roscpp-core/roscpp-core_0.3.12.bb, do_unpack)
+NOTE: recipe roscpp-core-0.3.12-r0: task do_unpack: Started
+NOTE: recipe roscpp-core-0.3.12-r0: task do_unpack: Succeeded
+NOTE: recipe cpp-common-0.3.12-r0: task do_install: Started
+ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/cpp-common-0.3.12-r0/temp/log.do_install.10526 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/cpp-common-0.3.12-r0/temp/log.do_install.10526
+Log data follows:
+| DEBUG: SITE files ['endian-little', 'bit-32', 'ix86-common', 'common-linux', 'common-glibc', 'i586-linux', 'common']
+| DEBUG: Executing shell function do_install
+| NOTE: make -j 8 DESTDIR=/home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/cpp-common-0.3.12-r0/image install
+| make: *** No rule to make target `install'.  Stop.
+| ERROR: oe_runmake failed
+| ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/cpp-common-0.3.12-r0/temp/log.do_install.10526 for further information)
+NOTE: recipe cpp-common-0.3.12-r0: task do_install: Failed
+NOTE: recipe roscpp-traits-0.3.12-r0: task do_install: Started
+ERROR: Task 182 (/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/roscpp-core/cpp-common_0.3.12.bb, do_install) failed with exit code '1'
+ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/roscpp-traits-0.3.12-r0/temp/log.do_install.10527 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/roscpp-traits-0.3.12-r0/temp/log.do_install.10527
+Log data follows:
+| DEBUG: SITE files ['endian-little', 'bit-32', 'ix86-common', 'common-linux', 'common-glibc', 'i586-linux', 'common']
+| DEBUG: Executing shell function do_install
+| NOTE: make -j 8 DESTDIR=/home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/roscpp-traits-0.3.12-r0/image install
+| make: *** No rule to make target `install'.  Stop.
+| ERROR: oe_runmake failed
+| ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/roscpp-traits-0.3.12-r0/temp/log.do_install.10527 for further information)
+NOTE: recipe roscpp-traits-0.3.12-r0: task do_install: Failed
+ERROR: Task 206 (/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/roscpp-core/roscpp-traits_0.3.12.bb, do_install) failed with exit code '1'
+NOTE: Tasks Summary: Attempted 1087 tasks of which 1084 didn't need to be rerun and 2 failed.
+
+Summary: 2 tasks failed:
+  /home/lukas/poky-danny-8.0/meta-ros/recipes-ros/roscpp-core/cpp-common_0.3.12.bb, do_install
+  /home/lukas/poky-danny-8.0/meta-ros/recipes-ros/roscpp-core/roscpp-traits_0.3.12.bb, do_install
+Summary: There were 2 ERROR messages shown, returning a non-zero exit code.
+Checking 40/45: std-msgs
+Loading cache...done.
+Loaded 1199 entries from dependency cache.
+
+Build Configuration:
+BB_VERSION        = "1.16.0"
+TARGET_ARCH       = "i586"
+TARGET_OS         = "linux"
+MACHINE           = "qemux86"
+DISTRO            = "poky"
+DISTRO_VERSION    = "1.3"
+TUNE_FEATURES     = "m32 i586"
+TARGET_FPU        = ""
+meta              
+meta-yocto        
+meta-yocto-bsp    = "<unknown>:<unknown>"
+meta-ros          = "master:582338267c8dc5595cdef38430e751a3550840fe"
+
+NOTE: Resolving any missing task queue dependencies
+NOTE: Preparing runqueue
+NOTE: Executing SetScene Tasks
+NOTE: Executing RunQueue Tasks
+NOTE: Running task 642 of 1108 (ID: 615, /home/lukas/poky-danny-8.0/meta-ros/recipes-ros/genmsg/genmsg_0.4.17.bb, do_install)
+NOTE: recipe genmsg-0.4.17-r0: task do_install: Started
+ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/genmsg-0.4.17-r0/temp/log.do_install.10598 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/genmsg-0.4.17-r0/temp/log.do_install.10598
+Log data follows:
+| DEBUG: SITE files ['endian-little', 'bit-32', 'ix86-common', 'common-linux', 'common-glibc', 'i586-linux', 'common']
+| DEBUG: Executing shell function do_install
+| NOTE: make -j 8 DESTDIR=/home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/genmsg-0.4.17-r0/image install
+| make: *** No rule to make target `install'.  Stop.
+| ERROR: oe_runmake failed
+| ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/genmsg-0.4.17-r0/temp/log.do_install.10598 for further information)
+NOTE: recipe genmsg-0.4.17-r0: task do_install: Failed
+ERROR: Task 615 (/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/genmsg/genmsg_0.4.17.bb, do_install) failed with exit code '1'
+NOTE: Tasks Summary: Attempted 1068 tasks of which 1067 didn't need to be rerun and 1 failed.
+
+Summary: 1 task failed:
+  /home/lukas/poky-danny-8.0/meta-ros/recipes-ros/genmsg/genmsg_0.4.17.bb, do_install
+Summary: There was 1 ERROR message shown, returning a non-zero exit code.
+Checking 41/45: gencpp
+Loading cache...done.
+Loaded 1199 entries from dependency cache.
+
+Build Configuration:
+BB_VERSION        = "1.16.0"
+TARGET_ARCH       = "i586"
+TARGET_OS         = "linux"
+MACHINE           = "qemux86"
+DISTRO            = "poky"
+DISTRO_VERSION    = "1.3"
+TUNE_FEATURES     = "m32 i586"
+TARGET_FPU        = ""
+meta              
+meta-yocto        
+meta-yocto-bsp    = "<unknown>:<unknown>"
+meta-ros          = "master:582338267c8dc5595cdef38430e751a3550840fe"
+
+NOTE: Resolving any missing task queue dependencies
+NOTE: Preparing runqueue
+NOTE: Executing SetScene Tasks
+NOTE: Executing RunQueue Tasks
+NOTE: Running task 715 of 1060 (ID: 182, /home/lukas/poky-danny-8.0/meta-ros/recipes-ros/genmsg/genmsg_0.4.17.bb, do_install)
+NOTE: recipe genmsg-0.4.17-r0: task do_install: Started
+ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/genmsg-0.4.17-r0/temp/log.do_install.10665 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/genmsg-0.4.17-r0/temp/log.do_install.10665
+Log data follows:
+| DEBUG: SITE files ['endian-little', 'bit-32', 'ix86-common', 'common-linux', 'common-glibc', 'i586-linux', 'common']
+| DEBUG: Executing shell function do_install
+| NOTE: make -j 8 DESTDIR=/home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/genmsg-0.4.17-r0/image install
+| make: *** No rule to make target `install'.  Stop.
+| ERROR: oe_runmake failed
+| ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/genmsg-0.4.17-r0/temp/log.do_install.10665 for further information)
+NOTE: recipe genmsg-0.4.17-r0: task do_install: Failed
+ERROR: Task 182 (/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/genmsg/genmsg_0.4.17.bb, do_install) failed with exit code '1'
+NOTE: Tasks Summary: Attempted 1048 tasks of which 1047 didn't need to be rerun and 1 failed.
+
+Summary: 1 task failed:
+  /home/lukas/poky-danny-8.0/meta-ros/recipes-ros/genmsg/genmsg_0.4.17.bb, do_install
+Summary: There was 1 ERROR message shown, returning a non-zero exit code.
+Checking 42/45: genpy
+Loading cache...done.
+Loaded 1199 entries from dependency cache.
+
+Build Configuration:
+BB_VERSION        = "1.16.0"
+TARGET_ARCH       = "i586"
+TARGET_OS         = "linux"
+MACHINE           = "qemux86"
+DISTRO            = "poky"
+DISTRO_VERSION    = "1.3"
+TUNE_FEATURES     = "m32 i586"
+TARGET_FPU        = ""
+meta              
+meta-yocto        
+meta-yocto-bsp    = "<unknown>:<unknown>"
+meta-ros          = "master:582338267c8dc5595cdef38430e751a3550840fe"
+
+NOTE: Resolving any missing task queue dependencies
+NOTE: Preparing runqueue
+NOTE: Executing SetScene Tasks
+NOTE: Executing RunQueue Tasks
+NOTE: Running task 715 of 1060 (ID: 182, /home/lukas/poky-danny-8.0/meta-ros/recipes-ros/genmsg/genmsg_0.4.17.bb, do_install)
+NOTE: recipe genmsg-0.4.17-r0: task do_install: Started
+ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/genmsg-0.4.17-r0/temp/log.do_install.10730 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/genmsg-0.4.17-r0/temp/log.do_install.10730
+Log data follows:
+| DEBUG: SITE files ['endian-little', 'bit-32', 'ix86-common', 'common-linux', 'common-glibc', 'i586-linux', 'common']
+| DEBUG: Executing shell function do_install
+| NOTE: make -j 8 DESTDIR=/home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/genmsg-0.4.17-r0/image install
+| make: *** No rule to make target `install'.  Stop.
+| ERROR: oe_runmake failed
+| ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/genmsg-0.4.17-r0/temp/log.do_install.10730 for further information)
+NOTE: recipe genmsg-0.4.17-r0: task do_install: Failed
+ERROR: Task 182 (/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/genmsg/genmsg_0.4.17.bb, do_install) failed with exit code '1'
+NOTE: Tasks Summary: Attempted 1048 tasks of which 1047 didn't need to be rerun and 1 failed.
+
+Summary: 1 task failed:
+  /home/lukas/poky-danny-8.0/meta-ros/recipes-ros/genmsg/genmsg_0.4.17.bb, do_install
+Summary: There was 1 ERROR message shown, returning a non-zero exit code.
+Checking 43/45: message-runtime
+Loading cache...done.
+Loaded 1199 entries from dependency cache.
+
+Build Configuration:
+BB_VERSION        = "1.16.0"
+TARGET_ARCH       = "i586"
+TARGET_OS         = "linux"
+MACHINE           = "qemux86"
+DISTRO            = "poky"
+DISTRO_VERSION    = "1.3"
+TUNE_FEATURES     = "m32 i586"
+TARGET_FPU        = ""
+meta              
+meta-yocto        
+meta-yocto-bsp    = "<unknown>:<unknown>"
+meta-ros          = "master:582338267c8dc5595cdef38430e751a3550840fe"
+
+NOTE: Resolving any missing task queue dependencies
+NOTE: Preparing runqueue
+NOTE: Executing SetScene Tasks
+NOTE: Executing RunQueue Tasks
+NOTE: Running task 703 of 1072 (ID: 579, /home/lukas/poky-danny-8.0/meta-ros/recipes-ros/genmsg/genmsg_0.4.17.bb, do_install)
+NOTE: recipe genmsg-0.4.17-r0: task do_install: Started
+ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/genmsg-0.4.17-r0/temp/log.do_install.10795 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/genmsg-0.4.17-r0/temp/log.do_install.10795
+Log data follows:
+| DEBUG: SITE files ['endian-little', 'bit-32', 'ix86-common', 'common-linux', 'common-glibc', 'i586-linux', 'common']
+| DEBUG: Executing shell function do_install
+| NOTE: make -j 8 DESTDIR=/home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/genmsg-0.4.17-r0/image install
+| make: *** No rule to make target `install'.  Stop.
+| ERROR: oe_runmake failed
+| ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/genmsg-0.4.17-r0/temp/log.do_install.10795 for further information)
+NOTE: recipe genmsg-0.4.17-r0: task do_install: Failed
+ERROR: Task 579 (/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/genmsg/genmsg_0.4.17.bb, do_install) failed with exit code '1'
+NOTE: Tasks Summary: Attempted 1053 tasks of which 1052 didn't need to be rerun and 1 failed.
+
+Summary: 1 task failed:
+  /home/lukas/poky-danny-8.0/meta-ros/recipes-ros/genmsg/genmsg_0.4.17.bb, do_install
+Summary: There was 1 ERROR message shown, returning a non-zero exit code.
+Checking 44/45: message-generation
+Loading cache...done.
+Loaded 1199 entries from dependency cache.
+
+Build Configuration:
+BB_VERSION        = "1.16.0"
+TARGET_ARCH       = "i586"
+TARGET_OS         = "linux"
+MACHINE           = "qemux86"
+DISTRO            = "poky"
+DISTRO_VERSION    = "1.3"
+TUNE_FEATURES     = "m32 i586"
+TARGET_FPU        = ""
+meta              
+meta-yocto        
+meta-yocto-bsp    = "<unknown>:<unknown>"
+meta-ros          = "master:582338267c8dc5595cdef38430e751a3550840fe"
+
+NOTE: Resolving any missing task queue dependencies
+NOTE: Preparing runqueue
+NOTE: Executing SetScene Tasks
+NOTE: Executing RunQueue Tasks
+NOTE: Running task 703 of 1072 (ID: 579, /home/lukas/poky-danny-8.0/meta-ros/recipes-ros/genmsg/genmsg_0.4.17.bb, do_install)
+NOTE: recipe genmsg-0.4.17-r0: task do_install: Started
+ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/genmsg-0.4.17-r0/temp/log.do_install.10860 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/genmsg-0.4.17-r0/temp/log.do_install.10860
+Log data follows:
+| DEBUG: SITE files ['endian-little', 'bit-32', 'ix86-common', 'common-linux', 'common-glibc', 'i586-linux', 'common']
+| DEBUG: Executing shell function do_install
+| NOTE: make -j 8 DESTDIR=/home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/genmsg-0.4.17-r0/image install
+| make: *** No rule to make target `install'.  Stop.
+| ERROR: oe_runmake failed
+| ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/genmsg-0.4.17-r0/temp/log.do_install.10860 for further information)
+NOTE: recipe genmsg-0.4.17-r0: task do_install: Failed
+ERROR: Task 579 (/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/genmsg/genmsg_0.4.17.bb, do_install) failed with exit code '1'
+NOTE: Tasks Summary: Attempted 1053 tasks of which 1052 didn't need to be rerun and 1 failed.
+
+Summary: 1 task failed:
+  /home/lukas/poky-danny-8.0/meta-ros/recipes-ros/genmsg/genmsg_0.4.17.bb, do_install
+Summary: There was 1 ERROR message shown, returning a non-zero exit code.
+Checking 45/45: catkin
+Loading cache...done.
+Loaded 1199 entries from dependency cache.
+
+Build Configuration:
+BB_VERSION        = "1.16.0"
+TARGET_ARCH       = "i586"
+TARGET_OS         = "linux"
+MACHINE           = "qemux86"
+DISTRO            = "poky"
+DISTRO_VERSION    = "1.3"
+TUNE_FEATURES     = "m32 i586"
+TARGET_FPU        = ""
+meta              
+meta-yocto        
+meta-yocto-bsp    = "<unknown>:<unknown>"
+meta-ros          = "master:582338267c8dc5595cdef38430e751a3550840fe"
+
+NOTE: Resolving any missing task queue dependencies
+NOTE: Preparing runqueue
+NOTE: Executing SetScene Tasks
+NOTE: Executing RunQueue Tasks
+NOTE: Tasks Summary: Attempted 1158 tasks of which 1158 didn't need to be rerun and all succeeded.

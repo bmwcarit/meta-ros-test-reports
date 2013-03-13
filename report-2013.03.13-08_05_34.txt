@@ -1,0 +1,326 @@
+---
+-Meta information
+#Report generation date: 13.03.2013 08:11
+#Recipes succeeded: 13 of 45, equaling 28%
+#Git hash: 582338267c8dc5595cdef38430e751a3550840fe
+#Git commit date: 13.03.2013 08:05
+#General Info: This report was generated using the meta-ROS integration test and report assistant v1.00
+---
+Checking 1/45: rosboost-cfg
+ok
+Checking 2/45: mk
+ok
+Checking 3/45: rosmake
+ok
+Checking 4/45: roslang
+ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/roslang-1.9.42-r0/temp/log.do_install.8052 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/roslang-1.9.42-r0/temp/log.do_install.8052
+ERROR: Task 2 (/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/ros/roslang_1.9.42.bb, do_install) failed with exit code '1'
+NOTE: Tasks Summary: Attempted 1043 tasks of which 1042 didn't need to be rerun and 1 failed.
+Summary: 1 task failed:
+Summary: There was 1 ERROR message shown, returning a non-zero exit code.
+Checking 5/45: rosbuild
+ok
+Checking 6/45: rosbash
+ok
+Checking 7/45: roscreate
+ok
+Checking 8/45: rosunit
+ok
+Checking 9/45: roslib
+ok
+Checking 10/45: rosclean
+ok
+Checking 11/45: packagegroup-ros-comm
+ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/genmsg-0.4.17-r0/temp/log.do_install.8516 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/genmsg-0.4.17-r0/temp/log.do_install.8516
+ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/cpp-common-0.3.12-r0/temp/log.do_install.8519 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/cpp-common-0.3.12-r0/temp/log.do_install.8519
+ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/x86_64-linux/rosunit-native-1.9.42-r0/temp/log.do_install.8522 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/poky-danny-8.0/build/tmp/work/x86_64-linux/rosunit-native-1.9.42-r0/temp/log.do_install.8522
+ERROR: Task 147 (/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/genmsg/genmsg_0.4.17.bb, do_install) failed with exit code '1'
+ERROR: Task 263 (/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/roscpp-core/cpp-common_0.3.12.bb, do_install) failed with exit code '1'
+ERROR: Task 776 (virtual:native:/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/ros/rosunit_1.9.42.bb, do_install) failed with exit code '1'
+ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/roscpp-traits-0.3.12-r0/temp/log.do_install.8524 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/roscpp-traits-0.3.12-r0/temp/log.do_install.8524
+ERROR: Task 227 (/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/roscpp-core/roscpp-traits_0.3.12.bb, do_install) failed with exit code '1'
+NOTE: Tasks Summary: Attempted 1429 tasks of which 1417 didn't need to be rerun and 4 failed.
+Summary: 4 tasks failed:
+Summary: There were 4 ERROR messages shown, returning a non-zero exit code.
+Checking 12/45: xmlrpcpp
+ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/cpp-common-0.3.12-r0/temp/log.do_install.8618 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/cpp-common-0.3.12-r0/temp/log.do_install.8618
+ERROR: Task 182 (/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/roscpp-core/cpp-common_0.3.12.bb, do_install) failed with exit code '1'
+NOTE: Tasks Summary: Attempted 1048 tasks of which 1047 didn't need to be rerun and 1 failed.
+Summary: 1 task failed:
+Summary: There was 1 ERROR message shown, returning a non-zero exit code.
+Checking 13/45: rosconsole
+ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/cpp-common-0.3.12-r0/temp/log.do_install.8684 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/cpp-common-0.3.12-r0/temp/log.do_install.8684
+ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/x86_64-linux/rosunit-native-1.9.42-r0/temp/log.do_install.8685 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/poky-danny-8.0/build/tmp/work/x86_64-linux/rosunit-native-1.9.42-r0/temp/log.do_install.8685
+ERROR: Task 205 (/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/roscpp-core/cpp-common_0.3.12.bb, do_install) failed with exit code '1'
+ERROR: Task 240 (virtual:native:/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/ros/rosunit_1.9.42.bb, do_install) failed with exit code '1'
+NOTE: Tasks Summary: Attempted 1130 tasks of which 1128 didn't need to be rerun and 2 failed.
+Summary: 2 tasks failed:
+Summary: There were 2 ERROR messages shown, returning a non-zero exit code.
+Checking 14/45: rostest
+ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/x86_64-linux/rosunit-native-1.9.42-r0/temp/log.do_install.8752 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/poky-danny-8.0/build/tmp/work/x86_64-linux/rosunit-native-1.9.42-r0/temp/log.do_install.8752
+ERROR: Task 194 (virtual:native:/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/ros/rosunit_1.9.42.bb, do_install) failed with exit code '1'
+NOTE: Tasks Summary: Attempted 1072 tasks of which 1071 didn't need to be rerun and 1 failed.
+Summary: 1 task failed:
+Summary: There was 1 ERROR message shown, returning a non-zero exit code.
+Checking 15/45: rospy
+ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/rospy-1.9.41-r0/temp/log.do_install.8817 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/rospy-1.9.41-r0/temp/log.do_install.8817
+ERROR: Task 2 (/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/ros-comm/rospy_1.9.41.bb, do_install) failed with exit code '1'
+NOTE: Tasks Summary: Attempted 1043 tasks of which 1042 didn't need to be rerun and 1 failed.
+Summary: 1 task failed:
+Summary: There was 1 ERROR message shown, returning a non-zero exit code.
+Checking 16/45: rosnode
+ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/x86_64-linux/rosunit-native-1.9.42-r0/temp/log.do_install.8884 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/poky-danny-8.0/build/tmp/work/x86_64-linux/rosunit-native-1.9.42-r0/temp/log.do_install.8884
+ERROR: Task 591 (virtual:native:/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/ros/rosunit_1.9.42.bb, do_install) failed with exit code '1'
+NOTE: Tasks Summary: Attempted 1077 tasks of which 1076 didn't need to be rerun and 1 failed.
+Summary: 1 task failed:
+Summary: There was 1 ERROR message shown, returning a non-zero exit code.
+Checking 17/45: topic-tools
+ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/x86_64-linux/rosunit-native-1.9.42-r0/temp/log.do_install.8949 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/poky-danny-8.0/build/tmp/work/x86_64-linux/rosunit-native-1.9.42-r0/temp/log.do_install.8949
+ERROR: Task 591 (virtual:native:/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/ros/rosunit_1.9.42.bb, do_install) failed with exit code '1'
+NOTE: Tasks Summary: Attempted 1077 tasks of which 1076 didn't need to be rerun and 1 failed.
+Summary: 1 task failed:
+Summary: There was 1 ERROR message shown, returning a non-zero exit code.
+Checking 18/45: rosout
+ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/roslang-1.9.42-r0/temp/log.do_install.9024 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/roslang-1.9.42-r0/temp/log.do_install.9024
+ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/genmsg-0.4.17-r0/temp/log.do_install.9014 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/genmsg-0.4.17-r0/temp/log.do_install.9014
+ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/cpp-common-0.3.12-r0/temp/log.do_install.9017 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/cpp-common-0.3.12-r0/temp/log.do_install.9017
+ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/roscpp-traits-0.3.12-r0/temp/log.do_install.9020 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/roscpp-traits-0.3.12-r0/temp/log.do_install.9020
+ERROR: Task 1233 (/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/genmsg/genmsg_0.4.17.bb, do_install) failed with exit code '1'
+ERROR: Task 667 (/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/roscpp-core/cpp-common_0.3.12.bb, do_install) failed with exit code '1'
+ERROR: Task 715 (/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/roscpp-core/roscpp-traits_0.3.12.bb, do_install) failed with exit code '1'
+ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/x86_64-linux/rosunit-native-1.9.42-r0/temp/log.do_install.9023 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/poky-danny-8.0/build/tmp/work/x86_64-linux/rosunit-native-1.9.42-r0/temp/log.do_install.9023
+ERROR: Task 1087 (virtual:native:/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/ros/rosunit_1.9.42.bb, do_install) failed with exit code '1'
+ERROR: Task 727 (/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/ros/roslang_1.9.42.bb, do_install) failed with exit code '1'
+NOTE: Tasks Summary: Attempted 1205 tasks of which 1199 didn't need to be rerun and 5 failed.
+Summary: 5 tasks failed:
+Summary: There were 5 ERROR messages shown, returning a non-zero exit code.
+Checking 19/45: roscpp
+ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/genmsg-0.4.17-r0/temp/log.do_install.9100 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/genmsg-0.4.17-r0/temp/log.do_install.9100
+ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/cpp-common-0.3.12-r0/temp/log.do_install.9101 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/cpp-common-0.3.12-r0/temp/log.do_install.9101
+ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/roscpp-traits-0.3.12-r0/temp/log.do_install.9102 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/roscpp-traits-0.3.12-r0/temp/log.do_install.9102
+ERROR: Task 1044 (/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/genmsg/genmsg_0.4.17.bb, do_install) failed with exit code '1'
+ERROR: Task 182 (/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/roscpp-core/cpp-common_0.3.12.bb, do_install) failed with exit code '1'
+ERROR: Task 230 (/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/roscpp-core/roscpp-traits_0.3.12.bb, do_install) failed with exit code '1'
+ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/roslang-1.9.42-r0/temp/log.do_install.9104 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/roslang-1.9.42-r0/temp/log.do_install.9104
+ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/x86_64-linux/rosunit-native-1.9.42-r0/temp/log.do_install.9103 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/poky-danny-8.0/build/tmp/work/x86_64-linux/rosunit-native-1.9.42-r0/temp/log.do_install.9103
+ERROR: Task 733 (virtual:native:/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/ros/rosunit_1.9.42.bb, do_install) failed with exit code '1'
+ERROR: Task 254 (/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/ros/roslang_1.9.42.bb, do_install) failed with exit code '1'
+NOTE: Tasks Summary: Attempted 1204 tasks of which 1199 didn't need to be rerun and 5 failed.
+Summary: 5 tasks failed:
+Summary: There were 5 ERROR messages shown, returning a non-zero exit code.
+Checking 20/45: rosservice
+ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/rosservice-1.9.41-r0/temp/log.do_install.9177 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/rosservice-1.9.41-r0/temp/log.do_install.9177
+ERROR: Task 2 (/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/ros-comm/rosservice_1.9.41.bb, do_install) failed with exit code '1'
+NOTE: Tasks Summary: Attempted 1043 tasks of which 1042 didn't need to be rerun and 1 failed.
+Summary: 1 task failed:
+Summary: There was 1 ERROR message shown, returning a non-zero exit code.
+Checking 21/45: rosmsg
+ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/rosmsg-1.9.41-r0/temp/log.do_install.9244 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/rosmsg-1.9.41-r0/temp/log.do_install.9244
+ERROR: Task 2 (/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/ros-comm/rosmsg_1.9.41.bb, do_install) failed with exit code '1'
+NOTE: Tasks Summary: Attempted 1043 tasks of which 1042 didn't need to be rerun and 1 failed.
+Summary: 1 task failed:
+Summary: There was 1 ERROR message shown, returning a non-zero exit code.
+Checking 22/45: rosmaster
+ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/rosmaster-1.9.41-r0/temp/log.do_install.9311 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/rosmaster-1.9.41-r0/temp/log.do_install.9311
+ERROR: Task 2 (/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/ros-comm/rosmaster_1.9.41.bb, do_install) failed with exit code '1'
+NOTE: Tasks Summary: Attempted 1043 tasks of which 1042 didn't need to be rerun and 1 failed.
+Summary: 1 task failed:
+Summary: There was 1 ERROR message shown, returning a non-zero exit code.
+Checking 23/45: rosbag
+ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/genmsg-0.4.17-r0/temp/log.do_install.9378 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/genmsg-0.4.17-r0/temp/log.do_install.9378
+ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/cpp-common-0.3.12-r0/temp/log.do_install.9381 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/cpp-common-0.3.12-r0/temp/log.do_install.9381
+ERROR: Task 1269 (/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/genmsg/genmsg_0.4.17.bb, do_install) failed with exit code '1'
+ERROR: Task 205 (/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/roscpp-core/cpp-common_0.3.12.bb, do_install) failed with exit code '1'
+ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/x86_64-linux/rosunit-native-1.9.42-r0/temp/log.do_install.9384 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/poky-danny-8.0/build/tmp/work/x86_64-linux/rosunit-native-1.9.42-r0/temp/log.do_install.9384
+ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/roscpp-traits-0.3.12-r0/temp/log.do_install.9385 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/roscpp-traits-0.3.12-r0/temp/log.do_install.9385
+ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/roslang-1.9.42-r0/temp/log.do_install.9390 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/roslang-1.9.42-r0/temp/log.do_install.9390
+ERROR: Task 763 (virtual:native:/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/ros/rosunit_1.9.42.bb, do_install) failed with exit code '1'
+ERROR: Task 787 (/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/roscpp-core/roscpp-traits_0.3.12.bb, do_install) failed with exit code '1'
+ERROR: Task 811 (/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/ros/roslang_1.9.42.bb, do_install) failed with exit code '1'
+NOTE: Tasks Summary: Attempted 879 tasks of which 871 didn't need to be rerun and 5 failed.
+Summary: 5 tasks failed:
+Summary: There were 5 ERROR messages shown, returning a non-zero exit code.
+Checking 24/45: std-srvs
+ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/genmsg-0.4.17-r0/temp/log.do_install.9476 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/genmsg-0.4.17-r0/temp/log.do_install.9476
+ERROR: Task 615 (/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/genmsg/genmsg_0.4.17.bb, do_install) failed with exit code '1'
+NOTE: Tasks Summary: Attempted 1068 tasks of which 1067 didn't need to be rerun and 1 failed.
+Summary: 1 task failed:
+Summary: There was 1 ERROR message shown, returning a non-zero exit code.
+Checking 25/45: rosparam
+ok
+Checking 26/45: roswtf
+ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/x86_64-linux/rosunit-native-1.9.42-r0/temp/log.do_install.9606 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/poky-danny-8.0/build/tmp/work/x86_64-linux/rosunit-native-1.9.42-r0/temp/log.do_install.9606
+ERROR: Task 591 (virtual:native:/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/ros/rosunit_1.9.42.bb, do_install) failed with exit code '1'
+NOTE: Tasks Summary: Attempted 1077 tasks of which 1074 didn't need to be rerun and 1 failed.
+Summary: 1 task failed:
+Summary: There was 1 ERROR message shown, returning a non-zero exit code.
+Checking 27/45: message-filters
+ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/genmsg-0.4.17-r0/temp/log.do_install.9704 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/genmsg-0.4.17-r0/temp/log.do_install.9704
+ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/cpp-common-0.3.12-r0/temp/log.do_install.9705 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/cpp-common-0.3.12-r0/temp/log.do_install.9705
+ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/x86_64-linux/rosunit-native-1.9.42-r0/temp/log.do_install.9708 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/poky-danny-8.0/build/tmp/work/x86_64-linux/rosunit-native-1.9.42-r0/temp/log.do_install.9708
+ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/roscpp-traits-0.3.12-r0/temp/log.do_install.9709 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/roscpp-traits-0.3.12-r0/temp/log.do_install.9709
+ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/roslang-1.9.42-r0/temp/log.do_install.9712 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/roslang-1.9.42-r0/temp/log.do_install.9712
+ERROR: Task 1214 (/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/genmsg/genmsg_0.4.17.bb, do_install) failed with exit code '1'
+ERROR: Task 673 (/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/roscpp-core/cpp-common_0.3.12.bb, do_install) failed with exit code '1'
+ERROR: Task 708 (virtual:native:/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/ros/rosunit_1.9.42.bb, do_install) failed with exit code '1'
+WARNING: /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/message-filters-1.9.41-r0/ros_comm-1.9.41/utilities/message-filters/package.xml could not be copied for some reason. It may not exist. WARN for now.
+ERROR: Task 744 (/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/roscpp-core/roscpp-traits_0.3.12.bb, do_install) failed with exit code '1'
+ERROR: Task 768 (/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/ros/roslang_1.9.42.bb, do_install) failed with exit code '1'
+NOTE: Tasks Summary: Attempted 1226 tasks of which 1220 didn't need to be rerun and 5 failed.
+Summary: 5 tasks failed:
+Summary: There was 1 WARNING message shown.
+Summary: There were 5 ERROR messages shown, returning a non-zero exit code.
+Checking 28/45: rostopic
+ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/x86_64-linux/rosunit-native-1.9.42-r0/temp/log.do_install.9808 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/poky-danny-8.0/build/tmp/work/x86_64-linux/rosunit-native-1.9.42-r0/temp/log.do_install.9808
+ERROR: Task 591 (virtual:native:/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/ros/rosunit_1.9.42.bb, do_install) failed with exit code '1'
+NOTE: Tasks Summary: Attempted 1077 tasks of which 1076 didn't need to be rerun and 1 failed.
+Summary: 1 task failed:
+Summary: There was 1 ERROR message shown, returning a non-zero exit code.
+Checking 29/45: rosgraph-msgs
+ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/genmsg-0.4.17-r0/temp/log.do_install.9873 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/genmsg-0.4.17-r0/temp/log.do_install.9873
+ERROR: Task 902 (/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/genmsg/genmsg_0.4.17.bb, do_install) failed with exit code '1'
+NOTE: Tasks Summary: Attempted 1078 tasks of which 1077 didn't need to be rerun and 1 failed.
+Summary: 1 task failed:
+Summary: There was 1 ERROR message shown, returning a non-zero exit code.
+Checking 30/45: rosgraph
+ok
+Checking 31/45: roslaunch
+ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/roslaunch-1.9.41-r0/temp/log.do_install.10000 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/roslaunch-1.9.41-r0/temp/log.do_install.10000
+ERROR: Task 2 (/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/ros-comm/roslaunch_1.9.41.bb, do_install) failed with exit code '1'
+NOTE: Tasks Summary: Attempted 1043 tasks of which 1042 didn't need to be rerun and 1 failed.
+Summary: 1 task failed:
+Summary: There was 1 ERROR message shown, returning a non-zero exit code.
+Checking 32/45: genlisp
+ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/genmsg-0.4.17-r0/temp/log.do_install.10067 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/genmsg-0.4.17-r0/temp/log.do_install.10067
+ERROR: Task 182 (/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/genmsg/genmsg_0.4.17.bb, do_install) failed with exit code '1'
+NOTE: Tasks Summary: Attempted 1048 tasks of which 1047 didn't need to be rerun and 1 failed.
+Summary: 1 task failed:
+Summary: There was 1 ERROR message shown, returning a non-zero exit code.
+Checking 33/45: rospack
+ok
+Checking 34/45: genmsg
+ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/genmsg-0.4.17-r0/temp/log.do_install.10194 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/genmsg-0.4.17-r0/temp/log.do_install.10194
+ERROR: Task 2 (/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/genmsg/genmsg_0.4.17.bb, do_install) failed with exit code '1'
+NOTE: Tasks Summary: Attempted 1043 tasks of which 1042 didn't need to be rerun and 1 failed.
+Summary: 1 task failed:
+Summary: There was 1 ERROR message shown, returning a non-zero exit code.
+Checking 35/45: cpp-common
+ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/cpp-common-0.3.12-r0/temp/log.do_install.10259 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/cpp-common-0.3.12-r0/temp/log.do_install.10259
+ERROR: Task 2 (/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/roscpp-core/cpp-common_0.3.12.bb, do_install) failed with exit code '1'
+NOTE: Tasks Summary: Attempted 1043 tasks of which 1042 didn't need to be rerun and 1 failed.
+Summary: 1 task failed:
+Summary: There was 1 ERROR message shown, returning a non-zero exit code.
+Checking 36/45: rostime
+ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/cpp-common-0.3.12-r0/temp/log.do_install.10326 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/cpp-common-0.3.12-r0/temp/log.do_install.10326
+ERROR: Task 194 (/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/roscpp-core/cpp-common_0.3.12.bb, do_install) failed with exit code '1'
+NOTE: Tasks Summary: Attempted 1072 tasks of which 1071 didn't need to be rerun and 1 failed.
+Summary: 1 task failed:
+Summary: There was 1 ERROR message shown, returning a non-zero exit code.
+Checking 37/45: roscpp-traits
+ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/roscpp-traits-0.3.12-r0/temp/log.do_install.10391 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/roscpp-traits-0.3.12-r0/temp/log.do_install.10391
+ERROR: Task 2 (/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/roscpp-core/roscpp-traits_0.3.12.bb, do_install) failed with exit code '1'
+NOTE: Tasks Summary: Attempted 1043 tasks of which 1042 didn't need to be rerun and 1 failed.
+Summary: 1 task failed:
+Summary: There was 1 ERROR message shown, returning a non-zero exit code.
+Checking 38/45: roscpp-serialization
+ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/cpp-common-0.3.12-r0/temp/log.do_install.10458 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/cpp-common-0.3.12-r0/temp/log.do_install.10458
+ERROR: Task 182 (/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/roscpp-core/cpp-common_0.3.12.bb, do_install) failed with exit code '1'
+ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/roscpp-traits-0.3.12-r0/temp/log.do_install.10459 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/roscpp-traits-0.3.12-r0/temp/log.do_install.10459
+ERROR: Task 194 (/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/roscpp-core/roscpp-traits_0.3.12.bb, do_install) failed with exit code '1'
+NOTE: Tasks Summary: Attempted 1085 tasks of which 1083 didn't need to be rerun and 2 failed.
+Summary: 2 tasks failed:
+Summary: There were 2 ERROR messages shown, returning a non-zero exit code.
+Checking 39/45: roscpp-core
+ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/cpp-common-0.3.12-r0/temp/log.do_install.10526 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/cpp-common-0.3.12-r0/temp/log.do_install.10526
+ERROR: Task 182 (/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/roscpp-core/cpp-common_0.3.12.bb, do_install) failed with exit code '1'
+ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/roscpp-traits-0.3.12-r0/temp/log.do_install.10527 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/roscpp-traits-0.3.12-r0/temp/log.do_install.10527
+ERROR: Task 206 (/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/roscpp-core/roscpp-traits_0.3.12.bb, do_install) failed with exit code '1'
+NOTE: Tasks Summary: Attempted 1087 tasks of which 1084 didn't need to be rerun and 2 failed.
+Summary: 2 tasks failed:
+Summary: There were 2 ERROR messages shown, returning a non-zero exit code.
+Checking 40/45: std-msgs
+ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/genmsg-0.4.17-r0/temp/log.do_install.10598 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/genmsg-0.4.17-r0/temp/log.do_install.10598
+ERROR: Task 615 (/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/genmsg/genmsg_0.4.17.bb, do_install) failed with exit code '1'
+NOTE: Tasks Summary: Attempted 1068 tasks of which 1067 didn't need to be rerun and 1 failed.
+Summary: 1 task failed:
+Summary: There was 1 ERROR message shown, returning a non-zero exit code.
+Checking 41/45: gencpp
+ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/genmsg-0.4.17-r0/temp/log.do_install.10665 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/genmsg-0.4.17-r0/temp/log.do_install.10665
+ERROR: Task 182 (/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/genmsg/genmsg_0.4.17.bb, do_install) failed with exit code '1'
+NOTE: Tasks Summary: Attempted 1048 tasks of which 1047 didn't need to be rerun and 1 failed.
+Summary: 1 task failed:
+Summary: There was 1 ERROR message shown, returning a non-zero exit code.
+Checking 42/45: genpy
+ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/genmsg-0.4.17-r0/temp/log.do_install.10730 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/genmsg-0.4.17-r0/temp/log.do_install.10730
+ERROR: Task 182 (/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/genmsg/genmsg_0.4.17.bb, do_install) failed with exit code '1'
+NOTE: Tasks Summary: Attempted 1048 tasks of which 1047 didn't need to be rerun and 1 failed.
+Summary: 1 task failed:
+Summary: There was 1 ERROR message shown, returning a non-zero exit code.
+Checking 43/45: message-runtime
+ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/genmsg-0.4.17-r0/temp/log.do_install.10795 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/genmsg-0.4.17-r0/temp/log.do_install.10795
+ERROR: Task 579 (/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/genmsg/genmsg_0.4.17.bb, do_install) failed with exit code '1'
+NOTE: Tasks Summary: Attempted 1053 tasks of which 1052 didn't need to be rerun and 1 failed.
+Summary: 1 task failed:
+Summary: There was 1 ERROR message shown, returning a non-zero exit code.
+Checking 44/45: message-generation
+ERROR: Function failed: do_install (see /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/genmsg-0.4.17-r0/temp/log.do_install.10860 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/poky-danny-8.0/build/tmp/work/i586-poky-linux/genmsg-0.4.17-r0/temp/log.do_install.10860
+ERROR: Task 579 (/home/lukas/poky-danny-8.0/meta-ros/recipes-ros/genmsg/genmsg_0.4.17.bb, do_install) failed with exit code '1'
+NOTE: Tasks Summary: Attempted 1053 tasks of which 1052 didn't need to be rerun and 1 failed.
+Summary: 1 task failed:
+Summary: There was 1 ERROR message shown, returning a non-zero exit code.
+Checking 45/45: catkin
+ok
