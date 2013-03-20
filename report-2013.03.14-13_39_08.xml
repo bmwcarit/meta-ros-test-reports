@@ -1,0 +1,228 @@
+<?xml version="1.0"?>
+<report>
+    <meta_info>Report generation date: 19.03.2013 18:11</meta_info>
+    <meta_info>Recipes succeeded: 39 of 45, equaling 86%</meta_info>
+    <meta_info>Git hash: 3348f2d827877e3d4a751e0d789e2e3bca077488</meta_info>
+    <meta_info>Git commit date: 14.03.2013 13:39</meta_info>
+    <meta_info>General Info: This report was generated using the meta-ROS integration test and report assistant v1.00</meta_info>
+    <report_item>
+        <package>rosboost-cfg</package>
+        <result_line>ok</result_line>
+        <result_line>ok</result_line>
+    </report_item>
+    <report_item>
+        <package>mk</package>
+        <result_line>ok</result_line>
+    </report_item>
+    <report_item>
+        <package>rosmake</package>
+        <result_line>ok</result_line>
+    </report_item>
+    <report_item>
+        <package>roslang</package>
+        <result_line>ok</result_line>
+    </report_item>
+    <report_item>
+        <package>rosbuild</package>
+        <result_line>WARNING: QA Issue: rosbuild: Files/directories were installed but not shipped</result_line>
+        <result_line>ok</result_line>
+        <result_line>Summary: There was 1 WARNING message shown.</result_line>
+    </report_item>
+    <report_item>
+        <package>rosbash</package>
+        <result_line>ok</result_line>
+    </report_item>
+    <report_item>
+        <package>roscreate</package>
+        <result_line>ok</result_line>
+    </report_item>
+    <report_item>
+        <package>rosunit</package>
+        <result_line>ok</result_line>
+    </report_item>
+    <report_item>
+        <package>roslib</package>
+        <result_line>ok</result_line>
+    </report_item>
+    <report_item>
+        <package>rosclean</package>
+        <result_line>ok</result_line>
+    </report_item>
+    <report_item>
+        <package>packagegroup-ros-comm</package>
+        <result_line>ERROR: Function failed: do_compile (see /home/lukas/oe-core/build/tmp-eglibc/work/i586-oe-linux/roscpp/1.9.41-r0/temp/log.do_compile.13502 for further information)</result_line>
+        <result_line>ERROR: Logfile of failure stored in: /home/lukas/oe-core/build/tmp-eglibc/work/i586-oe-linux/roscpp/1.9.41-r0/temp/log.do_compile.13502</result_line>
+        <result_line>ERROR: Task 276 (/home/lukas/oe-core/meta-ros/recipes-ros/ros-comm/roscpp_1.9.41.bb, do_compile) failed with exit code '1'</result_line>
+        <result_line>NOTE: Tasks Summary: Attempted 1746 tasks of which 1124 didn't need to be rerun and 1 failed.</result_line>
+        <result_line>Summary: 1 task failed:</result_line>
+        <result_line>Summary: There was 1 ERROR message shown, returning a non-zero exit code.</result_line>
+    </report_item>
+    <report_item>
+        <package>xmlrpcpp</package>
+        <result_line>ok</result_line>
+    </report_item>
+    <report_item>
+        <package>rosconsole</package>
+        <result_line>ok</result_line>
+    </report_item>
+    <report_item>
+        <package>rostest</package>
+        <result_line>ok</result_line>
+    </report_item>
+    <report_item>
+        <package>rospy</package>
+        <result_line>ok</result_line>
+    </report_item>
+    <report_item>
+        <package>rosnode</package>
+        <result_line>ok</result_line>
+    </report_item>
+    <report_item>
+        <package>topic-tools</package>
+        <result_line>ERROR: Function failed: do_compile (see /home/lukas/oe-core/build/tmp-eglibc/work/i586-oe-linux/roscpp/1.9.41-r0/temp/log.do_compile.22178 for further information)</result_line>
+        <result_line>ERROR: Logfile of failure stored in: /home/lukas/oe-core/build/tmp-eglibc/work/i586-oe-linux/roscpp/1.9.41-r0/temp/log.do_compile.22178</result_line>
+        <result_line>ERROR: Task 212 (/home/lukas/oe-core/meta-ros/recipes-ros/ros-comm/roscpp_1.9.41.bb, do_compile) failed with exit code '1'</result_line>
+        <result_line>NOTE: Tasks Summary: Attempted 1201 tasks of which 1199 didn't need to be rerun and 1 failed.</result_line>
+        <result_line>Summary: 1 task failed:</result_line>
+        <result_line>Summary: There was 1 ERROR message shown, returning a non-zero exit code.</result_line>
+    </report_item>
+    <report_item>
+        <package>rosout</package>
+        <result_line>ERROR: Function failed: do_compile (see /home/lukas/oe-core/build/tmp-eglibc/work/i586-oe-linux/roscpp/1.9.41-r0/temp/log.do_compile.22313 for further information)</result_line>
+        <result_line>ERROR: Logfile of failure stored in: /home/lukas/oe-core/build/tmp-eglibc/work/i586-oe-linux/roscpp/1.9.41-r0/temp/log.do_compile.22313</result_line>
+        <result_line>ERROR: Task 211 (/home/lukas/oe-core/meta-ros/recipes-ros/ros-comm/roscpp_1.9.41.bb, do_compile) failed with exit code '1'</result_line>
+        <result_line>NOTE: Tasks Summary: Attempted 1177 tasks of which 1175 didn't need to be rerun and 1 failed.</result_line>
+        <result_line>Summary: 1 task failed:</result_line>
+        <result_line>Summary: There was 1 ERROR message shown, returning a non-zero exit code.</result_line>
+    </report_item>
+    <report_item>
+        <package>roscpp</package>
+        <result_line>ERROR: Function failed: do_compile (see /home/lukas/oe-core/build/tmp-eglibc/work/i586-oe-linux/roscpp/1.9.41-r0/temp/log.do_compile.22449 for further information)</result_line>
+        <result_line>ERROR: Logfile of failure stored in: /home/lukas/oe-core/build/tmp-eglibc/work/i586-oe-linux/roscpp/1.9.41-r0/temp/log.do_compile.22449</result_line>
+        <result_line>ERROR: Task 7 (/home/lukas/oe-core/meta-ros/recipes-ros/ros-comm/roscpp_1.9.41.bb, do_compile) failed with exit code '1'</result_line>
+        <result_line>NOTE: Tasks Summary: Attempted 1173 tasks of which 1171 didn't need to be rerun and 1 failed.</result_line>
+        <result_line>Summary: 1 task failed:</result_line>
+        <result_line>Summary: There was 1 ERROR message shown, returning a non-zero exit code.</result_line>
+    </report_item>
+    <report_item>
+        <package>rosservice</package>
+        <result_line>ok</result_line>
+    </report_item>
+    <report_item>
+        <package>rosmsg</package>
+        <result_line>ok</result_line>
+    </report_item>
+    <report_item>
+        <package>rosmaster</package>
+        <result_line>ok</result_line>
+    </report_item>
+    <report_item>
+        <package>rosbag</package>
+        <result_line>ERROR: Function failed: do_compile (see /home/lukas/oe-core/build/tmp-eglibc/work/i586-oe-linux/roscpp/1.9.41-r0/temp/log.do_compile.22915 for further information)</result_line>
+        <result_line>ERROR: Logfile of failure stored in: /home/lukas/oe-core/build/tmp-eglibc/work/i586-oe-linux/roscpp/1.9.41-r0/temp/log.do_compile.22915</result_line>
+        <result_line>ERROR: Task 258 (/home/lukas/oe-core/meta-ros/recipes-ros/ros-comm/roscpp_1.9.41.bb, do_compile) failed with exit code '1'</result_line>
+        <result_line>NOTE: Tasks Summary: Attempted 1260 tasks of which 1258 didn't need to be rerun and 1 failed.</result_line>
+        <result_line>Summary: 1 task failed:</result_line>
+        <result_line>Summary: There was 1 ERROR message shown, returning a non-zero exit code.</result_line>
+    </report_item>
+    <report_item>
+        <package>std-srvs</package>
+        <result_line>ok</result_line>
+    </report_item>
+    <report_item>
+        <package>rosparam</package>
+        <result_line>ok</result_line>
+    </report_item>
+    <report_item>
+        <package>roswtf</package>
+        <result_line>ok</result_line>
+    </report_item>
+    <report_item>
+        <package>message-filters</package>
+        <result_line>WARNING: /home/lukas/oe-core/build/tmp-eglibc/work/i586-oe-linux/message-filters/1.9.41-r0/ros_comm-1.9.41/utilities/message-filters/package.xml could not be copied for some reason. It may not exist. WARN for now.</result_line>
+        <result_line>ERROR: Function failed: do_compile (see /home/lukas/oe-core/build/tmp-eglibc/work/i586-oe-linux/roscpp/1.9.41-r0/temp/log.do_compile.23380 for further information)</result_line>
+        <result_line>ERROR: Logfile of failure stored in: /home/lukas/oe-core/build/tmp-eglibc/work/i586-oe-linux/roscpp/1.9.41-r0/temp/log.do_compile.23380</result_line>
+        <result_line>ERROR: Task 224 (/home/lukas/oe-core/meta-ros/recipes-ros/ros-comm/roscpp_1.9.41.bb, do_compile) failed with exit code '1'</result_line>
+        <result_line>NOTE: Tasks Summary: Attempted 1201 tasks of which 1199 didn't need to be rerun and 1 failed.</result_line>
+        <result_line>Summary: 1 task failed:</result_line>
+        <result_line>Summary: There was 1 WARNING message shown.</result_line>
+        <result_line>Summary: There was 1 ERROR message shown, returning a non-zero exit code.</result_line>
+    </report_item>
+    <report_item>
+        <package>rostopic</package>
+        <result_line>ok</result_line>
+    </report_item>
+    <report_item>
+        <package>rosgraph-msgs</package>
+        <result_line>ok</result_line>
+    </report_item>
+    <report_item>
+        <package>rosgraph</package>
+        <result_line>ok</result_line>
+    </report_item>
+    <report_item>
+        <package>roslaunch</package>
+        <result_line>ok</result_line>
+    </report_item>
+    <report_item>
+        <package>genlisp</package>
+        <result_line>ok</result_line>
+    </report_item>
+    <report_item>
+        <package>rospack</package>
+        <result_line>ok</result_line>
+    </report_item>
+    <report_item>
+        <package>genmsg</package>
+        <result_line>ok</result_line>
+    </report_item>
+    <report_item>
+        <package>cpp-common</package>
+        <result_line>ok</result_line>
+    </report_item>
+    <report_item>
+        <package>rostime</package>
+        <result_line>ok</result_line>
+    </report_item>
+    <report_item>
+        <package>roscpp-traits</package>
+        <result_line>ok</result_line>
+    </report_item>
+    <report_item>
+        <package>roscpp-serialization</package>
+        <result_line>ok</result_line>
+    </report_item>
+    <report_item>
+        <package>roscpp-core</package>
+        <result_line>ERROR: Function failed: do_configure (see /home/lukas/oe-core/build/tmp-eglibc/work/i586-oe-linux/roscpp-core/0.3.12-r0/temp/log.do_configure.24577 for further information)</result_line>
+        <result_line>ERROR: Logfile of failure stored in: /home/lukas/oe-core/build/tmp-eglibc/work/i586-oe-linux/roscpp-core/0.3.12-r0/temp/log.do_configure.24577</result_line>
+        <result_line>ERROR: Task 6 (/home/lukas/oe-core/meta-ros/recipes-ros/roscpp-core/roscpp-core_0.3.12.bb, do_configure) failed with exit code '1'</result_line>
+        <result_line>NOTE: Tasks Summary: Attempted 984 tasks of which 978 didn't need to be rerun and 1 failed.</result_line>
+        <result_line>Summary: 1 task failed:</result_line>
+        <result_line>Summary: There was 1 ERROR message shown, returning a non-zero exit code.</result_line>
+    </report_item>
+    <report_item>
+        <package>std-msgs</package>
+        <result_line>ok</result_line>
+    </report_item>
+    <report_item>
+        <package>gencpp</package>
+        <result_line>ok</result_line>
+    </report_item>
+    <report_item>
+        <package>genpy</package>
+        <result_line>ok</result_line>
+    </report_item>
+    <report_item>
+        <package>message-runtime</package>
+        <result_line>ok</result_line>
+    </report_item>
+    <report_item>
+        <package>message-generation</package>
+        <result_line>ok</result_line>
+    </report_item>
+    <report_item>
+        <package>catkin</package>
+        <result_line>ok</result_line>
+    </report_item>
+</report>

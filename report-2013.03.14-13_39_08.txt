@@ -1,0 +1,138 @@
+---
+-Meta information
+#Report generation date: 19.03.2013 18:11
+#Recipes succeeded: 39 of 45, equaling 86%
+#Git hash: 3348f2d827877e3d4a751e0d789e2e3bca077488
+#Git commit date: 14.03.2013 13:39
+#General Info: This report was generated using the meta-ROS integration test and report assistant v1.00
+---
+Checking 1/45: rosboost-cfg
+ok
+ok
+Checking 2/45: mk
+ok
+Checking 3/45: rosmake
+ok
+Checking 4/45: roslang
+ok
+Checking 5/45: rosbuild
+WARNING: QA Issue: rosbuild: Files/directories were installed but not shipped
+ok
+Summary: There was 1 WARNING message shown.
+Checking 6/45: rosbash
+ok
+Checking 7/45: roscreate
+ok
+Checking 8/45: rosunit
+ok
+Checking 9/45: roslib
+ok
+Checking 10/45: rosclean
+ok
+Checking 11/45: packagegroup-ros-comm
+ERROR: Function failed: do_compile (see /home/lukas/oe-core/build/tmp-eglibc/work/i586-oe-linux/roscpp/1.9.41-r0/temp/log.do_compile.13502 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/oe-core/build/tmp-eglibc/work/i586-oe-linux/roscpp/1.9.41-r0/temp/log.do_compile.13502
+ERROR: Task 276 (/home/lukas/oe-core/meta-ros/recipes-ros/ros-comm/roscpp_1.9.41.bb, do_compile) failed with exit code '1'
+NOTE: Tasks Summary: Attempted 1746 tasks of which 1124 didn't need to be rerun and 1 failed.
+Summary: 1 task failed:
+Summary: There was 1 ERROR message shown, returning a non-zero exit code.
+Checking 12/45: xmlrpcpp
+ok
+Checking 13/45: rosconsole
+ok
+Checking 14/45: rostest
+ok
+Checking 15/45: rospy
+ok
+Checking 16/45: rosnode
+ok
+Checking 17/45: topic-tools
+ERROR: Function failed: do_compile (see /home/lukas/oe-core/build/tmp-eglibc/work/i586-oe-linux/roscpp/1.9.41-r0/temp/log.do_compile.22178 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/oe-core/build/tmp-eglibc/work/i586-oe-linux/roscpp/1.9.41-r0/temp/log.do_compile.22178
+ERROR: Task 212 (/home/lukas/oe-core/meta-ros/recipes-ros/ros-comm/roscpp_1.9.41.bb, do_compile) failed with exit code '1'
+NOTE: Tasks Summary: Attempted 1201 tasks of which 1199 didn't need to be rerun and 1 failed.
+Summary: 1 task failed:
+Summary: There was 1 ERROR message shown, returning a non-zero exit code.
+Checking 18/45: rosout
+ERROR: Function failed: do_compile (see /home/lukas/oe-core/build/tmp-eglibc/work/i586-oe-linux/roscpp/1.9.41-r0/temp/log.do_compile.22313 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/oe-core/build/tmp-eglibc/work/i586-oe-linux/roscpp/1.9.41-r0/temp/log.do_compile.22313
+ERROR: Task 211 (/home/lukas/oe-core/meta-ros/recipes-ros/ros-comm/roscpp_1.9.41.bb, do_compile) failed with exit code '1'
+NOTE: Tasks Summary: Attempted 1177 tasks of which 1175 didn't need to be rerun and 1 failed.
+Summary: 1 task failed:
+Summary: There was 1 ERROR message shown, returning a non-zero exit code.
+Checking 19/45: roscpp
+ERROR: Function failed: do_compile (see /home/lukas/oe-core/build/tmp-eglibc/work/i586-oe-linux/roscpp/1.9.41-r0/temp/log.do_compile.22449 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/oe-core/build/tmp-eglibc/work/i586-oe-linux/roscpp/1.9.41-r0/temp/log.do_compile.22449
+ERROR: Task 7 (/home/lukas/oe-core/meta-ros/recipes-ros/ros-comm/roscpp_1.9.41.bb, do_compile) failed with exit code '1'
+NOTE: Tasks Summary: Attempted 1173 tasks of which 1171 didn't need to be rerun and 1 failed.
+Summary: 1 task failed:
+Summary: There was 1 ERROR message shown, returning a non-zero exit code.
+Checking 20/45: rosservice
+ok
+Checking 21/45: rosmsg
+ok
+Checking 22/45: rosmaster
+ok
+Checking 23/45: rosbag
+ERROR: Function failed: do_compile (see /home/lukas/oe-core/build/tmp-eglibc/work/i586-oe-linux/roscpp/1.9.41-r0/temp/log.do_compile.22915 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/oe-core/build/tmp-eglibc/work/i586-oe-linux/roscpp/1.9.41-r0/temp/log.do_compile.22915
+ERROR: Task 258 (/home/lukas/oe-core/meta-ros/recipes-ros/ros-comm/roscpp_1.9.41.bb, do_compile) failed with exit code '1'
+NOTE: Tasks Summary: Attempted 1260 tasks of which 1258 didn't need to be rerun and 1 failed.
+Summary: 1 task failed:
+Summary: There was 1 ERROR message shown, returning a non-zero exit code.
+Checking 24/45: std-srvs
+ok
+Checking 25/45: rosparam
+ok
+Checking 26/45: roswtf
+ok
+Checking 27/45: message-filters
+WARNING: /home/lukas/oe-core/build/tmp-eglibc/work/i586-oe-linux/message-filters/1.9.41-r0/ros_comm-1.9.41/utilities/message-filters/package.xml could not be copied for some reason. It may not exist. WARN for now.
+ERROR: Function failed: do_compile (see /home/lukas/oe-core/build/tmp-eglibc/work/i586-oe-linux/roscpp/1.9.41-r0/temp/log.do_compile.23380 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/oe-core/build/tmp-eglibc/work/i586-oe-linux/roscpp/1.9.41-r0/temp/log.do_compile.23380
+ERROR: Task 224 (/home/lukas/oe-core/meta-ros/recipes-ros/ros-comm/roscpp_1.9.41.bb, do_compile) failed with exit code '1'
+NOTE: Tasks Summary: Attempted 1201 tasks of which 1199 didn't need to be rerun and 1 failed.
+Summary: 1 task failed:
+Summary: There was 1 WARNING message shown.
+Summary: There was 1 ERROR message shown, returning a non-zero exit code.
+Checking 28/45: rostopic
+ok
+Checking 29/45: rosgraph-msgs
+ok
+Checking 30/45: rosgraph
+ok
+Checking 31/45: roslaunch
+ok
+Checking 32/45: genlisp
+ok
+Checking 33/45: rospack
+ok
+Checking 34/45: genmsg
+ok
+Checking 35/45: cpp-common
+ok
+Checking 36/45: rostime
+ok
+Checking 37/45: roscpp-traits
+ok
+Checking 38/45: roscpp-serialization
+ok
+Checking 39/45: roscpp-core
+ERROR: Function failed: do_configure (see /home/lukas/oe-core/build/tmp-eglibc/work/i586-oe-linux/roscpp-core/0.3.12-r0/temp/log.do_configure.24577 for further information)
+ERROR: Logfile of failure stored in: /home/lukas/oe-core/build/tmp-eglibc/work/i586-oe-linux/roscpp-core/0.3.12-r0/temp/log.do_configure.24577
+ERROR: Task 6 (/home/lukas/oe-core/meta-ros/recipes-ros/roscpp-core/roscpp-core_0.3.12.bb, do_configure) failed with exit code '1'
+NOTE: Tasks Summary: Attempted 984 tasks of which 978 didn't need to be rerun and 1 failed.
+Summary: 1 task failed:
+Summary: There was 1 ERROR message shown, returning a non-zero exit code.
+Checking 40/45: std-msgs
+ok
+Checking 41/45: gencpp
+ok
+Checking 42/45: genpy
+ok
+Checking 43/45: message-runtime
+ok
+Checking 44/45: message-generation
+ok
+Checking 45/45: catkin
+ok
