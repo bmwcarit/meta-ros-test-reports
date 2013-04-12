@@ -1,0 +1,104 @@
+---
+-Meta information
+#Report generation date: 12.04.2013 10:00
+#Recipes succeeded: 44 of 44, equaling 100%
+#Git hash: c5cb1388137fcf11c9fdc2c96b95ab73a59ed716
+#Git commit date: 11.04.2013 06:37
+#General Info: This report was generated using the meta-ROS integration test and report assistant v1.00
+---
+Checking 1/44: rosboost-cfg
+ok
+Checking 2/44: mk
+ok
+Checking 3/44: rosmake
+ok
+Checking 4/44: roslang
+ok
+Checking 5/44: rosbuild
+WARNING: QA Issue: rosbuild: Files/directories were installed but not shipped
+ok
+Summary: There was 1 WARNING message shown.
+Checking 6/44: rosbash
+ok
+Checking 7/44: roscreate
+ok
+Checking 8/44: rosunit
+ok
+Checking 9/44: roslib
+ok
+Checking 10/44: rosclean
+ok
+Checking 11/44: packagegroup-ros-comm
+WARNING: QA Issue: std-msgs: Files/directories were installed but not shipped
+WARNING: QA Issue: rosgraph-msgs: Files/directories were installed but not shipped
+WARNING: QA Issue: std-srvs: Files/directories were installed but not shipped
+WARNING: QA Issue: roscpp: Files/directories were installed but not shipped
+WARNING: QA Issue: topic-tools: Files/directories were installed but not shipped
+ok
+Summary: There were 5 WARNING messages shown.
+Checking 12/44: xmlrpcpp
+ok
+Checking 13/44: rosconsole
+ok
+Checking 14/44: rostest
+ok
+Checking 15/44: rospy
+ok
+Checking 16/44: rosnode
+ok
+Checking 17/44: topic-tools
+ok
+Checking 18/44: rosout
+ok
+Checking 19/44: roscpp
+ok
+Checking 20/44: rosservice
+ok
+Checking 21/44: rosmsg
+ok
+Checking 22/44: rosmaster
+ok
+Checking 23/44: rosbag
+ok
+Checking 24/44: std-srvs
+ok
+Checking 25/44: rosparam
+ok
+Checking 26/44: roswtf
+ok
+Checking 27/44: message-filters
+ok
+Checking 28/44: rostopic
+ok
+Checking 29/44: rosgraph-msgs
+ok
+Checking 30/44: rosgraph
+ok
+Checking 31/44: roslaunch
+ok
+Checking 32/44: genlisp
+ok
+Checking 33/44: rospack
+ok
+Checking 34/44: genmsg
+ok
+Checking 35/44: cpp-common
+ok
+Checking 36/44: rostime
+ok
+Checking 37/44: roscpp-traits
+ok
+Checking 38/44: roscpp-serialization
+ok
+Checking 39/44: std-msgs
+ok
+Checking 40/44: gencpp
+ok
+Checking 41/44: genpy
+ok
+Checking 42/44: message-runtime
+ok
+Checking 43/44: message-generation
+ok
+Checking 44/44: catkin
+ok
