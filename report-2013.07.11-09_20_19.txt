@@ -1,0 +1,151 @@
+---
+-Meta information
+#Report generation date: 11.07.2013 09:42
+#Recipes succeeded: 67 of 67, equaling 100%
+#Git hash: cedbf71aaf4f1f22fda061603daab1dfaf31cd29
+#Git commit date: 11.07.2013 09:20
+#General Info: This report was generated using the meta-ROS integration test and report assistant v1.00
+---
+Checking 1/67: rosboost-cfg
+ok
+Checking 2/67: mk
+ok
+Checking 3/67: rosmake
+ok
+Checking 4/67: roslang
+ok
+Checking 5/67: rosbuild
+WARNING: QA Issue: rosbuild: Files/directories were installed but not shipped
+ok
+Summary: There was 1 WARNING message shown.
+Checking 6/67: rosbash
+ok
+Checking 7/67: roscreate
+ok
+Checking 8/67: rosunit
+ok
+Checking 9/67: roslib
+ok
+Checking 10/67: rosclean
+ok
+Checking 11/67: packagegroup-ros-comm
+ok
+Checking 12/67: xmlrpcpp
+ok
+Checking 13/67: rosconsole
+ok
+Checking 14/67: rostest
+ok
+Checking 15/67: rospy
+ok
+Checking 16/67: rosnode
+ok
+Checking 17/67: topic-tools
+ok
+Checking 18/67: rosout
+ok
+Checking 19/67: roscpp
+ok
+Checking 20/67: rosservice
+ok
+Checking 21/67: rosmsg
+ok
+Checking 22/67: rosmaster
+ok
+Checking 23/67: rosbag
+ok
+Checking 24/67: std-srvs
+ok
+Checking 25/67: rosparam
+ok
+Checking 26/67: roswtf
+ok
+Checking 27/67: message-filters
+ok
+Checking 28/67: rostopic
+ok
+Checking 29/67: rosgraph-msgs
+ok
+Checking 30/67: rosgraph
+ok
+Checking 31/67: roslaunch
+ok
+Checking 32/67: class-loader
+WARNING: QA Issue: console-bridge: Files/directories were installed but not shipped
+WARNING: QA Issue: File '/usr/lib/libPocoFoundation.so.16' from libpoco was already stripped, this will prevent future debugging!
+WARNING: QA Issue: File '/usr/lib/libPocoXML.so.16' from libpoco was already stripped, this will prevent future debugging!
+WARNING: QA Issue: File '/usr/lib/libPocoUtil.so.16' from libpoco was already stripped, this will prevent future debugging!
+WARNING: QA Issue: File '/usr/lib/libPocoNet.so.16' from libpoco was already stripped, this will prevent future debugging!
+WARNING: QA Issue: libpoco: Files/directories were installed but not shipped
+ok
+Summary: There were 6 WARNING messages shown.
+Checking 33/67: console-bridge
+ok
+Checking 34/67: genlisp
+ok
+Checking 35/67: rospack
+ok
+Checking 36/67: shape-msgs
+ok
+Checking 37/67: stereo-msgs
+ok
+Checking 38/67: trajectory-msgs
+ok
+Checking 39/67: visualization-msgs
+ok
+Checking 40/67: actionlib-msgs
+ok
+Checking 41/67: diagnostic-msgs
+ok
+Checking 42/67: nav-msgs
+ok
+Checking 43/67: geometry-msgs
+ok
+Checking 44/67: sensor-msgs
+ok
+Checking 45/67: genmsg
+ok
+Checking 46/67: chatter-sender
+ok
+Checking 47/67: chatter-msgs
+ok
+Checking 48/67: chatter-receiver
+ok
+Checking 49/67: bondcpp
+ok
+Checking 50/67: bondpy
+ok
+Checking 51/67: bond
+ok
+Checking 52/67: smclib
+ok
+Checking 53/67: cpp-common
+ok
+Checking 54/67: rostime
+ok
+Checking 55/67: roscpp-traits
+ok
+Checking 56/67: roscpp-serialization
+ok
+Checking 57/67: tf
+ok
+Checking 58/67: std-msgs
+ok
+Checking 59/67: image-transport
+ok
+Checking 60/67: gencpp
+ok
+Checking 61/67: genpy
+ok
+Checking 62/67: nodelet
+ok
+Checking 63/67: angles
+ok
+Checking 64/67: message-runtime
+ok
+Checking 65/67: message-generation
+ok
+Checking 66/67: pluginlib
+ok
+Checking 67/67: catkin
+ok
