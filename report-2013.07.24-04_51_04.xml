@@ -1,0 +1,360 @@
+<?xml version="1.0"?>
+<report>
+    <meta_info>Report generation date: 31.07.2013 14:06</meta_info>
+    <meta_info>Recipes succeeded: 70 of 74, equaling 94%</meta_info>
+    <meta_info>Git hash: bcc281080d15e061c290b5056daa9abb4a93688e</meta_info>
+    <meta_info>Git commit date: 24.07.2013 04:51</meta_info>
+    <meta_info>General Info: This report was generated using the meta-ROS integration test and report assistant v1.00</meta_info>
+    <report_item>
+        <package>roscreate</package>
+        <result_line>ok</result_line>
+    </report_item>
+    <report_item>
+        <package>rosbash</package>
+        <result_line>ok</result_line>
+    </report_item>
+    <report_item>
+        <package>rosunit</package>
+        <result_line>ok</result_line>
+    </report_item>
+    <report_item>
+        <package>roslib</package>
+        <result_line>ok</result_line>
+    </report_item>
+    <report_item>
+        <package>rosboost-cfg</package>
+        <result_line>ok</result_line>
+    </report_item>
+    <report_item>
+        <package>mk</package>
+        <result_line>ok</result_line>
+    </report_item>
+    <report_item>
+        <package>rosmake</package>
+        <result_line>ok</result_line>
+    </report_item>
+    <report_item>
+        <package>rosbuild</package>
+        <result_line>WARNING: QA Issue: rosbuild: Files/directories were installed but not shipped</result_line>
+        <result_line>ok</result_line>
+        <result_line>Summary: There was 1 WARNING message shown.</result_line>
+    </report_item>
+    <report_item>
+        <package>rosclean</package>
+        <result_line>ok</result_line>
+    </report_item>
+    <report_item>
+        <package>roslang</package>
+        <result_line>ok</result_line>
+    </report_item>
+    <report_item>
+        <package>packagegroup-ros-comm</package>
+        <result_line>ok</result_line>
+    </report_item>
+    <report_item>
+        <package>rospy</package>
+        <result_line>ok</result_line>
+    </report_item>
+    <report_item>
+        <package>rosservice</package>
+        <result_line>ok</result_line>
+    </report_item>
+    <report_item>
+        <package>rosout</package>
+        <result_line>ok</result_line>
+    </report_item>
+    <report_item>
+        <package>rostest</package>
+        <result_line>ok</result_line>
+    </report_item>
+    <report_item>
+        <package>rosmaster</package>
+        <result_line>ok</result_line>
+    </report_item>
+    <report_item>
+        <package>rosmsg</package>
+        <result_line>ok</result_line>
+    </report_item>
+    <report_item>
+        <package>rosgraph-msgs</package>
+        <result_line>ok</result_line>
+    </report_item>
+    <report_item>
+        <package>xmlrpcpp</package>
+        <result_line>ok</result_line>
+    </report_item>
+    <report_item>
+        <package>topic-tools</package>
+        <result_line>ok</result_line>
+    </report_item>
+    <report_item>
+        <package>rosgraph</package>
+        <result_line>ok</result_line>
+    </report_item>
+    <report_item>
+        <package>rostopic</package>
+        <result_line>ok</result_line>
+    </report_item>
+    <report_item>
+        <package>rosparam</package>
+        <result_line>ok</result_line>
+    </report_item>
+    <report_item>
+        <package>rosnode</package>
+        <result_line>ok</result_line>
+    </report_item>
+    <report_item>
+        <package>roswtf</package>
+        <result_line>ok</result_line>
+    </report_item>
+    <report_item>
+        <package>message-filters</package>
+        <result_line>ok</result_line>
+    </report_item>
+    <report_item>
+        <package>rosbag</package>
+        <result_line>ok</result_line>
+    </report_item>
+    <report_item>
+        <package>roslaunch</package>
+        <result_line>ok</result_line>
+    </report_item>
+    <report_item>
+        <package>roscpp</package>
+        <result_line>ok</result_line>
+    </report_item>
+    <report_item>
+        <package>std-srvs</package>
+        <result_line>ok</result_line>
+    </report_item>
+    <report_item>
+        <package>rosconsole</package>
+        <result_line>ok</result_line>
+    </report_item>
+    <report_item>
+        <package>class-loader</package>
+        <result_line>WARNING: QA Issue: console-bridge: Files/directories were installed but not shipped</result_line>
+        <result_line>WARNING: QA Issue: File '/usr/lib/libPocoFoundation.so.16' from libpoco was already stripped, this will prevent future debugging!</result_line>
+        <result_line>WARNING: QA Issue: File '/usr/lib/libPocoXML.so.16' from libpoco was already stripped, this will prevent future debugging!</result_line>
+        <result_line>WARNING: QA Issue: File '/usr/lib/libPocoUtil.so.16' from libpoco was already stripped, this will prevent future debugging!</result_line>
+        <result_line>WARNING: QA Issue: File '/usr/lib/libPocoNet.so.16' from libpoco was already stripped, this will prevent future debugging!</result_line>
+        <result_line>ERROR: objcopy failed with exit code 256 (cmd was 'arm-oe-linux-gnueabi-objcopy' --only-keep-debug '/home/lukas/oe-core/build/tmp-eglibc/work/armv5te-oe-linux-gnueabi/libpoco/1.4.6-r0/package/usr/lib/libPocoNetd.so.16' '/home/lukas/oe-core/build/tmp-eglibc/work/armv5te-oe-linux-gnueabi/libpoco/1.4.6-r0/package/usr/lib/.debug/libPocoNetd.so.16'):</result_line>
+        <result_line>ERROR: Function failed: split_and_strip_files</result_line>
+        <result_line>ERROR: Logfile of failure stored in: /home/lukas/oe-core/build/tmp-eglibc/work/armv5te-oe-linux-gnueabi/libpoco/1.4.6-r0/temp/log.do_package.31914</result_line>
+        <result_line>ERROR: Task 214 (/home/lukas/oe-core/meta-ros/recipes-extended/libpoco/libpoco_1.4.6.bb, do_package) failed with exit code '1'</result_line>
+        <result_line>NOTE: Tasks Summary: Attempted 975 tasks of which 950 didn't need to be rerun and 1 failed.</result_line>
+        <result_line>Summary: 1 task failed:</result_line>
+        <result_line>Summary: There were 5 WARNING messages shown.</result_line>
+        <result_line>Summary: There were 2 ERROR messages shown, returning a non-zero exit code.</result_line>
+    </report_item>
+    <report_item>
+        <package>angles</package>
+        <result_line>ok</result_line>
+    </report_item>
+    <report_item>
+        <package>console-bridge</package>
+        <result_line>ok</result_line>
+    </report_item>
+    <report_item>
+        <package>genlisp</package>
+        <result_line>ok</result_line>
+    </report_item>
+    <report_item>
+        <package>rospack</package>
+        <result_line>ok</result_line>
+    </report_item>
+    <report_item>
+        <package>nav-msgs</package>
+        <result_line>ok</result_line>
+    </report_item>
+    <report_item>
+        <package>visualization-msgs</package>
+        <result_line>ok</result_line>
+    </report_item>
+    <report_item>
+        <package>trajectory-msgs</package>
+        <result_line>ok</result_line>
+    </report_item>
+    <report_item>
+        <package>geometry-msgs</package>
+        <result_line>ok</result_line>
+    </report_item>
+    <report_item>
+        <package>stereo-msgs</package>
+        <result_line>ok</result_line>
+    </report_item>
+    <report_item>
+        <package>sensor-msgs</package>
+        <result_line>ok</result_line>
+    </report_item>
+    <report_item>
+        <package>diagnostic-msgs</package>
+        <result_line>ok</result_line>
+    </report_item>
+    <report_item>
+        <package>actionlib-msgs</package>
+        <result_line>ok</result_line>
+    </report_item>
+    <report_item>
+        <package>shape-msgs</package>
+        <result_line>ok</result_line>
+    </report_item>
+    <report_item>
+        <package>genmsg</package>
+        <result_line>ok</result_line>
+    </report_item>
+    <report_item>
+        <package>chatter-sender</package>
+        <result_line>ok</result_line>
+    </report_item>
+    <report_item>
+        <package>chatter-msgs</package>
+        <result_line>ok</result_line>
+    </report_item>
+    <report_item>
+        <package>chatter-receiver</package>
+        <result_line>ok</result_line>
+    </report_item>
+    <report_item>
+        <package>smclib</package>
+        <result_line>ok</result_line>
+    </report_item>
+    <report_item>
+        <package>bondcpp</package>
+        <result_line>ok</result_line>
+    </report_item>
+    <report_item>
+        <package>bondpy</package>
+        <result_line>ok</result_line>
+    </report_item>
+    <report_item>
+        <package>bond</package>
+        <result_line>ok</result_line>
+    </report_item>
+    <report_item>
+        <package>roscpp-traits</package>
+        <result_line>ok</result_line>
+    </report_item>
+    <report_item>
+        <package>roscpp-serialization</package>
+        <result_line>ok</result_line>
+    </report_item>
+    <report_item>
+        <package>cpp-common</package>
+        <result_line>ok</result_line>
+    </report_item>
+    <report_item>
+        <package>rostime</package>
+        <result_line>ok</result_line>
+    </report_item>
+    <report_item>
+        <package>tf</package>
+        <result_line>ok</result_line>
+    </report_item>
+    <report_item>
+        <package>std-msgs</package>
+        <result_line>ok</result_line>
+    </report_item>
+    <report_item>
+        <package>image-transport</package>
+        <result_line>WARNING: QA Issue: File '/usr/lib/libPocoFoundation.so.16' from libpoco was already stripped, this will prevent future debugging!</result_line>
+        <result_line>WARNING: QA Issue: File '/usr/lib/libPocoXML.so.16' from libpoco was already stripped, this will prevent future debugging!</result_line>
+        <result_line>WARNING: QA Issue: File '/usr/lib/libPocoUtil.so.16' from libpoco was already stripped, this will prevent future debugging!</result_line>
+        <result_line>WARNING: QA Issue: File '/usr/lib/libPocoNet.so.16' from libpoco was already stripped, this will prevent future debugging!</result_line>
+        <result_line>ERROR: objcopy failed with exit code 256 (cmd was 'arm-oe-linux-gnueabi-objcopy' --only-keep-debug '/home/lukas/oe-core/build/tmp-eglibc/work/armv5te-oe-linux-gnueabi/libpoco/1.4.6-r0/package/usr/lib/libPocoNetd.so.16' '/home/lukas/oe-core/build/tmp-eglibc/work/armv5te-oe-linux-gnueabi/libpoco/1.4.6-r0/package/usr/lib/.debug/libPocoNetd.so.16'):</result_line>
+        <result_line>ERROR: Function failed: split_and_strip_files</result_line>
+        <result_line>ERROR: Logfile of failure stored in: /home/lukas/oe-core/build/tmp-eglibc/work/armv5te-oe-linux-gnueabi/libpoco/1.4.6-r0/temp/log.do_package.20946</result_line>
+        <result_line>ERROR: Task 1189 (/home/lukas/oe-core/meta-ros/recipes-extended/libpoco/libpoco_1.4.6.bb, do_package) failed with exit code '1'</result_line>
+        <result_line>ERROR: Function failed: do_compile (log file is located at /home/lukas/oe-core/build/tmp-eglibc/work/armv5te-oe-linux-gnueabi/class-loader/0.2.2-r0/temp/log.do_compile.21087)</result_line>
+        <result_line>ERROR: Logfile of failure stored in: /home/lukas/oe-core/build/tmp-eglibc/work/armv5te-oe-linux-gnueabi/class-loader/0.2.2-r0/temp/log.do_compile.21087</result_line>
+        <result_line>ERROR: Task 685 (/home/lukas/oe-core/meta-ros/recipes-ros/class-loader/class-loader_0.2.2.bb, do_compile) failed with exit code '1'</result_line>
+        <result_line>NOTE: Tasks Summary: Attempted 1622 tasks of which 1610 didn't need to be rerun and 2 failed.</result_line>
+        <result_line>Summary: 2 tasks failed:</result_line>
+        <result_line>Summary: There were 4 WARNING messages shown.</result_line>
+        <result_line>Summary: There were 3 ERROR messages shown, returning a non-zero exit code.</result_line>
+    </report_item>
+    <report_item>
+        <package>tf2-msgs</package>
+        <result_line>ok</result_line>
+    </report_item>
+    <report_item>
+        <package>tf2-py</package>
+        <result_line>ok</result_line>
+    </report_item>
+    <report_item>
+        <package>tf2</package>
+        <result_line>ok</result_line>
+    </report_item>
+    <report_item>
+        <package>tf2-ros</package>
+        <result_line>ok</result_line>
+    </report_item>
+    <report_item>
+        <package>gencpp</package>
+        <result_line>ok</result_line>
+    </report_item>
+    <report_item>
+        <package>genpy</package>
+        <result_line>ok</result_line>
+    </report_item>
+    <report_item>
+        <package>nodelet-topic-tools</package>
+        <result_line>ok</result_line>
+    </report_item>
+    <report_item>
+        <package>nodelet</package>
+        <result_line>ERROR: Function failed: do_compile (log file is located at /home/lukas/oe-core/build/tmp-eglibc/work/armv5te-oe-linux-gnueabi/class-loader/0.2.2-r0/temp/log.do_compile.8912)</result_line>
+        <result_line>ERROR: Logfile of failure stored in: /home/lukas/oe-core/build/tmp-eglibc/work/armv5te-oe-linux-gnueabi/class-loader/0.2.2-r0/temp/log.do_compile.8912</result_line>
+        <result_line>ERROR: Task 815 (/home/lukas/oe-core/meta-ros/recipes-ros/class-loader/class-loader_0.2.2.bb, do_compile) failed with exit code '1'</result_line>
+        <result_line>WARNING: QA Issue: File '/usr/lib/libPocoFoundation.so.16' from libpoco was already stripped, this will prevent future debugging!</result_line>
+        <result_line>WARNING: QA Issue: File '/usr/lib/libPocoXML.so.16' from libpoco was already stripped, this will prevent future debugging!</result_line>
+        <result_line>WARNING: QA Issue: File '/usr/lib/libPocoUtil.so.16' from libpoco was already stripped, this will prevent future debugging!</result_line>
+        <result_line>WARNING: QA Issue: File '/usr/lib/libPocoNet.so.16' from libpoco was already stripped, this will prevent future debugging!</result_line>
+        <result_line>ERROR: objcopy failed with exit code 256 (cmd was 'arm-oe-linux-gnueabi-objcopy' --only-keep-debug '/home/lukas/oe-core/build/tmp-eglibc/work/armv5te-oe-linux-gnueabi/libpoco/1.4.6-r0/package/usr/lib/libPocoNetd.so.16' '/home/lukas/oe-core/build/tmp-eglibc/work/armv5te-oe-linux-gnueabi/libpoco/1.4.6-r0/package/usr/lib/.debug/libPocoNetd.so.16'):</result_line>
+        <result_line>ERROR: Function failed: split_and_strip_files</result_line>
+        <result_line>ERROR: Logfile of failure stored in: /home/lukas/oe-core/build/tmp-eglibc/work/armv5te-oe-linux-gnueabi/libpoco/1.4.6-r0/temp/log.do_package.8930</result_line>
+        <result_line>ERROR: Task 1206 (/home/lukas/oe-core/meta-ros/recipes-extended/libpoco/libpoco_1.4.6.bb, do_package) failed with exit code '1'</result_line>
+        <result_line>NOTE: Tasks Summary: Attempted 1101 tasks of which 1099 didn't need to be rerun and 2 failed.</result_line>
+        <result_line>Summary: 2 tasks failed:</result_line>
+        <result_line>Summary: There were 4 WARNING messages shown.</result_line>
+        <result_line>Summary: There were 3 ERROR messages shown, returning a non-zero exit code.</result_line>
+    </report_item>
+    <report_item>
+        <package>message-runtime</package>
+        <result_line>ok</result_line>
+    </report_item>
+    <report_item>
+        <package>dynamic-reconfigure</package>
+        <result_line>ok</result_line>
+    </report_item>
+    <report_item>
+        <package>message-generation</package>
+        <result_line>ok</result_line>
+    </report_item>
+    <report_item>
+        <package>actionlib</package>
+        <result_line>ok</result_line>
+    </report_item>
+    <report_item>
+        <package>pluginlib</package>
+        <result_line>ERROR: Function failed: do_compile (log file is located at /home/lukas/oe-core/build/tmp-eglibc/work/armv5te-oe-linux-gnueabi/class-loader/0.2.2-r0/temp/log.do_compile.10405)</result_line>
+        <result_line>ERROR: Logfile of failure stored in: /home/lukas/oe-core/build/tmp-eglibc/work/armv5te-oe-linux-gnueabi/class-loader/0.2.2-r0/temp/log.do_compile.10405</result_line>
+        <result_line>ERROR: Task 212 (/home/lukas/oe-core/meta-ros/recipes-ros/class-loader/class-loader_0.2.2.bb, do_compile) failed with exit code '1'</result_line>
+        <result_line>WARNING: QA Issue: File '/usr/lib/libPocoFoundation.so.16' from libpoco was already stripped, this will prevent future debugging!</result_line>
+        <result_line>WARNING: QA Issue: File '/usr/lib/libPocoXML.so.16' from libpoco was already stripped, this will prevent future debugging!</result_line>
+        <result_line>WARNING: QA Issue: File '/usr/lib/libPocoUtil.so.16' from libpoco was already stripped, this will prevent future debugging!</result_line>
+        <result_line>WARNING: QA Issue: File '/usr/lib/libPocoNet.so.16' from libpoco was already stripped, this will prevent future debugging!</result_line>
+        <result_line>ERROR: objcopy failed with exit code 256 (cmd was 'arm-oe-linux-gnueabi-objcopy' --only-keep-debug '/home/lukas/oe-core/build/tmp-eglibc/work/armv5te-oe-linux-gnueabi/libpoco/1.4.6-r0/package/usr/lib/libPocoNetd.so.16' '/home/lukas/oe-core/build/tmp-eglibc/work/armv5te-oe-linux-gnueabi/libpoco/1.4.6-r0/package/usr/lib/.debug/libPocoNetd.so.16'):</result_line>
+        <result_line>ERROR: Function failed: split_and_strip_files</result_line>
+        <result_line>ERROR: Logfile of failure stored in: /home/lukas/oe-core/build/tmp-eglibc/work/armv5te-oe-linux-gnueabi/libpoco/1.4.6-r0/temp/log.do_package.10423</result_line>
+        <result_line>ERROR: Task 674 (/home/lukas/oe-core/meta-ros/recipes-extended/libpoco/libpoco_1.4.6.bb, do_package) failed with exit code '1'</result_line>
+        <result_line>NOTE: Tasks Summary: Attempted 976 tasks of which 974 didn't need to be rerun and 2 failed.</result_line>
+        <result_line>Summary: 2 tasks failed:</result_line>
+        <result_line>Summary: There were 4 WARNING messages shown.</result_line>
+        <result_line>Summary: There were 3 ERROR messages shown, returning a non-zero exit code.</result_line>
+    </report_item>
+    <report_item>
+        <package>catkin</package>
+        <result_line>ok</result_line>
+    </report_item>
+</report>
