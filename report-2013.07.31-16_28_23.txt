@@ -1,0 +1,169 @@
+---
+-Meta information
+#Report generation date: 31.07.2013 16:34
+#Recipes succeeded: 74 of 74, equaling 100%
+#Git hash: 723caecd6e395f3a9105b29903600bf596c67891
+#Git commit date: 31.07.2013 16:28
+#General Info: This report was generated using the meta-ROS integration test and report assistant v1.00
+---
+Checking 1/74: roscreate
+ok
+Checking 2/74: rosbash
+ok
+Checking 3/74: rosunit
+ok
+Checking 4/74: roslib
+ok
+Checking 5/74: rosboost-cfg
+ok
+Checking 6/74: mk
+ok
+Checking 7/74: rosmake
+ok
+Checking 8/74: rosbuild
+WARNING: QA Issue: rosbuild: Files/directories were installed but not shipped
+ok
+Summary: There was 1 WARNING message shown.
+Checking 9/74: rosclean
+ok
+Checking 10/74: roslang
+ok
+Checking 11/74: packagegroup-ros-comm
+ok
+Checking 12/74: rospy
+ok
+Checking 13/74: rosservice
+ok
+Checking 14/74: rosout
+ok
+Checking 15/74: rostest
+ok
+Checking 16/74: rosmaster
+ok
+Checking 17/74: rosmsg
+ok
+Checking 18/74: rosgraph-msgs
+ok
+Checking 19/74: xmlrpcpp
+ok
+Checking 20/74: topic-tools
+ok
+Checking 21/74: rosgraph
+ok
+Checking 22/74: rostopic
+ok
+Checking 23/74: rosparam
+ok
+Checking 24/74: rosnode
+ok
+Checking 25/74: roswtf
+ok
+Checking 26/74: message-filters
+ok
+Checking 27/74: rosbag
+ok
+Checking 28/74: roslaunch
+ok
+Checking 29/74: roscpp
+ok
+Checking 30/74: std-srvs
+ok
+Checking 31/74: rosconsole
+ok
+Checking 32/74: class-loader
+WARNING: QA Issue: console-bridge: Files/directories were installed but not shipped
+WARNING: QA Issue: File '/usr/lib/libPocoZip.so.16' from libpoco was already stripped, this will prevent future debugging!
+WARNING: QA Issue: File '/usr/lib/libPocoNetSSL.so.16' from libpoco was already stripped, this will prevent future debugging!
+WARNING: QA Issue: File '/usr/lib/libPocoFoundation.so.16' from libpoco was already stripped, this will prevent future debugging!
+WARNING: QA Issue: File '/usr/lib/libPocoXML.so.16' from libpoco was already stripped, this will prevent future debugging!
+WARNING: QA Issue: File '/usr/lib/libPocoUtil.so.16' from libpoco was already stripped, this will prevent future debugging!
+WARNING: QA Issue: File '/usr/lib/libPocoCrypto.so.16' from libpoco was already stripped, this will prevent future debugging!
+WARNING: QA Issue: File '/usr/lib/libPocoData.so.16' from libpoco was already stripped, this will prevent future debugging!
+WARNING: QA Issue: File '/usr/lib/libPocoNet.so.16' from libpoco was already stripped, this will prevent future debugging!
+WARNING: QA Issue: libpoco: Files/directories were installed but not shipped
+ok
+Summary: There were 10 WARNING messages shown.
+Checking 33/74: angles
+ok
+Checking 34/74: console-bridge
+ok
+Checking 35/74: genlisp
+ok
+Checking 36/74: rospack
+ok
+Checking 37/74: nav-msgs
+ok
+Checking 38/74: visualization-msgs
+ok
+Checking 39/74: trajectory-msgs
+ok
+Checking 40/74: geometry-msgs
+ok
+Checking 41/74: stereo-msgs
+ok
+Checking 42/74: sensor-msgs
+ok
+Checking 43/74: diagnostic-msgs
+ok
+Checking 44/74: actionlib-msgs
+ok
+Checking 45/74: shape-msgs
+ok
+Checking 46/74: genmsg
+ok
+Checking 47/74: chatter-sender
+ok
+Checking 48/74: chatter-msgs
+ok
+Checking 49/74: chatter-receiver
+ok
+Checking 50/74: smclib
+ok
+Checking 51/74: bondcpp
+ok
+Checking 52/74: bondpy
+ok
+Checking 53/74: bond
+ok
+Checking 54/74: roscpp-traits
+ok
+Checking 55/74: roscpp-serialization
+ok
+Checking 56/74: cpp-common
+ok
+Checking 57/74: rostime
+ok
+Checking 58/74: tf
+ok
+Checking 59/74: std-msgs
+ok
+Checking 60/74: image-transport
+ok
+Checking 61/74: tf2-msgs
+ok
+Checking 62/74: tf2-py
+ok
+Checking 63/74: tf2
+ok
+Checking 64/74: tf2-ros
+ok
+Checking 65/74: gencpp
+ok
+Checking 66/74: genpy
+ok
+Checking 67/74: nodelet-topic-tools
+ok
+Checking 68/74: nodelet
+ok
+Checking 69/74: message-runtime
+ok
+Checking 70/74: dynamic-reconfigure
+ok
+Checking 71/74: message-generation
+ok
+Checking 72/74: actionlib
+ok
+Checking 73/74: pluginlib
+ok
+Checking 74/74: catkin
+ok
