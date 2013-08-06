@@ -1,0 +1,836 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<meta name="file created by" content="meta-ROS integration test and report assistant" />
+<meta name="author" content="Tobias Weigl (tobias.weigl@bmw-carit.de)" />
+<title>meta-ROS - bitbake report</title>
+<style type="text/css">
+.report {
+background-color:#FAFAFA;
+}
+.pkg {
+padding: 20px 0 0 20px;margin: 0 -20px 0 0;width:20%;float:left;
+}
+.result_line {
+width:80%;float:right;
+}
+.meta_info {
+text-align:center;background-color:#EEE;
+}
+ul {
+overflow: hidden;
+}
+.report_item {
+border-bottom-color:#DDD;border-bottom-style:solid;border-bottom-width:1px;
+}
+</style>
+</head>
+<body>
+<div style="width:80%; margin:0 auto;box-shadow: 5px 5px 3px #888;border-color:#BBB;border-style:solid;border-width:1px;">
+    <div style="border-bottom-color:#BBB;border-bottom-style:solid;border-bottom-width:1px;text-shadow: 2px 2px 1px #BBB;background-color:#E0E0FF;height:30px;text-align:center;font-size:150%">meta-ROS - bitbake report</div>
+    <div class="meta_info" style="padding:10px 0 10px 0;font-weight:bold">Available meta information:</div>
+<div class="report">
+    <div class="meta_info">Report generation date: 05.08.2013 12:04</div>
+    <div class="meta_info">Recipes succeeded: 63 of 78, equaling 80%</div>
+    <div class="meta_info">Git hash: a5c5f9aa95e6c47d0e71a60984576b49a3e7fd95</div>
+    <div class="meta_info">Git commit date: 05.08.2013 00:30</div>
+    <div class="meta_info" style="padding-bottom:10px">General Info: This report was generated using the meta-ROS integration test and report assistant v1.00</div>
+    <div class="report_item">
+        <div class="pkg">roscreate</div>
+        <div class="result_line">
+            <ul>
+                <li style="width:95%;background-color:#AEA">ok</li>
+            </ul>
+        </div>
+    </div>
+    <div style="clear:both"></div>
+    <div class="report_item">
+        <div class="pkg">rosbash</div>
+        <div class="result_line">
+            <ul>
+                <li style="width:95%;background-color:#AEA">ok</li>
+            </ul>
+        </div>
+    </div>
+    <div style="clear:both"></div>
+    <div class="report_item">
+        <div class="pkg">rosunit</div>
+        <div class="result_line">
+            <ul>
+                <li style="width:95%;background-color:#AEA">ok</li>
+            </ul>
+        </div>
+    </div>
+    <div style="clear:both"></div>
+    <div class="report_item">
+        <div class="pkg">roslib</div>
+        <div class="result_line">
+            <ul>
+                <li style="width:95%;background-color:#AEA">ok</li>
+            </ul>
+        </div>
+    </div>
+    <div style="clear:both"></div>
+    <div class="report_item">
+        <div class="pkg">rosboost-cfg</div>
+        <div class="result_line">
+            <ul>
+                <li style="width:95%;background-color:#AEA">ok</li>
+            </ul>
+        </div>
+    </div>
+    <div style="clear:both"></div>
+    <div class="report_item">
+        <div class="pkg">mk</div>
+        <div class="result_line">
+            <ul>
+                <li style="width:95%;background-color:#AEA">ok</li>
+            </ul>
+        </div>
+    </div>
+    <div style="clear:both"></div>
+    <div class="report_item">
+        <div class="pkg">rosmake</div>
+        <div class="result_line">
+            <ul>
+                <li style="width:95%;background-color:#AEA">ok</li>
+            </ul>
+        </div>
+    </div>
+    <div style="clear:both"></div>
+    <div class="report_item">
+        <div class="pkg">rosbuild</div>
+        <div class="result_line">
+            <ul>
+                <li style="width:95%;background-color:#EEA">WARNING: QA Issue: rosbuild: Files/directories were installed but not shipped</li>
+                <li style="width:95%;background-color:#AEA">ok</li>
+                <li style="width:95%;background-color:#EEA">Summary: There was 1 WARNING message shown.</li>
+            </ul>
+        </div>
+    </div>
+    <div style="clear:both"></div>
+    <div class="report_item">
+        <div class="pkg">rosclean</div>
+        <div class="result_line">
+            <ul>
+                <li style="width:95%;background-color:#AEA">ok</li>
+            </ul>
+        </div>
+    </div>
+    <div style="clear:both"></div>
+    <div class="report_item">
+        <div class="pkg">roslang</div>
+        <div class="result_line">
+            <ul>
+                <li style="width:95%;background-color:#AEA">ok</li>
+            </ul>
+        </div>
+    </div>
+    <div style="clear:both"></div>
+    <div class="report_item">
+        <div class="pkg">packagegroup-ros-comm</div>
+        <div class="result_line">
+            <ul>
+                <li style="width:95%;background-color:#EAA">ERROR: Function failed: do_compile (log file is located at /home/lukas/oe-core/build/tmp-eglibc/work/mips32-oe-linux/rosout/1.9.47-r0/temp/log.do_compile.31844)</li>
+                <li style="width:95%;background-color:#EAA">ERROR: Logfile of failure stored in: /home/lukas/oe-core/build/tmp-eglibc/work/mips32-oe-linux/rosout/1.9.47-r0/temp/log.do_compile.31844</li>
+                <li style="width:95%;background-color:#EAA">ERROR: Task 287 (/home/lukas/oe-core/meta-ros/recipes-ros/ros-comm/rosout_1.9.47.bb, do_compile) failed with exit code '1'</li>
+                <li style="width:95%;background-color:#EAA">ERROR: Function failed: do_compile (log file is located at /home/lukas/oe-core/build/tmp-eglibc/work/mips32-oe-linux/topic-tools/1.9.47-r0/temp/log.do_compile.31872)</li>
+                <li style="width:95%;background-color:#EAA">ERROR: Logfile of failure stored in: /home/lukas/oe-core/build/tmp-eglibc/work/mips32-oe-linux/topic-tools/1.9.47-r0/temp/log.do_compile.31872</li>
+                <li style="width:95%;background-color:#EAA">ERROR: Task 323 (/home/lukas/oe-core/meta-ros/recipes-ros/ros-comm/topic-tools_1.9.47.bb, do_compile) failed with exit code '1'</li>
+                <li style="width:95%;background-color:#EAA">NOTE: Tasks Summary: Attempted 2002 tasks of which 1537 didn't need to be rerun and 2 failed.</li>
+                <li style="width:95%;background-color:#EAA">Summary: 2 tasks failed:</li>
+                <li style="width:95%;background-color:#EAA">Summary: There were 2 ERROR messages shown, returning a non-zero exit code.</li>
+            </ul>
+        </div>
+    </div>
+    <div style="clear:both"></div>
+    <div class="report_item">
+        <div class="pkg">rospy</div>
+        <div class="result_line">
+            <ul>
+                <li style="width:95%;background-color:#AEA">ok</li>
+            </ul>
+        </div>
+    </div>
+    <div style="clear:both"></div>
+    <div class="report_item">
+        <div class="pkg">rosservice</div>
+        <div class="result_line">
+            <ul>
+                <li style="width:95%;background-color:#AEA">ok</li>
+            </ul>
+        </div>
+    </div>
+    <div style="clear:both"></div>
+    <div class="report_item">
+        <div class="pkg">rosout</div>
+        <div class="result_line">
+            <ul>
+                <li style="width:95%;background-color:#EAA">ERROR: Function failed: do_compile (log file is located at /home/lukas/oe-core/build/tmp-eglibc/work/mips32-oe-linux/rosout/1.9.47-r0/temp/log.do_compile.924)</li>
+                <li style="width:95%;background-color:#EAA">ERROR: Logfile of failure stored in: /home/lukas/oe-core/build/tmp-eglibc/work/mips32-oe-linux/rosout/1.9.47-r0/temp/log.do_compile.924</li>
+                <li style="width:95%;background-color:#EAA">ERROR: Task 7 (/home/lukas/oe-core/meta-ros/recipes-ros/ros-comm/rosout_1.9.47.bb, do_compile) failed with exit code '1'</li>
+                <li style="width:95%;background-color:#EAA">NOTE: Tasks Summary: Attempted 1208 tasks of which 1206 didn't need to be rerun and 1 failed.</li>
+                <li style="width:95%;background-color:#EAA">Summary: 1 task failed:</li>
+                <li style="width:95%;background-color:#EAA">Summary: There was 1 ERROR message shown, returning a non-zero exit code.</li>
+            </ul>
+        </div>
+    </div>
+    <div style="clear:both"></div>
+    <div class="report_item">
+        <div class="pkg">rostest</div>
+        <div class="result_line">
+            <ul>
+                <li style="width:95%;background-color:#AEA">ok</li>
+            </ul>
+        </div>
+    </div>
+    <div style="clear:both"></div>
+    <div class="report_item">
+        <div class="pkg">rosmaster</div>
+        <div class="result_line">
+            <ul>
+                <li style="width:95%;background-color:#AEA">ok</li>
+            </ul>
+        </div>
+    </div>
+    <div style="clear:both"></div>
+    <div class="report_item">
+        <div class="pkg">rosmsg</div>
+        <div class="result_line">
+            <ul>
+                <li style="width:95%;background-color:#AEA">ok</li>
+            </ul>
+        </div>
+    </div>
+    <div style="clear:both"></div>
+    <div class="report_item">
+        <div class="pkg">rosgraph-msgs</div>
+        <div class="result_line">
+            <ul>
+                <li style="width:95%;background-color:#AEA">ok</li>
+            </ul>
+        </div>
+    </div>
+    <div style="clear:both"></div>
+    <div class="report_item">
+        <div class="pkg">xmlrpcpp</div>
+        <div class="result_line">
+            <ul>
+                <li style="width:95%;background-color:#AEA">ok</li>
+            </ul>
+        </div>
+    </div>
+    <div style="clear:both"></div>
+    <div class="report_item">
+        <div class="pkg">topic-tools</div>
+        <div class="result_line">
+            <ul>
+                <li style="width:95%;background-color:#EAA">ERROR: Function failed: do_compile (log file is located at /home/lukas/oe-core/build/tmp-eglibc/work/mips32-oe-linux/topic-tools/1.9.47-r0/temp/log.do_compile.1642)</li>
+                <li style="width:95%;background-color:#EAA">ERROR: Logfile of failure stored in: /home/lukas/oe-core/build/tmp-eglibc/work/mips32-oe-linux/topic-tools/1.9.47-r0/temp/log.do_compile.1642</li>
+                <li style="width:95%;background-color:#EAA">ERROR: Task 7 (/home/lukas/oe-core/meta-ros/recipes-ros/ros-comm/topic-tools_1.9.47.bb, do_compile) failed with exit code '1'</li>
+                <li style="width:95%;background-color:#EAA">NOTE: Tasks Summary: Attempted 1255 tasks of which 1253 didn't need to be rerun and 1 failed.</li>
+                <li style="width:95%;background-color:#EAA">Summary: 1 task failed:</li>
+                <li style="width:95%;background-color:#EAA">Summary: There was 1 ERROR message shown, returning a non-zero exit code.</li>
+            </ul>
+        </div>
+    </div>
+    <div style="clear:both"></div>
+    <div class="report_item">
+        <div class="pkg">rosgraph</div>
+        <div class="result_line">
+            <ul>
+                <li style="width:95%;background-color:#AEA">ok</li>
+            </ul>
+        </div>
+    </div>
+    <div style="clear:both"></div>
+    <div class="report_item">
+        <div class="pkg">rostopic</div>
+        <div class="result_line">
+            <ul>
+                <li style="width:95%;background-color:#EAA">ERROR: Function failed: do_compile (log file is located at /home/lukas/oe-core/build/tmp-eglibc/work/mips32-oe-linux/topic-tools/1.9.47-r0/temp/log.do_compile.1991)</li>
+                <li style="width:95%;background-color:#EAA">ERROR: Logfile of failure stored in: /home/lukas/oe-core/build/tmp-eglibc/work/mips32-oe-linux/topic-tools/1.9.47-r0/temp/log.do_compile.1991</li>
+                <li style="width:95%;background-color:#EAA">ERROR: Task 759 (/home/lukas/oe-core/meta-ros/recipes-ros/ros-comm/topic-tools_1.9.47.bb, do_compile) failed with exit code '1'</li>
+                <li style="width:95%;background-color:#EAA">NOTE: Tasks Summary: Attempted 1726 tasks of which 1723 didn't need to be rerun and 1 failed.</li>
+                <li style="width:95%;background-color:#EAA">Summary: 1 task failed:</li>
+                <li style="width:95%;background-color:#EAA">Summary: There was 1 ERROR message shown, returning a non-zero exit code.</li>
+            </ul>
+        </div>
+    </div>
+    <div style="clear:both"></div>
+    <div class="report_item">
+        <div class="pkg">rosparam</div>
+        <div class="result_line">
+            <ul>
+                <li style="width:95%;background-color:#AEA">ok</li>
+            </ul>
+        </div>
+    </div>
+    <div style="clear:both"></div>
+    <div class="report_item">
+        <div class="pkg">rosnode</div>
+        <div class="result_line">
+            <ul>
+                <li style="width:95%;background-color:#EAA">ERROR: Function failed: do_compile (log file is located at /home/lukas/oe-core/build/tmp-eglibc/work/mips32-oe-linux/topic-tools/1.9.47-r0/temp/log.do_compile.2424)</li>
+                <li style="width:95%;background-color:#EAA">ERROR: Logfile of failure stored in: /home/lukas/oe-core/build/tmp-eglibc/work/mips32-oe-linux/topic-tools/1.9.47-r0/temp/log.do_compile.2424</li>
+                <li style="width:95%;background-color:#EAA">ERROR: Task 977 (/home/lukas/oe-core/meta-ros/recipes-ros/ros-comm/topic-tools_1.9.47.bb, do_compile) failed with exit code '1'</li>
+                <li style="width:95%;background-color:#EAA">NOTE: Tasks Summary: Attempted 1737 tasks of which 1734 didn't need to be rerun and 1 failed.</li>
+                <li style="width:95%;background-color:#EAA">Summary: 1 task failed:</li>
+                <li style="width:95%;background-color:#EAA">Summary: There was 1 ERROR message shown, returning a non-zero exit code.</li>
+            </ul>
+        </div>
+    </div>
+    <div style="clear:both"></div>
+    <div class="report_item">
+        <div class="pkg">roswtf</div>
+        <div class="result_line">
+            <ul>
+                <li style="width:95%;background-color:#AEA">ok</li>
+            </ul>
+        </div>
+    </div>
+    <div style="clear:both"></div>
+    <div class="report_item">
+        <div class="pkg">message-filters</div>
+        <div class="result_line">
+            <ul>
+                <li style="width:95%;background-color:#AEA">ok</li>
+            </ul>
+        </div>
+    </div>
+    <div style="clear:both"></div>
+    <div class="report_item">
+        <div class="pkg">rosbag</div>
+        <div class="result_line">
+            <ul>
+                <li style="width:95%;background-color:#EAA">ERROR: Function failed: do_compile (log file is located at /home/lukas/oe-core/build/tmp-eglibc/work/mips32-oe-linux/topic-tools/1.9.47-r0/temp/log.do_compile.2922)</li>
+                <li style="width:95%;background-color:#EAA">ERROR: Logfile of failure stored in: /home/lukas/oe-core/build/tmp-eglibc/work/mips32-oe-linux/topic-tools/1.9.47-r0/temp/log.do_compile.2922</li>
+                <li style="width:95%;background-color:#EAA">ERROR: Task 285 (/home/lukas/oe-core/meta-ros/recipes-ros/ros-comm/topic-tools_1.9.47.bb, do_compile) failed with exit code '1'</li>
+                <li style="width:95%;background-color:#EAA">NOTE: Tasks Summary: Attempted 1716 tasks of which 1714 didn't need to be rerun and 1 failed.</li>
+                <li style="width:95%;background-color:#EAA">Summary: 1 task failed:</li>
+                <li style="width:95%;background-color:#EAA">Summary: There was 1 ERROR message shown, returning a non-zero exit code.</li>
+            </ul>
+        </div>
+    </div>
+    <div style="clear:both"></div>
+    <div class="report_item">
+        <div class="pkg">roslaunch</div>
+        <div class="result_line">
+            <ul>
+                <li style="width:95%;background-color:#EAA">ERROR: Function failed: do_compile (log file is located at /home/lukas/oe-core/build/tmp-eglibc/work/mips32-oe-linux/rosout/1.9.47-r0/temp/log.do_compile.3109)</li>
+                <li style="width:95%;background-color:#EAA">ERROR: Logfile of failure stored in: /home/lukas/oe-core/build/tmp-eglibc/work/mips32-oe-linux/rosout/1.9.47-r0/temp/log.do_compile.3109</li>
+                <li style="width:95%;background-color:#EAA">ERROR: Task 333 (/home/lukas/oe-core/meta-ros/recipes-ros/ros-comm/rosout_1.9.47.bb, do_compile) failed with exit code '1'</li>
+                <li style="width:95%;background-color:#EAA">NOTE: Tasks Summary: Attempted 1675 tasks of which 1672 didn't need to be rerun and 1 failed.</li>
+                <li style="width:95%;background-color:#EAA">Summary: 1 task failed:</li>
+                <li style="width:95%;background-color:#EAA">Summary: There was 1 ERROR message shown, returning a non-zero exit code.</li>
+            </ul>
+        </div>
+    </div>
+    <div style="clear:both"></div>
+    <div class="report_item">
+        <div class="pkg">roscpp</div>
+        <div class="result_line">
+            <ul>
+                <li style="width:95%;background-color:#AEA">ok</li>
+            </ul>
+        </div>
+    </div>
+    <div style="clear:both"></div>
+    <div class="report_item">
+        <div class="pkg">std-srvs</div>
+        <div class="result_line">
+            <ul>
+                <li style="width:95%;background-color:#AEA">ok</li>
+            </ul>
+        </div>
+    </div>
+    <div style="clear:both"></div>
+    <div class="report_item">
+        <div class="pkg">rosconsole</div>
+        <div class="result_line">
+            <ul>
+                <li style="width:95%;background-color:#AEA">ok</li>
+            </ul>
+        </div>
+    </div>
+    <div style="clear:both"></div>
+    <div class="report_item">
+        <div class="pkg">class-loader</div>
+        <div class="result_line">
+            <ul>
+                <li style="width:95%;background-color:#EEA">WARNING: QA Issue: console-bridge: Files/directories were installed but not shipped</li>
+                <li style="width:95%;background-color:#EEA">WARNING: QA Issue: File '/usr/lib/libPocoZip.so.16' from libpoco was already stripped, this will prevent future debugging!</li>
+                <li style="width:95%;background-color:#EEA">WARNING: QA Issue: File '/usr/lib/libPocoNetSSL.so.16' from libpoco was already stripped, this will prevent future debugging!</li>
+                <li style="width:95%;background-color:#EEA">WARNING: QA Issue: File '/usr/lib/libPocoFoundation.so.16' from libpoco was already stripped, this will prevent future debugging!</li>
+                <li style="width:95%;background-color:#EEA">WARNING: QA Issue: File '/usr/lib/libPocoXML.so.16' from libpoco was already stripped, this will prevent future debugging!</li>
+                <li style="width:95%;background-color:#EEA">WARNING: QA Issue: File '/usr/lib/libPocoUtil.so.16' from libpoco was already stripped, this will prevent future debugging!</li>
+                <li style="width:95%;background-color:#EEA">WARNING: QA Issue: File '/usr/lib/libPocoCrypto.so.16' from libpoco was already stripped, this will prevent future debugging!</li>
+                <li style="width:95%;background-color:#EEA">WARNING: QA Issue: File '/usr/lib/libPocoData.so.16' from libpoco was already stripped, this will prevent future debugging!</li>
+                <li style="width:95%;background-color:#EEA">WARNING: QA Issue: File '/usr/lib/libPocoNet.so.16' from libpoco was already stripped, this will prevent future debugging!</li>
+                <li style="width:95%;background-color:#EEA">WARNING: QA Issue: libpoco: Files/directories were installed but not shipped</li>
+                <li style="width:95%;background-color:#AEA">ok</li>
+                <li style="width:95%;background-color:#EEA">Summary: There were 10 WARNING messages shown.</li>
+            </ul>
+        </div>
+    </div>
+    <div style="clear:both"></div>
+    <div class="report_item">
+        <div class="pkg">angles</div>
+        <div class="result_line">
+            <ul>
+                <li style="width:95%;background-color:#AEA">ok</li>
+            </ul>
+        </div>
+    </div>
+    <div style="clear:both"></div>
+    <div class="report_item">
+        <div class="pkg">console-bridge</div>
+        <div class="result_line">
+            <ul>
+                <li style="width:95%;background-color:#AEA">ok</li>
+            </ul>
+        </div>
+    </div>
+    <div style="clear:both"></div>
+    <div class="report_item">
+        <div class="pkg">genlisp</div>
+        <div class="result_line">
+            <ul>
+                <li style="width:95%;background-color:#AEA">ok</li>
+            </ul>
+        </div>
+    </div>
+    <div style="clear:both"></div>
+    <div class="report_item">
+        <div class="pkg">rospack</div>
+        <div class="result_line">
+            <ul>
+                <li style="width:95%;background-color:#AEA">ok</li>
+            </ul>
+        </div>
+    </div>
+    <div style="clear:both"></div>
+    <div class="report_item">
+        <div class="pkg">nav-msgs</div>
+        <div class="result_line">
+            <ul>
+                <li style="width:95%;background-color:#AEA">ok</li>
+            </ul>
+        </div>
+    </div>
+    <div style="clear:both"></div>
+    <div class="report_item">
+        <div class="pkg">visualization-msgs</div>
+        <div class="result_line">
+            <ul>
+                <li style="width:95%;background-color:#AEA">ok</li>
+            </ul>
+        </div>
+    </div>
+    <div style="clear:both"></div>
+    <div class="report_item">
+        <div class="pkg">trajectory-msgs</div>
+        <div class="result_line">
+            <ul>
+                <li style="width:95%;background-color:#AEA">ok</li>
+            </ul>
+        </div>
+    </div>
+    <div style="clear:both"></div>
+    <div class="report_item">
+        <div class="pkg">geometry-msgs</div>
+        <div class="result_line">
+            <ul>
+                <li style="width:95%;background-color:#AEA">ok</li>
+            </ul>
+        </div>
+    </div>
+    <div style="clear:both"></div>
+    <div class="report_item">
+        <div class="pkg">stereo-msgs</div>
+        <div class="result_line">
+            <ul>
+                <li style="width:95%;background-color:#AEA">ok</li>
+            </ul>
+        </div>
+    </div>
+    <div style="clear:both"></div>
+    <div class="report_item">
+        <div class="pkg">sensor-msgs</div>
+        <div class="result_line">
+            <ul>
+                <li style="width:95%;background-color:#AEA">ok</li>
+            </ul>
+        </div>
+    </div>
+    <div style="clear:both"></div>
+    <div class="report_item">
+        <div class="pkg">diagnostic-msgs</div>
+        <div class="result_line">
+            <ul>
+                <li style="width:95%;background-color:#AEA">ok</li>
+            </ul>
+        </div>
+    </div>
+    <div style="clear:both"></div>
+    <div class="report_item">
+        <div class="pkg">actionlib-msgs</div>
+        <div class="result_line">
+            <ul>
+                <li style="width:95%;background-color:#AEA">ok</li>
+            </ul>
+        </div>
+    </div>
+    <div style="clear:both"></div>
+    <div class="report_item">
+        <div class="pkg">shape-msgs</div>
+        <div class="result_line">
+            <ul>
+                <li style="width:95%;background-color:#AEA">ok</li>
+            </ul>
+        </div>
+    </div>
+    <div style="clear:both"></div>
+    <div class="report_item">
+        <div class="pkg">genmsg</div>
+        <div class="result_line">
+            <ul>
+                <li style="width:95%;background-color:#AEA">ok</li>
+            </ul>
+        </div>
+    </div>
+    <div style="clear:both"></div>
+    <div class="report_item">
+        <div class="pkg">chatter-sender</div>
+        <div class="result_line">
+            <ul>
+                <li style="width:95%;background-color:#EAA">ERROR: Function failed: do_compile (log file is located at /home/lukas/oe-core/build/tmp-eglibc/work/mips32-oe-linux/chatter-sender/1.0.0+gitrAUTOINC+d9c76d7b50-r0/temp/log.do_compile.28992)</li>
+                <li style="width:95%;background-color:#EAA">ERROR: Logfile of failure stored in: /home/lukas/oe-core/build/tmp-eglibc/work/mips32-oe-linux/chatter-sender/1.0.0+gitrAUTOINC+d9c76d7b50-r0/temp/log.do_compile.28992</li>
+                <li style="width:95%;background-color:#EAA">ERROR: Task 7 (/home/lukas/oe-core/meta-ros/recipes-ros/chatter/chatter-sender_git.bb, do_compile) failed with exit code '1'</li>
+                <li style="width:95%;background-color:#EAA">NOTE: Tasks Summary: Attempted 1267 tasks of which 1248 didn't need to be rerun and 1 failed.</li>
+                <li style="width:95%;background-color:#EAA">Summary: 1 task failed:</li>
+                <li style="width:95%;background-color:#EAA">Summary: There was 1 ERROR message shown, returning a non-zero exit code.</li>
+            </ul>
+        </div>
+    </div>
+    <div style="clear:both"></div>
+    <div class="report_item">
+        <div class="pkg">chatter-msgs</div>
+        <div class="result_line">
+            <ul>
+                <li style="width:95%;background-color:#AEA">ok</li>
+            </ul>
+        </div>
+    </div>
+    <div style="clear:both"></div>
+    <div class="report_item">
+        <div class="pkg">chatter-receiver</div>
+        <div class="result_line">
+            <ul>
+                <li style="width:95%;background-color:#EAA">ERROR: Function failed: do_compile (log file is located at /home/lukas/oe-core/build/tmp-eglibc/work/mips32-oe-linux/chatter-receiver/1.0.0+gitrAUTOINC+d9c76d7b50-r0/temp/log.do_compile.29335)</li>
+                <li style="width:95%;background-color:#EAA">ERROR: Logfile of failure stored in: /home/lukas/oe-core/build/tmp-eglibc/work/mips32-oe-linux/chatter-receiver/1.0.0+gitrAUTOINC+d9c76d7b50-r0/temp/log.do_compile.29335</li>
+                <li style="width:95%;background-color:#EAA">ERROR: Task 7 (/home/lukas/oe-core/meta-ros/recipes-ros/chatter/chatter-receiver_git.bb, do_compile) failed with exit code '1'</li>
+                <li style="width:95%;background-color:#EAA">NOTE: Tasks Summary: Attempted 1220 tasks of which 1213 didn't need to be rerun and 1 failed.</li>
+                <li style="width:95%;background-color:#EAA">Summary: 1 task failed:</li>
+                <li style="width:95%;background-color:#EAA">Summary: There was 1 ERROR message shown, returning a non-zero exit code.</li>
+            </ul>
+        </div>
+    </div>
+    <div style="clear:both"></div>
+    <div class="report_item">
+        <div class="pkg">smclib</div>
+        <div class="result_line">
+            <ul>
+                <li style="width:95%;background-color:#AEA">ok</li>
+            </ul>
+        </div>
+    </div>
+    <div style="clear:both"></div>
+    <div class="report_item">
+        <div class="pkg">bondcpp</div>
+        <div class="result_line">
+            <ul>
+                <li style="width:95%;background-color:#AEA">ok</li>
+            </ul>
+        </div>
+    </div>
+    <div style="clear:both"></div>
+    <div class="report_item">
+        <div class="pkg">bondpy</div>
+        <div class="result_line">
+            <ul>
+                <li style="width:95%;background-color:#AEA">ok</li>
+            </ul>
+        </div>
+    </div>
+    <div style="clear:both"></div>
+    <div class="report_item">
+        <div class="pkg">bond</div>
+        <div class="result_line">
+            <ul>
+                <li style="width:95%;background-color:#AEA">ok</li>
+            </ul>
+        </div>
+    </div>
+    <div style="clear:both"></div>
+    <div class="report_item">
+        <div class="pkg">roscpp-traits</div>
+        <div class="result_line">
+            <ul>
+                <li style="width:95%;background-color:#AEA">ok</li>
+            </ul>
+        </div>
+    </div>
+    <div style="clear:both"></div>
+    <div class="report_item">
+        <div class="pkg">roscpp-serialization</div>
+        <div class="result_line">
+            <ul>
+                <li style="width:95%;background-color:#AEA">ok</li>
+            </ul>
+        </div>
+    </div>
+    <div style="clear:both"></div>
+    <div class="report_item">
+        <div class="pkg">cpp-common</div>
+        <div class="result_line">
+            <ul>
+                <li style="width:95%;background-color:#AEA">ok</li>
+            </ul>
+        </div>
+    </div>
+    <div style="clear:both"></div>
+    <div class="report_item">
+        <div class="pkg">rostime</div>
+        <div class="result_line">
+            <ul>
+                <li style="width:95%;background-color:#AEA">ok</li>
+            </ul>
+        </div>
+    </div>
+    <div style="clear:both"></div>
+    <div class="report_item">
+        <div class="pkg">tf</div>
+        <div class="result_line">
+            <ul>
+                <li style="width:95%;background-color:#EAA">ERROR: Function failed: do_compile (log file is located at /home/lukas/oe-core/build/tmp-eglibc/work/mips32-oe-linux/tf2-ros/0.4.5-r0/temp/log.do_compile.4073)</li>
+                <li style="width:95%;background-color:#EAA">ERROR: Logfile of failure stored in: /home/lukas/oe-core/build/tmp-eglibc/work/mips32-oe-linux/tf2-ros/0.4.5-r0/temp/log.do_compile.4073</li>
+                <li style="width:95%;background-color:#EAA">ERROR: Task 248 (/home/lukas/oe-core/meta-ros/recipes-ros/geometry-experimental/tf2-ros_0.4.5.bb, do_compile) failed with exit code '1'</li>
+                <li style="width:95%;background-color:#EAA">NOTE: Tasks Summary: Attempted 1783 tasks of which 1724 didn't need to be rerun and 1 failed.</li>
+                <li style="width:95%;background-color:#EAA">Summary: 1 task failed:</li>
+                <li style="width:95%;background-color:#EAA">Summary: There was 1 ERROR message shown, returning a non-zero exit code.</li>
+            </ul>
+        </div>
+    </div>
+    <div style="clear:both"></div>
+    <div class="report_item">
+        <div class="pkg">std-msgs</div>
+        <div class="result_line">
+            <ul>
+                <li style="width:95%;background-color:#AEA">ok</li>
+            </ul>
+        </div>
+    </div>
+    <div style="clear:both"></div>
+    <div class="report_item">
+        <div class="pkg">image-transport</div>
+        <div class="result_line">
+            <ul>
+                <li style="width:95%;background-color:#EAA">ERROR: Function failed: do_compile (log file is located at /home/lukas/oe-core/build/tmp-eglibc/work/mips32-oe-linux/image-transport/1.11.0-r0/temp/log.do_compile.5066)</li>
+                <li style="width:95%;background-color:#EAA">ERROR: Logfile of failure stored in: /home/lukas/oe-core/build/tmp-eglibc/work/mips32-oe-linux/image-transport/1.11.0-r0/temp/log.do_compile.5066</li>
+                <li style="width:95%;background-color:#EAA">ERROR: Task 7 (/home/lukas/oe-core/meta-ros/recipes-ros/image-common/image-transport_1.11.0.bb, do_compile) failed with exit code '1'</li>
+                <li style="width:95%;background-color:#EAA">NOTE: Tasks Summary: Attempted 1675 tasks of which 1656 didn't need to be rerun and 1 failed.</li>
+                <li style="width:95%;background-color:#EAA">Summary: 1 task failed:</li>
+                <li style="width:95%;background-color:#EAA">Summary: There was 1 ERROR message shown, returning a non-zero exit code.</li>
+            </ul>
+        </div>
+    </div>
+    <div style="clear:both"></div>
+    <div class="report_item">
+        <div class="pkg">rospy-tutorials</div>
+        <div class="result_line">
+            <ul>
+                <li style="width:95%;background-color:#AEA">ok</li>
+            </ul>
+        </div>
+    </div>
+    <div style="clear:both"></div>
+    <div class="report_item">
+        <div class="pkg">roscpp-tutorials</div>
+        <div class="result_line">
+            <ul>
+                <li style="width:95%;background-color:#EAA">ERROR: Function failed: do_compile (log file is located at /home/lukas/oe-core/build/tmp-eglibc/work/mips32-oe-linux/roscpp-tutorials/0.3.11-r0/temp/log.do_compile.6475)</li>
+                <li style="width:95%;background-color:#EAA">ERROR: Logfile of failure stored in: /home/lukas/oe-core/build/tmp-eglibc/work/mips32-oe-linux/roscpp-tutorials/0.3.11-r0/temp/log.do_compile.6475</li>
+                <li style="width:95%;background-color:#EAA">ERROR: Task 7 (/home/lukas/oe-core/meta-ros/recipes-ros/ros-tutorials/roscpp-tutorials_0.3.11.bb, do_compile) failed with exit code '1'</li>
+                <li style="width:95%;background-color:#EAA">NOTE: Tasks Summary: Attempted 1220 tasks of which 1213 didn't need to be rerun and 1 failed.</li>
+                <li style="width:95%;background-color:#EAA">Summary: 1 task failed:</li>
+                <li style="width:95%;background-color:#EAA">Summary: There was 1 ERROR message shown, returning a non-zero exit code.</li>
+            </ul>
+        </div>
+    </div>
+    <div style="clear:both"></div>
+    <div class="report_item">
+        <div class="pkg">tf2-msgs</div>
+        <div class="result_line">
+            <ul>
+                <li style="width:95%;background-color:#AEA">ok</li>
+            </ul>
+        </div>
+    </div>
+    <div style="clear:both"></div>
+    <div class="report_item">
+        <div class="pkg">tf2-py</div>
+        <div class="result_line">
+            <ul>
+                <li style="width:95%;background-color:#AEA">ok</li>
+            </ul>
+        </div>
+    </div>
+    <div style="clear:both"></div>
+    <div class="report_item">
+        <div class="pkg">tf2</div>
+        <div class="result_line">
+            <ul>
+                <li style="width:95%;background-color:#AEA">ok</li>
+            </ul>
+        </div>
+    </div>
+    <div style="clear:both"></div>
+    <div class="report_item">
+        <div class="pkg">tf2-ros</div>
+        <div class="result_line">
+            <ul>
+                <li style="width:95%;background-color:#EAA">ERROR: Function failed: do_compile (log file is located at /home/lukas/oe-core/build/tmp-eglibc/work/mips32-oe-linux/tf2-ros/0.4.5-r0/temp/log.do_compile.6945)</li>
+                <li style="width:95%;background-color:#EAA">ERROR: Logfile of failure stored in: /home/lukas/oe-core/build/tmp-eglibc/work/mips32-oe-linux/tf2-ros/0.4.5-r0/temp/log.do_compile.6945</li>
+                <li style="width:95%;background-color:#EAA">ERROR: Task 7 (/home/lukas/oe-core/meta-ros/recipes-ros/geometry-experimental/tf2-ros_0.4.5.bb, do_compile) failed with exit code '1'</li>
+                <li style="width:95%;background-color:#EAA">NOTE: Tasks Summary: Attempted 1743 tasks of which 1741 didn't need to be rerun and 1 failed.</li>
+                <li style="width:95%;background-color:#EAA">Summary: 1 task failed:</li>
+                <li style="width:95%;background-color:#EAA">Summary: There was 1 ERROR message shown, returning a non-zero exit code.</li>
+            </ul>
+        </div>
+    </div>
+    <div style="clear:both"></div>
+    <div class="report_item">
+        <div class="pkg">gencpp</div>
+        <div class="result_line">
+            <ul>
+                <li style="width:95%;background-color:#AEA">ok</li>
+            </ul>
+        </div>
+    </div>
+    <div style="clear:both"></div>
+    <div class="report_item">
+        <div class="pkg">genpy</div>
+        <div class="result_line">
+            <ul>
+                <li style="width:95%;background-color:#AEA">ok</li>
+            </ul>
+        </div>
+    </div>
+    <div style="clear:both"></div>
+    <div class="report_item">
+        <div class="pkg">nodelet-topic-tools</div>
+        <div class="result_line">
+            <ul>
+                <li style="width:95%;background-color:#AEA">ok</li>
+            </ul>
+        </div>
+    </div>
+    <div style="clear:both"></div>
+    <div class="report_item">
+        <div class="pkg">nodelet</div>
+        <div class="result_line">
+            <ul>
+                <li style="width:95%;background-color:#EAA">ERROR: Function failed: do_compile (log file is located at /home/lukas/oe-core/build/tmp-eglibc/work/mips32-oe-linux/nodelet/1.8.0-r0/temp/log.do_compile.8152)</li>
+                <li style="width:95%;background-color:#EAA">ERROR: Logfile of failure stored in: /home/lukas/oe-core/build/tmp-eglibc/work/mips32-oe-linux/nodelet/1.8.0-r0/temp/log.do_compile.8152</li>
+                <li style="width:95%;background-color:#EAA">ERROR: Task 7 (/home/lukas/oe-core/meta-ros/recipes-ros/nodelet-core/nodelet_1.8.0.bb, do_compile) failed with exit code '1'</li>
+                <li style="width:95%;background-color:#EAA">NOTE: Tasks Summary: Attempted 1730 tasks of which 1723 didn't need to be rerun and 1 failed.</li>
+                <li style="width:95%;background-color:#EAA">Summary: 1 task failed:</li>
+                <li style="width:95%;background-color:#EAA">Summary: There was 1 ERROR message shown, returning a non-zero exit code.</li>
+            </ul>
+        </div>
+    </div>
+    <div style="clear:both"></div>
+    <div class="report_item">
+        <div class="pkg">message-runtime</div>
+        <div class="result_line">
+            <ul>
+                <li style="width:95%;background-color:#AEA">ok</li>
+            </ul>
+        </div>
+    </div>
+    <div style="clear:both"></div>
+    <div class="report_item">
+        <div class="pkg">nodelet-tutorial-math</div>
+        <div class="result_line">
+            <ul>
+                <li style="width:95%;background-color:#EAA">ERROR: Function failed: do_compile (log file is located at /home/lukas/oe-core/build/tmp-eglibc/work/mips32-oe-linux/nodelet/1.8.0-r0/temp/log.do_compile.8478)</li>
+                <li style="width:95%;background-color:#EAA">ERROR: Logfile of failure stored in: /home/lukas/oe-core/build/tmp-eglibc/work/mips32-oe-linux/nodelet/1.8.0-r0/temp/log.do_compile.8478</li>
+                <li style="width:95%;background-color:#EAA">ERROR: Task 212 (/home/lukas/oe-core/meta-ros/recipes-ros/nodelet-core/nodelet_1.8.0.bb, do_compile) failed with exit code '1'</li>
+                <li style="width:95%;background-color:#EAA">NOTE: Tasks Summary: Attempted 1732 tasks of which 1728 didn't need to be rerun and 1 failed.</li>
+                <li style="width:95%;background-color:#EAA">Summary: 1 task failed:</li>
+                <li style="width:95%;background-color:#EAA">Summary: There was 1 ERROR message shown, returning a non-zero exit code.</li>
+            </ul>
+        </div>
+    </div>
+    <div style="clear:both"></div>
+    <div class="report_item">
+        <div class="pkg">pluginlib-tutorials</div>
+        <div class="result_line">
+            <ul>
+                <li style="width:95%;background-color:#AEA">ok</li>
+            </ul>
+        </div>
+    </div>
+    <div style="clear:both"></div>
+    <div class="report_item">
+        <div class="pkg">dynamic-reconfigure</div>
+        <div class="result_line">
+            <ul>
+                <li style="width:95%;background-color:#AEA">ok</li>
+            </ul>
+        </div>
+    </div>
+    <div style="clear:both"></div>
+    <div class="report_item">
+        <div class="pkg">message-generation</div>
+        <div class="result_line">
+            <ul>
+                <li style="width:95%;background-color:#AEA">ok</li>
+            </ul>
+        </div>
+    </div>
+    <div style="clear:both"></div>
+    <div class="report_item">
+        <div class="pkg">actionlib</div>
+        <div class="result_line">
+            <ul>
+                <li style="width:95%;background-color:#AEA">ok</li>
+            </ul>
+        </div>
+    </div>
+    <div style="clear:both"></div>
+    <div class="report_item">
+        <div class="pkg">pluginlib</div>
+        <div class="result_line">
+            <ul>
+                <li style="width:95%;background-color:#AEA">ok</li>
+            </ul>
+        </div>
+    </div>
+    <div style="clear:both"></div>
+    <div class="report_item">
+        <div class="pkg">catkin</div>
+        <div class="result_line">
+            <ul>
+                <li style="width:95%;background-color:#AEA">ok</li>
+            </ul>
+        </div>
+    </div>
+    <div style="clear:both"></div>
+</div>
+    <div style="background-color:#E0E0FF;height:5px;text-align:center;font-size:50%"></div>
+</div>
+</body>
+</html>

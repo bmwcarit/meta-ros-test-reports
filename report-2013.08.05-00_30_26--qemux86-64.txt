@@ -1,0 +1,177 @@
+---
+-Meta information
+#Report generation date: 06.08.2013 06:53
+#Recipes succeeded: 78 of 78, equaling 100%
+#Git hash: a5c5f9aa95e6c47d0e71a60984576b49a3e7fd95
+#Git commit date: 05.08.2013 00:30
+#General Info: This report was generated using the meta-ROS integration test and report assistant v1.00
+---
+Checking 1/78: roscreate
+ok
+Checking 2/78: rosbash
+ok
+Checking 3/78: rosunit
+ok
+Checking 4/78: roslib
+ok
+Checking 5/78: rosboost-cfg
+ok
+Checking 6/78: mk
+ok
+Checking 7/78: rosmake
+ok
+Checking 8/78: rosbuild
+WARNING: QA Issue: rosbuild: Files/directories were installed but not shipped
+ok
+Summary: There was 1 WARNING message shown.
+Checking 9/78: rosclean
+ok
+Checking 10/78: roslang
+ok
+Checking 11/78: packagegroup-ros-comm
+ok
+Checking 12/78: rospy
+ok
+Checking 13/78: rosservice
+ok
+Checking 14/78: rosout
+ok
+Checking 15/78: rostest
+ok
+Checking 16/78: rosmaster
+ok
+Checking 17/78: rosmsg
+ok
+Checking 18/78: rosgraph-msgs
+ok
+Checking 19/78: xmlrpcpp
+ok
+Checking 20/78: topic-tools
+ok
+Checking 21/78: rosgraph
+ok
+Checking 22/78: rostopic
+ok
+Checking 23/78: rosparam
+ok
+Checking 24/78: rosnode
+ok
+Checking 25/78: roswtf
+ok
+Checking 26/78: message-filters
+ok
+Checking 27/78: rosbag
+ok
+Checking 28/78: roslaunch
+ok
+Checking 29/78: roscpp
+ok
+Checking 30/78: std-srvs
+ok
+Checking 31/78: rosconsole
+ok
+Checking 32/78: class-loader
+WARNING: QA Issue: console-bridge: Files/directories were installed but not shipped
+WARNING: QA Issue: File '/usr/lib/libPocoZip.so.16' from libpoco was already stripped, this will prevent future debugging!
+WARNING: QA Issue: File '/usr/lib/libPocoNetSSL.so.16' from libpoco was already stripped, this will prevent future debugging!
+WARNING: QA Issue: File '/usr/lib/libPocoFoundation.so.16' from libpoco was already stripped, this will prevent future debugging!
+WARNING: QA Issue: File '/usr/lib/libPocoXML.so.16' from libpoco was already stripped, this will prevent future debugging!
+WARNING: QA Issue: File '/usr/lib/libPocoUtil.so.16' from libpoco was already stripped, this will prevent future debugging!
+WARNING: QA Issue: File '/usr/lib/libPocoCrypto.so.16' from libpoco was already stripped, this will prevent future debugging!
+WARNING: QA Issue: File '/usr/lib/libPocoData.so.16' from libpoco was already stripped, this will prevent future debugging!
+WARNING: QA Issue: File '/usr/lib/libPocoNet.so.16' from libpoco was already stripped, this will prevent future debugging!
+WARNING: QA Issue: libpoco: Files/directories were installed but not shipped
+ok
+Summary: There were 10 WARNING messages shown.
+Checking 33/78: angles
+ok
+Checking 34/78: console-bridge
+ok
+Checking 35/78: genlisp
+ok
+Checking 36/78: rospack
+ok
+Checking 37/78: nav-msgs
+ok
+Checking 38/78: visualization-msgs
+ok
+Checking 39/78: trajectory-msgs
+ok
+Checking 40/78: geometry-msgs
+ok
+Checking 41/78: stereo-msgs
+ok
+Checking 42/78: sensor-msgs
+ok
+Checking 43/78: diagnostic-msgs
+ok
+Checking 44/78: actionlib-msgs
+ok
+Checking 45/78: shape-msgs
+ok
+Checking 46/78: genmsg
+ok
+Checking 47/78: chatter-sender
+ok
+Checking 48/78: chatter-msgs
+ok
+Checking 49/78: chatter-receiver
+ok
+Checking 50/78: smclib
+ok
+Checking 51/78: bondcpp
+ok
+Checking 52/78: bondpy
+ok
+Checking 53/78: bond
+ok
+Checking 54/78: roscpp-traits
+ok
+Checking 55/78: roscpp-serialization
+ok
+Checking 56/78: cpp-common
+ok
+Checking 57/78: rostime
+ok
+Checking 58/78: tf
+ok
+Checking 59/78: std-msgs
+ok
+Checking 60/78: image-transport
+ok
+Checking 61/78: rospy-tutorials
+ok
+Checking 62/78: roscpp-tutorials
+ok
+Checking 63/78: tf2-msgs
+ok
+Checking 64/78: tf2-py
+ok
+Checking 65/78: tf2
+ok
+Checking 66/78: tf2-ros
+ok
+Checking 67/78: gencpp
+ok
+Checking 68/78: genpy
+ok
+Checking 69/78: nodelet-topic-tools
+ok
+Checking 70/78: nodelet
+ok
+Checking 71/78: message-runtime
+ok
+Checking 72/78: nodelet-tutorial-math
+ok
+Checking 73/78: pluginlib-tutorials
+ok
+Checking 74/78: dynamic-reconfigure
+ok
+Checking 75/78: message-generation
+ok
+Checking 76/78: actionlib
+ok
+Checking 77/78: pluginlib
+ok
+Checking 78/78: catkin
+ok

@@ -1,0 +1,255 @@
+---
+-Meta information
+#Report generation date: 05.08.2013 12:04
+#Recipes succeeded: 63 of 78, equaling 80%
+#Git hash: a5c5f9aa95e6c47d0e71a60984576b49a3e7fd95
+#Git commit date: 05.08.2013 00:30
+#General Info: This report was generated using the meta-ROS integration test and report assistant v1.00
+---
+Checking 1/78: roscreate
+ok
+Checking 2/78: rosbash
+ok
+Checking 3/78: rosunit
+ok
+Checking 4/78: roslib
+ok
+Checking 5/78: rosboost-cfg
+ok
+Checking 6/78: mk
+ok
+Checking 7/78: rosmake
+ok
+Checking 8/78: rosbuild
+WARNING: QA Issue: rosbuild: Files/directories were installed but not shipped
+ok
+Summary: There was 1 WARNING message shown.
+Checking 9/78: rosclean
+ok
+Checking 10/78: roslang
+ok
+Checking 11/78: packagegroup-ros-comm
+ERROR: Function failed: do_compile (log file is located at /home/lukas/oe-core/build/tmp-eglibc/work/mips32-oe-linux/rosout/1.9.47-r0/temp/log.do_compile.31844)
+ERROR: Logfile of failure stored in: /home/lukas/oe-core/build/tmp-eglibc/work/mips32-oe-linux/rosout/1.9.47-r0/temp/log.do_compile.31844
+ERROR: Task 287 (/home/lukas/oe-core/meta-ros/recipes-ros/ros-comm/rosout_1.9.47.bb, do_compile) failed with exit code '1'
+ERROR: Function failed: do_compile (log file is located at /home/lukas/oe-core/build/tmp-eglibc/work/mips32-oe-linux/topic-tools/1.9.47-r0/temp/log.do_compile.31872)
+ERROR: Logfile of failure stored in: /home/lukas/oe-core/build/tmp-eglibc/work/mips32-oe-linux/topic-tools/1.9.47-r0/temp/log.do_compile.31872
+ERROR: Task 323 (/home/lukas/oe-core/meta-ros/recipes-ros/ros-comm/topic-tools_1.9.47.bb, do_compile) failed with exit code '1'
+NOTE: Tasks Summary: Attempted 2002 tasks of which 1537 didn't need to be rerun and 2 failed.
+Summary: 2 tasks failed:
+Summary: There were 2 ERROR messages shown, returning a non-zero exit code.
+Checking 12/78: rospy
+ok
+Checking 13/78: rosservice
+ok
+Checking 14/78: rosout
+ERROR: Function failed: do_compile (log file is located at /home/lukas/oe-core/build/tmp-eglibc/work/mips32-oe-linux/rosout/1.9.47-r0/temp/log.do_compile.924)
+ERROR: Logfile of failure stored in: /home/lukas/oe-core/build/tmp-eglibc/work/mips32-oe-linux/rosout/1.9.47-r0/temp/log.do_compile.924
+ERROR: Task 7 (/home/lukas/oe-core/meta-ros/recipes-ros/ros-comm/rosout_1.9.47.bb, do_compile) failed with exit code '1'
+NOTE: Tasks Summary: Attempted 1208 tasks of which 1206 didn't need to be rerun and 1 failed.
+Summary: 1 task failed:
+Summary: There was 1 ERROR message shown, returning a non-zero exit code.
+Checking 15/78: rostest
+ok
+Checking 16/78: rosmaster
+ok
+Checking 17/78: rosmsg
+ok
+Checking 18/78: rosgraph-msgs
+ok
+Checking 19/78: xmlrpcpp
+ok
+Checking 20/78: topic-tools
+ERROR: Function failed: do_compile (log file is located at /home/lukas/oe-core/build/tmp-eglibc/work/mips32-oe-linux/topic-tools/1.9.47-r0/temp/log.do_compile.1642)
+ERROR: Logfile of failure stored in: /home/lukas/oe-core/build/tmp-eglibc/work/mips32-oe-linux/topic-tools/1.9.47-r0/temp/log.do_compile.1642
+ERROR: Task 7 (/home/lukas/oe-core/meta-ros/recipes-ros/ros-comm/topic-tools_1.9.47.bb, do_compile) failed with exit code '1'
+NOTE: Tasks Summary: Attempted 1255 tasks of which 1253 didn't need to be rerun and 1 failed.
+Summary: 1 task failed:
+Summary: There was 1 ERROR message shown, returning a non-zero exit code.
+Checking 21/78: rosgraph
+ok
+Checking 22/78: rostopic
+ERROR: Function failed: do_compile (log file is located at /home/lukas/oe-core/build/tmp-eglibc/work/mips32-oe-linux/topic-tools/1.9.47-r0/temp/log.do_compile.1991)
+ERROR: Logfile of failure stored in: /home/lukas/oe-core/build/tmp-eglibc/work/mips32-oe-linux/topic-tools/1.9.47-r0/temp/log.do_compile.1991
+ERROR: Task 759 (/home/lukas/oe-core/meta-ros/recipes-ros/ros-comm/topic-tools_1.9.47.bb, do_compile) failed with exit code '1'
+NOTE: Tasks Summary: Attempted 1726 tasks of which 1723 didn't need to be rerun and 1 failed.
+Summary: 1 task failed:
+Summary: There was 1 ERROR message shown, returning a non-zero exit code.
+Checking 23/78: rosparam
+ok
+Checking 24/78: rosnode
+ERROR: Function failed: do_compile (log file is located at /home/lukas/oe-core/build/tmp-eglibc/work/mips32-oe-linux/topic-tools/1.9.47-r0/temp/log.do_compile.2424)
+ERROR: Logfile of failure stored in: /home/lukas/oe-core/build/tmp-eglibc/work/mips32-oe-linux/topic-tools/1.9.47-r0/temp/log.do_compile.2424
+ERROR: Task 977 (/home/lukas/oe-core/meta-ros/recipes-ros/ros-comm/topic-tools_1.9.47.bb, do_compile) failed with exit code '1'
+NOTE: Tasks Summary: Attempted 1737 tasks of which 1734 didn't need to be rerun and 1 failed.
+Summary: 1 task failed:
+Summary: There was 1 ERROR message shown, returning a non-zero exit code.
+Checking 25/78: roswtf
+ok
+Checking 26/78: message-filters
+ok
+Checking 27/78: rosbag
+ERROR: Function failed: do_compile (log file is located at /home/lukas/oe-core/build/tmp-eglibc/work/mips32-oe-linux/topic-tools/1.9.47-r0/temp/log.do_compile.2922)
+ERROR: Logfile of failure stored in: /home/lukas/oe-core/build/tmp-eglibc/work/mips32-oe-linux/topic-tools/1.9.47-r0/temp/log.do_compile.2922
+ERROR: Task 285 (/home/lukas/oe-core/meta-ros/recipes-ros/ros-comm/topic-tools_1.9.47.bb, do_compile) failed with exit code '1'
+NOTE: Tasks Summary: Attempted 1716 tasks of which 1714 didn't need to be rerun and 1 failed.
+Summary: 1 task failed:
+Summary: There was 1 ERROR message shown, returning a non-zero exit code.
+Checking 28/78: roslaunch
+ERROR: Function failed: do_compile (log file is located at /home/lukas/oe-core/build/tmp-eglibc/work/mips32-oe-linux/rosout/1.9.47-r0/temp/log.do_compile.3109)
+ERROR: Logfile of failure stored in: /home/lukas/oe-core/build/tmp-eglibc/work/mips32-oe-linux/rosout/1.9.47-r0/temp/log.do_compile.3109
+ERROR: Task 333 (/home/lukas/oe-core/meta-ros/recipes-ros/ros-comm/rosout_1.9.47.bb, do_compile) failed with exit code '1'
+NOTE: Tasks Summary: Attempted 1675 tasks of which 1672 didn't need to be rerun and 1 failed.
+Summary: 1 task failed:
+Summary: There was 1 ERROR message shown, returning a non-zero exit code.
+Checking 29/78: roscpp
+ok
+Checking 30/78: std-srvs
+ok
+Checking 31/78: rosconsole
+ok
+Checking 32/78: class-loader
+WARNING: QA Issue: console-bridge: Files/directories were installed but not shipped
+WARNING: QA Issue: File '/usr/lib/libPocoZip.so.16' from libpoco was already stripped, this will prevent future debugging!
+WARNING: QA Issue: File '/usr/lib/libPocoNetSSL.so.16' from libpoco was already stripped, this will prevent future debugging!
+WARNING: QA Issue: File '/usr/lib/libPocoFoundation.so.16' from libpoco was already stripped, this will prevent future debugging!
+WARNING: QA Issue: File '/usr/lib/libPocoXML.so.16' from libpoco was already stripped, this will prevent future debugging!
+WARNING: QA Issue: File '/usr/lib/libPocoUtil.so.16' from libpoco was already stripped, this will prevent future debugging!
+WARNING: QA Issue: File '/usr/lib/libPocoCrypto.so.16' from libpoco was already stripped, this will prevent future debugging!
+WARNING: QA Issue: File '/usr/lib/libPocoData.so.16' from libpoco was already stripped, this will prevent future debugging!
+WARNING: QA Issue: File '/usr/lib/libPocoNet.so.16' from libpoco was already stripped, this will prevent future debugging!
+WARNING: QA Issue: libpoco: Files/directories were installed but not shipped
+ok
+Summary: There were 10 WARNING messages shown.
+Checking 33/78: angles
+ok
+Checking 34/78: console-bridge
+ok
+Checking 35/78: genlisp
+ok
+Checking 36/78: rospack
+ok
+Checking 37/78: nav-msgs
+ok
+Checking 38/78: visualization-msgs
+ok
+Checking 39/78: trajectory-msgs
+ok
+Checking 40/78: geometry-msgs
+ok
+Checking 41/78: stereo-msgs
+ok
+Checking 42/78: sensor-msgs
+ok
+Checking 43/78: diagnostic-msgs
+ok
+Checking 44/78: actionlib-msgs
+ok
+Checking 45/78: shape-msgs
+ok
+Checking 46/78: genmsg
+ok
+Checking 47/78: chatter-sender
+ERROR: Function failed: do_compile (log file is located at /home/lukas/oe-core/build/tmp-eglibc/work/mips32-oe-linux/chatter-sender/1.0.0+gitrAUTOINC+d9c76d7b50-r0/temp/log.do_compile.28992)
+ERROR: Logfile of failure stored in: /home/lukas/oe-core/build/tmp-eglibc/work/mips32-oe-linux/chatter-sender/1.0.0+gitrAUTOINC+d9c76d7b50-r0/temp/log.do_compile.28992
+ERROR: Task 7 (/home/lukas/oe-core/meta-ros/recipes-ros/chatter/chatter-sender_git.bb, do_compile) failed with exit code '1'
+NOTE: Tasks Summary: Attempted 1267 tasks of which 1248 didn't need to be rerun and 1 failed.
+Summary: 1 task failed:
+Summary: There was 1 ERROR message shown, returning a non-zero exit code.
+Checking 48/78: chatter-msgs
+ok
+Checking 49/78: chatter-receiver
+ERROR: Function failed: do_compile (log file is located at /home/lukas/oe-core/build/tmp-eglibc/work/mips32-oe-linux/chatter-receiver/1.0.0+gitrAUTOINC+d9c76d7b50-r0/temp/log.do_compile.29335)
+ERROR: Logfile of failure stored in: /home/lukas/oe-core/build/tmp-eglibc/work/mips32-oe-linux/chatter-receiver/1.0.0+gitrAUTOINC+d9c76d7b50-r0/temp/log.do_compile.29335
+ERROR: Task 7 (/home/lukas/oe-core/meta-ros/recipes-ros/chatter/chatter-receiver_git.bb, do_compile) failed with exit code '1'
+NOTE: Tasks Summary: Attempted 1220 tasks of which 1213 didn't need to be rerun and 1 failed.
+Summary: 1 task failed:
+Summary: There was 1 ERROR message shown, returning a non-zero exit code.
+Checking 50/78: smclib
+ok
+Checking 51/78: bondcpp
+ok
+Checking 52/78: bondpy
+ok
+Checking 53/78: bond
+ok
+Checking 54/78: roscpp-traits
+ok
+Checking 55/78: roscpp-serialization
+ok
+Checking 56/78: cpp-common
+ok
+Checking 57/78: rostime
+ok
+Checking 58/78: tf
+ERROR: Function failed: do_compile (log file is located at /home/lukas/oe-core/build/tmp-eglibc/work/mips32-oe-linux/tf2-ros/0.4.5-r0/temp/log.do_compile.4073)
+ERROR: Logfile of failure stored in: /home/lukas/oe-core/build/tmp-eglibc/work/mips32-oe-linux/tf2-ros/0.4.5-r0/temp/log.do_compile.4073
+ERROR: Task 248 (/home/lukas/oe-core/meta-ros/recipes-ros/geometry-experimental/tf2-ros_0.4.5.bb, do_compile) failed with exit code '1'
+NOTE: Tasks Summary: Attempted 1783 tasks of which 1724 didn't need to be rerun and 1 failed.
+Summary: 1 task failed:
+Summary: There was 1 ERROR message shown, returning a non-zero exit code.
+Checking 59/78: std-msgs
+ok
+Checking 60/78: image-transport
+ERROR: Function failed: do_compile (log file is located at /home/lukas/oe-core/build/tmp-eglibc/work/mips32-oe-linux/image-transport/1.11.0-r0/temp/log.do_compile.5066)
+ERROR: Logfile of failure stored in: /home/lukas/oe-core/build/tmp-eglibc/work/mips32-oe-linux/image-transport/1.11.0-r0/temp/log.do_compile.5066
+ERROR: Task 7 (/home/lukas/oe-core/meta-ros/recipes-ros/image-common/image-transport_1.11.0.bb, do_compile) failed with exit code '1'
+NOTE: Tasks Summary: Attempted 1675 tasks of which 1656 didn't need to be rerun and 1 failed.
+Summary: 1 task failed:
+Summary: There was 1 ERROR message shown, returning a non-zero exit code.
+Checking 61/78: rospy-tutorials
+ok
+Checking 62/78: roscpp-tutorials
+ERROR: Function failed: do_compile (log file is located at /home/lukas/oe-core/build/tmp-eglibc/work/mips32-oe-linux/roscpp-tutorials/0.3.11-r0/temp/log.do_compile.6475)
+ERROR: Logfile of failure stored in: /home/lukas/oe-core/build/tmp-eglibc/work/mips32-oe-linux/roscpp-tutorials/0.3.11-r0/temp/log.do_compile.6475
+ERROR: Task 7 (/home/lukas/oe-core/meta-ros/recipes-ros/ros-tutorials/roscpp-tutorials_0.3.11.bb, do_compile) failed with exit code '1'
+NOTE: Tasks Summary: Attempted 1220 tasks of which 1213 didn't need to be rerun and 1 failed.
+Summary: 1 task failed:
+Summary: There was 1 ERROR message shown, returning a non-zero exit code.
+Checking 63/78: tf2-msgs
+ok
+Checking 64/78: tf2-py
+ok
+Checking 65/78: tf2
+ok
+Checking 66/78: tf2-ros
+ERROR: Function failed: do_compile (log file is located at /home/lukas/oe-core/build/tmp-eglibc/work/mips32-oe-linux/tf2-ros/0.4.5-r0/temp/log.do_compile.6945)
+ERROR: Logfile of failure stored in: /home/lukas/oe-core/build/tmp-eglibc/work/mips32-oe-linux/tf2-ros/0.4.5-r0/temp/log.do_compile.6945
+ERROR: Task 7 (/home/lukas/oe-core/meta-ros/recipes-ros/geometry-experimental/tf2-ros_0.4.5.bb, do_compile) failed with exit code '1'
+NOTE: Tasks Summary: Attempted 1743 tasks of which 1741 didn't need to be rerun and 1 failed.
+Summary: 1 task failed:
+Summary: There was 1 ERROR message shown, returning a non-zero exit code.
+Checking 67/78: gencpp
+ok
+Checking 68/78: genpy
+ok
+Checking 69/78: nodelet-topic-tools
+ok
+Checking 70/78: nodelet
+ERROR: Function failed: do_compile (log file is located at /home/lukas/oe-core/build/tmp-eglibc/work/mips32-oe-linux/nodelet/1.8.0-r0/temp/log.do_compile.8152)
+ERROR: Logfile of failure stored in: /home/lukas/oe-core/build/tmp-eglibc/work/mips32-oe-linux/nodelet/1.8.0-r0/temp/log.do_compile.8152
+ERROR: Task 7 (/home/lukas/oe-core/meta-ros/recipes-ros/nodelet-core/nodelet_1.8.0.bb, do_compile) failed with exit code '1'
+NOTE: Tasks Summary: Attempted 1730 tasks of which 1723 didn't need to be rerun and 1 failed.
+Summary: 1 task failed:
+Summary: There was 1 ERROR message shown, returning a non-zero exit code.
+Checking 71/78: message-runtime
+ok
+Checking 72/78: nodelet-tutorial-math
+ERROR: Function failed: do_compile (log file is located at /home/lukas/oe-core/build/tmp-eglibc/work/mips32-oe-linux/nodelet/1.8.0-r0/temp/log.do_compile.8478)
+ERROR: Logfile of failure stored in: /home/lukas/oe-core/build/tmp-eglibc/work/mips32-oe-linux/nodelet/1.8.0-r0/temp/log.do_compile.8478
+ERROR: Task 212 (/home/lukas/oe-core/meta-ros/recipes-ros/nodelet-core/nodelet_1.8.0.bb, do_compile) failed with exit code '1'
+NOTE: Tasks Summary: Attempted 1732 tasks of which 1728 didn't need to be rerun and 1 failed.
+Summary: 1 task failed:
+Summary: There was 1 ERROR message shown, returning a non-zero exit code.
+Checking 73/78: pluginlib-tutorials
+ok
+Checking 74/78: dynamic-reconfigure
+ok
+Checking 75/78: message-generation
+ok
+Checking 76/78: actionlib
+ok
+Checking 77/78: pluginlib
+ok
+Checking 78/78: catkin
+ok
